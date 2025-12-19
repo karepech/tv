@@ -1,31 +1,49 @@
-name: Auto Live IPTV
+name: Auto Live IPTV (MODE A)
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/5 * * * *"   # setiap 5 menit
   workflow_dispatch:
 
 jobs:
   live:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - name: Install deps
-        run: pip install requests
+      - name: Install dependencies
+        run: |
+          pip install requests
 
       - name: Generate Live Playlist
-        run: python generate_live.py
+        run: |
+          python generate_live.py
 
-      - name: Commit update
+      - name: Check changes
+        id: git-check
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit & Push (only if changed)
+        if: steps.git-check.outputs.changed == 'true'
         run: |
           git config user.name "livebot"
-          git config user.email "bot@github.com"
-          git add .
-          git commit -m "auto live update" || echo "no changes"
+          git config user.email "livebot@github.com"
+          git add output/event_combined.m3u output/schedule.json
+          git commit -m "auto update live event"
           git push
+
+      - name: Skip commit (no change)
+        if: steps.git-check.outputs.changed == 'false'
+        run: echo "No changes detected, skip commit."
