@@ -1,58 +1,110 @@
 #EXTM3U
-# UPDATED: 2025-12-19 23:55:25 WIB
-# MODE: A+ SPORT ONLY | IPTV LIVE PRIORITY
+# UPDATED: 2025-12-20 00:05:00 WIB
+# MODE: EVENT MATCH ONLY (DUPLICATE ALLOWED)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | SPORT",RTB Go Live FHD
-https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",KBS LIVECAM DOKDO
-http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",9-LIVE CHANNEL
-https://wahyu1ptv.pages.dev/ZiggoSport2-HD.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",13-LIVE CHANNEL
-https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",20-LIVE CHANNEL
-https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/Foxsports2.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",22-LIVE CHANNEL
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/united-fight-alliance/master.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",23-LIVE CHANNEL
-https://unifi-live01.secureswiftcontent.com/UnifiHD/live11.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",26-LIVE CHANNEL
-https://a1xs.vip/2000012
-#EXTINF:-1 group-title="LIVE | SPORT",27-LIVE CHANNEL
-https://a1xs.vip/700008
-#EXTINF:-1 group-title="LIVE | SPORT",29-LIVE CHANNEL
-http://medotv.nl:8000/RAMBOfoundedoninternetsoIchangedTheFuckinguSERNAMelol123/5caU9cN5jFjZ/127759
-#EXTINF:-1 group-title="LIVE | SPORT",30-LIVE CHANNEL
-http://line.stayconnected.pro:80/play/live.php?mac=00:1A:79:39:37:34&stream=1608071&extension=ts&play_token=Yq2ejQhCtj
-#EXTINF:-1 group-title="LIVE | SPORT",group-title="🇲🇾|MALAYSIA CHANNEL", RTB GO LIVE
-https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",WATTAR LIVE
-http://htvint.mada.ps:8889/orient/index.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",MTV LIVE
-http://85.11.144.6:6060/play/a08w/index.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",MTV LIVE
-https://atemecdnbalancer-voe.sysln.id/live/eds/MTVLiveHD/mediampd/MTVLiveHD.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",RCTI LIVE SPORTS
-https://liveplus.rctiplus.id/RTMP-IN.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",TRANS TV (LIVE)
-https://livestream.transtv.co.id/stream/live/ttv.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",DAAI TV (LIVE)
-https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",V+ LIVE
-https://mimipipi22.github.io/logo/offline.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",V+ LIVE 2
-https://mimipipi22.github.io/logo/offline.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",V+ LIVE 3
-https://mimipipi22.github.io/logo/offline.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",V+ LIVE 4
-https://mimipipi22.github.io/logo/offline.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",V+ LIVE 5
-https://mimipipi22.github.io/logo/offline.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",MTV LIVE (FMX)
-https://atemecdnbalancer-voe.sysln.id/live/eds/MTVLiveHD/mediampd/MTVLiveHD.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",MTV LIVE (IND)
-https://cdn10jtedge.indihometv.com/atm/DASH/MTV_LIVE/manifest.
-#EXTINF:-1 group-title="LIVE | SPORT",GO| ABC NEWS LIVE
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931183&extension=ts&play_token=AeImX57kV3
-#EXTINF:-1 group-title="LIVE | SPORT",GO| JAMIE OLIVER
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931034&extension=ts&play_token=m5UE1EQmky
+#EXTINF:-1 group-title="LIVE | EVENT",Cinta Metropolitan - 1994
+https://worker-kasyah.buntai.workers.dev/0:/movie/Malay/Cinta%20Metropolitan%20(1996)%20HDRip%201080p.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Kanta Serigala - 1991
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Kanta%20Serigala.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Maria Mariana - 1996
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Maria%20Mariana.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Maria Mariana 2 - 1998
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Maria%20Mariana%20II.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Misteri Rumah Tua - 1987
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Misteri%20Rumah%20Tua.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Da Di Du - 1981
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Da%20Di%20Du.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Darah Satria - 1983
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Darah%20Satria.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Rombongan Cik Kiah Ke Sukan Komanwel - 1998
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Rombongan%20Cik%20Kiah%20ke%20Sukan%20Komanwel.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Sayang Salmah - 1995
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sayang%20Salmah.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Sembilu - 1994
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sembilu.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Sembilu 2 - 1995
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sembilu%20II.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Orang Kampung Otak Kimia - 1990
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Orang%20Kampung%20Otak%20Kimia.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Guru Badul - 1988
+https://worker-delicate-rain-inas.buntai.workers.dev/0:/movie/Malay/Guru%20Badul.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Pening Pening Lalat - 1990
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Pening%20Pening%20Lalat.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Abu Hasan Penchuri - 1955
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1955%5D%20Abu%20Hasan%20Penchuri%20VCD.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Ahmad Albab - 1968
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1968%5D%20Ahmad%20Albab%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Ali Baba Bujang Lapok - 1961
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1961%5D%20Ali%20Baba%20Bujang%20Lapok%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Anjoran Nasib - 1952
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1952%5D%20Anjoran%20Nasib%20VCD.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Antara Dua Darjat - 1960
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1960%5D%20Antara%20Dua%20Darjat%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Do Re Mi - 1966
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1966%5D%20Do%20Re%20Mi%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Dr Rushdi - 1970
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1970%5D%20Dr%20Rushdi%20VCD.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Enam Jahanam - 1969
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1969%5D%20Enam%20Jahanam%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Gerimis - 1968
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1968%5D%20Gerimis%20VCD.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Hang Tuah - 1954
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1955%5D%20Hang%20Tuah%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Hujan Panas - 1953
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1953%5D%20Hujan%20Panas%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Ibu - 1953
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1953%5D%20Ibu%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Ibu Mertuaku - 1962
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1969%5D%20Ibu%20Mertuaku%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Jangan Tinggal Daku - 1971
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1971%5D%20Jangan%20Tinggal%20Daku%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Juwita - 1951
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1951%5D%20Juwita%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Kanchan Tirana - 1969
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1968%5D%20Kanchan%20Tirana%20VCD.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Keluarga 69 - 1967
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1967%5D%20Keluarga%2069%20VCD.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Madu Tiga - 1964
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Madu%20Tiga%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Labu dan Labi - 1962
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1962%5D%20Labu%20dan%20Labi%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Laksamana Do Re Mi - 1972
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1972%5D%20Laksamana%20Do%20Re%20Mi%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Masam Masam Manis - 1965
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1965%5D%20Masam%20Masam%20Manis%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Merana - 1954
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1954%5D%20Merana%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Musang Berjanggut - 1959
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1959%5D%20Musang%20Berjanggut%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Nasib Do Re Mi - 1966
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1966%5D%20Nasib%20Do%20Re%20Mi%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Nasib Si Labu Labi - 1963
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1963%5D%20Nasib%20Si%20Labu%20Labi%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Nujum Pak Belalang - 1959
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1959%5D%20Nujum%20Pak%20Belalang%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Panggilan Pulau - 1954
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1954%5D%20Panggilan%20Pulau%20VCD.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Penarek Becha - 1955
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1955%5D%20Penarek%20Becha%20VCD.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Pendekar Bujang Lapok - 1959
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1959%5D%20Pendekar%20Bujang%20Lapok%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Putus Sudah Kasih Sayang - 1971
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1971%5D%20Putus%20Sudah%20Kasih%20Sayang%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Rachun Dunia - 1950
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1950%5D%20Rachun%20Dunia%20VCD.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Ragam - 1964
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Ragam%20P%20Ramlee%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Sergeant Hassan - 1958
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1958%5D%20Sarjan%20Hassan%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Sumpah Orang Minyak - 1956
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1958%5D%20Sumpah%20Orang%20Minyak%20VCD.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Tiga Abdul - 1964
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Tiga%20Abdul%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Mintak Nombor Ekor - 1964
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Ragam%20P%20Ramlee%20-%20Mintak%20Nombor%20Ekor%20VCD.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Sabarudin Tukang Kasut - 1966
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1966%5D%20Sabarudin%20Tukang%20Kasut%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Semerah Padi - 1956
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1956%5D%20Semerah%20Padi%20VCD.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",Seniman Bujang Lapok - 1961
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1961%5D%20Seniman%20Bujang%20Lapok%20SDTV.mp4
