@@ -5,11 +5,11 @@ import os
 from datetime import datetime, timedelta, timezone
 
 # =====================================================
-# API-FOOTBALL (RapidAPI) CONFIG
+# API-FOOTBALL (RapidAPI)
 # =====================================================
 
 API_BASE = "https://v3.football.api-sports.io"
-API_KEY = os.getenv("RAPIDAPI_KEY")  # dari GitHub Secrets
+API_KEY = os.getenv("RAPIDAPI_KEY")
 
 HEADERS = {
     "x-rapidapi-host": "v3.football.api-sports.io",
@@ -86,19 +86,35 @@ def load_channels():
                 i += 2
             else:
                 i += 1
-
     return channels
 
 # =====================================================
-# LIVE MATCHES
+# DETEKSI LIVE LANGSUNG DARI IPTV (PRIORITAS)
+# =====================================================
+
+def detect_live_from_iptv(channels):
+    live_channels = []
+
+    LIVE_KEYWORDS = [
+        "LIVE", "BUNDESLIGA", "PREMIER",
+        "LA LIGA", "SERIE A", "LIGUE",
+        "MATCH", "VS"
+    ]
+
+    for name, url in channels:
+        for kw in LIVE_KEYWORDS:
+            if kw in name:
+                live_channels.append((name, url))
+                break
+
+    return live_channels
+
+# =====================================================
+# API-FOOTBALL LIVE & SCHEDULE
 # =====================================================
 
 def get_live_matches():
     return api_get("/fixtures", {"live": "all"})
-
-# =====================================================
-# SCHEDULE (HARI INI + BESOK)
-# =====================================================
 
 def get_schedule_matches():
     matches = []
@@ -107,7 +123,7 @@ def get_schedule_matches():
     return matches
 
 # =====================================================
-# GENERATE PLAYLIST
+# GENERATE PLAYLIST (MODE A+)
 # =====================================================
 
 def generate():
@@ -115,22 +131,34 @@ def generate():
         raise RuntimeError("RAPIDAPI_KEY belum tersedia (cek GitHub Secrets)")
 
     channels = load_channels()
-    live_matches = get_live_matches()
-    schedule_matches = get_schedule_matches()
+    iptv_live = detect_live_from_iptv(channels)
+    api_live = get_live_matches()
+    api_schedule = get_schedule_matches()
 
-    now_str = NOW.strftime("%Y-%m-%d %H:%M WIB")
+    now_str = NOW.strftime("%Y-%m-%d %H:%M:%S WIB")
 
     m3u = [
         "#EXTM3U",
         f"# UPDATED: {now_str}",
-        "# SOURCE: API-FOOTBALL (RapidAPI)",
-        "# MODE: PRE-LIVE -> LIVE AUTO"
+        "# MODE: A+ (IPTV LIVE PRIORITY)",
+        "# SOURCE: IPTV + API-FOOTBALL"
     ]
 
     schedule = []
 
-    # ================= LIVE =================
-    for m in live_matches:
+    # =================================================
+    # 1️⃣ LIVE DARI IPTV (PAKSA TAMPIL)
+    # =================================================
+    for name, url in iptv_live:
+        m3u.append(
+            f'#EXTINF:-1 group-title="LIVE | IPTV",{name}'
+        )
+        m3u.append(url)
+
+    # =================================================
+    # 2️⃣ LIVE DARI API (INFO + MULTI STREAM)
+    # =================================================
+    for m in api_live:
         league = clean(m["league"]["name"])
         home = m["teams"]["home"]["name"]
         away = m["teams"]["away"]["name"]
@@ -153,13 +181,15 @@ def generate():
                             )
                             m3u.append(ch_url)
 
-    # ================= PRE-LIVE =================
-    for m in schedule_matches:
+    # =================================================
+    # 3️⃣ PRE-LIVE (H+1) DARI API
+    # =================================================
+    for m in api_schedule:
         kickoff = datetime.fromisoformat(
             m["fixture"]["date"].replace("Z", "+00:00")
         ).astimezone(TIMEZONE_WIB)
 
-        if NOW <= kickoff <= HORIZON:
+        if kickoff <= HORIZON:
             league = clean(m["league"]["name"])
             home = m["teams"]["home"]["name"]
             away = m["teams"]["away"]["name"]
@@ -178,21 +208,25 @@ def generate():
             )
             m3u.append("http://prelive.placeholder/stream")
 
-    # ================= INFO JIKA KOSONG =================
+    # =================================================
+    # 4️⃣ FALLBACK INFO
+    # =================================================
     if len(m3u) <= 4:
         m3u.append(
-            '#EXTINF:-1 group-title="INFO",Tidak ada pertandingan live / jadwal 24 jam ke depan'
+            '#EXTINF:-1 group-title="INFO",Tidak ada live / jadwal 24 jam ke depan'
         )
         m3u.append("http://info.placeholder/stream")
 
+    # =================================================
     # SIMPAN FILE
+    # =================================================
     with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u) + "\n")
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(schedule, f, indent=2)
 
-    print("[OK] event_combined.m3u & schedule.json updated")
+    print("[OK] MODE A+ playlist updated")
 
 # =====================================================
 # RUN
