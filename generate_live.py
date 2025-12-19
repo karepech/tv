@@ -12,7 +12,6 @@ API_KEY = "1"
 LIVE_API = "https://www.thesportsdb.com/api/v1/json/1/livescore.php?s=Soccer"
 NEXT_API = "https://www.thesportsdb.com/api/v1/json/1/eventsnextleague.php?id="
 
-# League ID (penting untuk PRE-LIVE)
 LEAGUE_IDS = {
     "PREMIER LEAGUE": "4328",
     "LA LIGA": "4335",
@@ -23,6 +22,8 @@ LEAGUE_IDS = {
 }
 
 TIMEZONE_WIB = timezone(timedelta(hours=7))
+NOW_WIB = datetime.now(TIMEZONE_WIB)
+HORIZON = NOW_WIB + timedelta(days=1)  # ⬅️ 1 HARI KE DEPAN
 
 OUTPUT_DIR = "output"
 OUTPUT_M3U = os.path.join(OUTPUT_DIR, "event_combined.m3u")
@@ -65,7 +66,6 @@ def safe_get(url):
 def load_channels():
     channels = []
     for url in PLAYLIST_URLS:
-        print(f"[IPTV] {url}")
         try:
             lines = requests.get(url, timeout=60).text.splitlines()
         except:
@@ -80,8 +80,6 @@ def load_channels():
                 i += 2
             else:
                 i += 1
-
-    print(f"[OK] IPTV channel loaded: {len(channels)}")
     return channels
 
 # =====================================================
@@ -100,7 +98,7 @@ def get_live_events():
     ]
 
 # =====================================================
-# PRE-LIVE EVENT (JADWAL)
+# PRE-LIVE (JADWAL 1 HARI KE DEPAN)
 # =====================================================
 
 def get_pre_live_events():
@@ -123,8 +121,8 @@ def get_pre_live_events():
 
                 kickoff_wib = kickoff_utc.astimezone(TIMEZONE_WIB)
 
-                # tampilkan max H-6 jam
-                if datetime.now(TIMEZONE_WIB) <= kickoff_wib <= datetime.now(TIMEZONE_WIB) + timedelta(hours=6):
+                # ⬇️ FILTER 1 HARI KE DEPAN
+                if NOW_WIB <= kickoff_wib <= HORIZON:
                     upcoming.append((league, e, kickoff_wib))
             except:
                 continue
@@ -132,7 +130,7 @@ def get_pre_live_events():
     return upcoming
 
 # =====================================================
-# GENERATE MODE A
+# GENERATE MODE A (PRE-LIVE → LIVE)
 # =====================================================
 
 def generate():
@@ -143,57 +141,4 @@ def generate():
     m3u = ["#EXTM3U"]
     schedule = []
 
-    # ---------------- LIVE ----------------
-    for e in live_events:
-        league = clean(e.get("strLeague", ""))
-        home = e.get("strHomeTeam", "")
-        away = e.get("strAwayTeam", "")
-        title = f"{home} vs {away}"
-
-        schedule.append({"league": league, "match": title, "status": "LIVE"})
-
-        for key, providers in PROVIDERS.items():
-            if key in league:
-                for p in providers:
-                    p_clean = clean(p)
-                    for ch_name, ch_url in channels:
-                        if p_clean in ch_name:
-                            m3u.append(
-                                f'#EXTINF:-1 group-title="LIVE | {key}",{title} ({p})'
-                            )
-                            m3u.append(ch_url)
-
-    # ---------------- PRE-LIVE ----------------
-    for league, e, kickoff in pre_live_events:
-        home = e.get("strHomeTeam", "")
-        away = e.get("strAwayTeam", "")
-        title = f"{home} vs {away}"
-        time_str = kickoff.strftime("%H:%M WIB")
-
-        schedule.append({
-            "league": league,
-            "match": title,
-            "status": "PRE-LIVE",
-            "kickoff": time_str
-        })
-
-        m3u.append(
-            f'#EXTINF:-1 group-title="PRE-LIVE | {league}",{title} (Kick-off {time_str})'
-        )
-        m3u.append("http://prelive.placeholder/stream")
-
-    # SIMPAN
-    with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
-        f.write("\n".join(m3u) + "\n")
-
-    with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-        json.dump(schedule, f, indent=2)
-
-    print("[DONE] MODE A generated")
-
-# =====================================================
-# RUN
-# =====================================================
-
-if __name__ == "__main__":
-    generate()
+    # ---------- LIVE ----------
