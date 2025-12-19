@@ -102,7 +102,7 @@ def load_channels():
             if line.startswith("#EXTINF") and i + 1 < len(lines):
                 stream = lines[i + 1].strip()
 
-                # ---- FILTER URL VALID ----
+                # valid URL
                 if (
                     not stream
                     or stream.startswith("#")
@@ -112,14 +112,18 @@ def load_channels():
                     i += 1
                     continue
 
-                name = clean(line.split(",")[-1])
+                raw_name = line.split(",")[-1].strip()
+                clean_name = clean(raw_name)
 
-                # ---- FILTER SPORT ONLY ----
-                if not is_sport(name):
+                if not is_sport(clean_name):
                     i += 2
                     continue
 
-                channels.append((name, stream))
+                channels.append({
+                    "raw": raw_name,
+                    "clean": clean_name,
+                    "url": stream
+                })
                 i += 2
             else:
                 i += 1
@@ -132,9 +136,10 @@ def load_channels():
 
 def detect_live_from_iptv(channels):
     live = []
-    for name, url in channels:
-        if "LIVE" in name or "VS" in name:
-            live.append((name, url))
+    for ch in channels:
+        name = ch["clean"]
+        if "LIVE" in name or " VS " in name or " MATCH " in name:
+            live.append(ch)
     return live
 
 # =====================================================
@@ -176,7 +181,7 @@ def generate():
     # ================= LIVE IPTV =================
     for name, url in iptv_live:
         m3u.append(
-            f'#EXTINF:-1 group-title="LIVE | SPORT",{name}'
+            f'#EXTINF:-1 group-title="LIVE | SPORT",{ch["raw"]}'
         )
         m3u.append(url)
 
