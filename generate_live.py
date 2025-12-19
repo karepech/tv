@@ -8,7 +8,6 @@ from datetime import datetime, timedelta, timezone
 # KONFIGURASI
 # =====================================================
 
-API_KEY = "1"
 LIVE_API = "https://www.thesportsdb.com/api/v1/json/1/livescore.php?s=Soccer"
 NEXT_API = "https://www.thesportsdb.com/api/v1/json/1/eventsnextleague.php?id="
 
@@ -22,8 +21,8 @@ LEAGUE_IDS = {
 }
 
 TIMEZONE_WIB = timezone(timedelta(hours=7))
-NOW_WIB = datetime.now(TIMEZONE_WIB)
-HORIZON = NOW_WIB + timedelta(days=1)  # ⬅️ 1 HARI KE DEPAN
+NOW = datetime.now(TIMEZONE_WIB)
+HORIZON = NOW + timedelta(days=1)  # 1 hari ke depan
 
 OUTPUT_DIR = "output"
 OUTPUT_M3U = os.path.join(OUTPUT_DIR, "event_combined.m3u")
@@ -83,22 +82,18 @@ def load_channels():
     return channels
 
 # =====================================================
-# LIVE EVENT (REAL STATUS)
+# LIVE EVENT
 # =====================================================
 
 def get_live_events():
     data = safe_get(LIVE_API)
     if not data:
         return []
-
     events = data.get("events") or []
-    return [
-        e for e in events
-        if e.get("strStatus") in ("Live", "In Progress")
-    ]
+    return [e for e in events if e.get("strStatus") in ("Live", "In Progress")]
 
 # =====================================================
-# PRE-LIVE (JADWAL 1 HARI KE DEPAN)
+# PRE-LIVE (1 HARI KE DEPAN)
 # =====================================================
 
 def get_pre_live_events():
@@ -114,23 +109,20 @@ def get_pre_live_events():
                 continue
 
             try:
-                kickoff_utc = datetime.strptime(
+                kickoff = datetime.strptime(
                     f"{e['dateEvent']} {e['strTime']}",
                     "%Y-%m-%d %H:%M:%S"
-                ).replace(tzinfo=timezone.utc)
+                ).replace(tzinfo=timezone.utc).astimezone(TIMEZONE_WIB)
 
-                kickoff_wib = kickoff_utc.astimezone(TIMEZONE_WIB)
-
-                # ⬇️ FILTER 1 HARI KE DEPAN
-                if NOW_WIB <= kickoff_wib <= HORIZON:
-                    upcoming.append((league, e, kickoff_wib))
+                if NOW <= kickoff <= HORIZON:
+                    upcoming.append((league, e, kickoff))
             except:
                 continue
 
     return upcoming
 
 # =====================================================
-# GENERATE MODE A (PRE-LIVE → LIVE)
+# GENERATE PLAYLIST
 # =====================================================
 
 def generate():
@@ -138,7 +130,71 @@ def generate():
     live_events = get_live_events()
     pre_live_events = get_pre_live_events()
 
-    m3u = ["#EXTM3U"]
+    now_str = datetime.now(TIMEZONE_WIB).strftime("%Y-%m-%d %H:%M:%S WIB")
+
+    m3u = [
+        "#EXTM3U",
+        f"# UPDATED: {now_str}",
+        "# MODE: PRE-LIVE -> LIVE (AUTO)"
+    ]
+
     schedule = []
 
     # ---------- LIVE ----------
+    for e in live_events:
+        league = clean(e.get("strLeague", ""))
+        home = e.get("strHomeTeam", "")
+        away = e.get("strAwayTeam", "")
+        title = f"{home} vs {away}"
+
+        schedule.append({"league": league, "match": title, "status": "LIVE"})
+
+        for key, providers in PROVIDERS.items():
+            if key in league:
+                for p in providers:
+                    p_clean = clean(p)
+                    for ch_name, ch_url in channels:
+                        if p_clean in ch_name:
+                            m3u.append(
+                                f'#EXTINF:-1 group-title="LIVE | {key}",{title} ({p})'
+                            )
+                            m3u.append(ch_url)
+
+    # ---------- PRE-LIVE ----------
+    for league, e, kickoff in pre_live_events:
+        home = e.get("strHomeTeam", "")
+        away = e.get("strAwayTeam", "")
+        title = f"{home} vs {away}"
+        time_str = kickoff.strftime("%d %b %H:%M WIB")
+
+        schedule.append({
+            "league": league,
+            "match": title,
+            "status": "PRE-LIVE",
+            "kickoff": time_str
+        })
+
+        m3u.append(
+            f'#EXTINF:-1 group-title="PRE-LIVE | {league}",{title} (Kick-off {time_str})'
+        )
+        m3u.append("http://prelive.placeholder/stream")
+
+    # ---------- INFO JIKA KOSONG ----------
+    if len(m3u) <= 3:
+        m3u.append('#EXTINF:-1 group-title="INFO",Tidak ada live / jadwal 24 jam ke depan')
+        m3u.append("http://info.placeholder/stream")
+
+    with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
+        f.write("\n".join(m3u) + "\n")
+
+    with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
+        json.dump(schedule, f, indent=2)
+
+    print("[OK] event_combined.m3u updated")
+
+# =====================================================
+# RUN
+# =====================================================
+
+if __name__ == "__main__":
+    generate()
