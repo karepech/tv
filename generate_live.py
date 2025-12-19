@@ -5,24 +5,28 @@ import os
 from datetime import datetime, timedelta, timezone
 
 # =====================================================
-# KONFIGURASI
+# API-FOOTBALL (RapidAPI) CONFIG
 # =====================================================
 
-LIVE_API = "https://www.thesportsdb.com/api/v1/json/1/livescore.php?s=Soccer"
-NEXT_API = "https://www.thesportsdb.com/api/v1/json/1/eventsnextleague.php?id="
+API_BASE = "https://v3.football.api-sports.io"
+API_KEY = os.getenv("RAPIDAPI_KEY")  # dari GitHub Secrets
 
-LEAGUE_IDS = {
-    "PREMIER LEAGUE": "4328",
-    "LA LIGA": "4335",
-    "SERIE A": "4332",
-    "BUNDESLIGA": "4331",
-    "LIGUE 1": "4334",
-    "SAUDI": "4646"
+HEADERS = {
+    "x-rapidapi-host": "v3.football.api-sports.io",
+    "x-rapidapi-key": API_KEY
 }
+
+# =====================================================
+# WAKTU
+# =====================================================
 
 TIMEZONE_WIB = timezone(timedelta(hours=7))
 NOW = datetime.now(TIMEZONE_WIB)
 HORIZON = NOW + timedelta(days=1)  # 1 hari ke depan
+
+# =====================================================
+# OUTPUT
+# =====================================================
 
 OUTPUT_DIR = "output"
 OUTPUT_M3U = os.path.join(OUTPUT_DIR, "event_combined.m3u")
@@ -31,7 +35,7 @@ OUTPUT_JSON = os.path.join(OUTPUT_DIR, "schedule.json")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # =====================================================
-# LOAD FILE EKSTERNAL
+# LOAD FILE LOKAL
 # =====================================================
 
 with open("providers.json", encoding="utf-8") as f:
@@ -44,19 +48,22 @@ with open("playlist_sources.txt", encoding="utf-8") as f:
 # UTIL
 # =====================================================
 
-def clean(txt):
-    return re.sub(r"[^A-Z0-9 ]+", " ", txt.upper()).strip()
+def clean(text):
+    return re.sub(r"[^A-Z0-9 ]+", " ", text.upper()).strip()
 
-def safe_get(url):
+def api_get(endpoint, params=None):
     try:
-        r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+        r = requests.get(
+            API_BASE + endpoint,
+            headers=HEADERS,
+            params=params,
+            timeout=30
+        )
         if r.status_code != 200:
-            return None
-        if "application/json" not in r.headers.get("Content-Type", ""):
-            return None
-        return r.json()
+            return []
+        return r.json().get("response", [])
     except:
-        return None
+        return []
 
 # =====================================================
 # LOAD IPTV CHANNEL
@@ -79,75 +86,61 @@ def load_channels():
                 i += 2
             else:
                 i += 1
+
     return channels
 
 # =====================================================
-# LIVE EVENT
+# LIVE MATCHES
 # =====================================================
 
-def get_live_events():
-    data = safe_get(LIVE_API)
-    if not data:
-        return []
-    events = data.get("events") or []
-    return [e for e in events if e.get("strStatus") in ("Live", "In Progress")]
+def get_live_matches():
+    return api_get("/fixtures", {"live": "all"})
 
 # =====================================================
-# PRE-LIVE (1 HARI KE DEPAN)
+# SCHEDULE (HARI INI + BESOK)
 # =====================================================
 
-def get_pre_live_events():
-    upcoming = []
-
-    for league, lid in LEAGUE_IDS.items():
-        data = safe_get(NEXT_API + lid)
-        if not data:
-            continue
-
-        for e in data.get("events", []):
-            if not e.get("dateEvent") or not e.get("strTime"):
-                continue
-
-            try:
-                kickoff = datetime.strptime(
-                    f"{e['dateEvent']} {e['strTime']}",
-                    "%Y-%m-%d %H:%M:%S"
-                ).replace(tzinfo=timezone.utc).astimezone(TIMEZONE_WIB)
-
-                if NOW <= kickoff <= HORIZON:
-                    upcoming.append((league, e, kickoff))
-            except:
-                continue
-
-    return upcoming
+def get_schedule_matches():
+    matches = []
+    for d in [NOW.date(), (NOW + timedelta(days=1)).date()]:
+        matches += api_get("/fixtures", {"date": d.isoformat()})
+    return matches
 
 # =====================================================
 # GENERATE PLAYLIST
 # =====================================================
 
 def generate():
-    channels = load_channels()
-    live_events = get_live_events()
-    pre_live_events = get_pre_live_events()
+    if not API_KEY:
+        raise RuntimeError("RAPIDAPI_KEY belum tersedia (cek GitHub Secrets)")
 
-    now_str = datetime.now(TIMEZONE_WIB).strftime("%Y-%m-%d %H:%M:%S WIB")
+    channels = load_channels()
+    live_matches = get_live_matches()
+    schedule_matches = get_schedule_matches()
+
+    now_str = NOW.strftime("%Y-%m-%d %H:%M WIB")
 
     m3u = [
         "#EXTM3U",
         f"# UPDATED: {now_str}",
-        "# MODE: PRE-LIVE -> LIVE (AUTO)"
+        "# SOURCE: API-FOOTBALL (RapidAPI)",
+        "# MODE: PRE-LIVE -> LIVE AUTO"
     ]
 
     schedule = []
 
-    # ---------- LIVE ----------
-    for e in live_events:
-        league = clean(e.get("strLeague", ""))
-        home = e.get("strHomeTeam", "")
-        away = e.get("strAwayTeam", "")
+    # ================= LIVE =================
+    for m in live_matches:
+        league = clean(m["league"]["name"])
+        home = m["teams"]["home"]["name"]
+        away = m["teams"]["away"]["name"]
         title = f"{home} vs {away}"
 
-        schedule.append({"league": league, "match": title, "status": "LIVE"})
+        schedule.append({
+            "league": league,
+            "match": title,
+            "status": "LIVE"
+        })
 
         for key, providers in PROVIDERS.items():
             if key in league:
@@ -160,37 +153,46 @@ def generate():
                             )
                             m3u.append(ch_url)
 
-    # ---------- PRE-LIVE ----------
-    for league, e, kickoff in pre_live_events:
-        home = e.get("strHomeTeam", "")
-        away = e.get("strAwayTeam", "")
-        title = f"{home} vs {away}"
-        time_str = kickoff.strftime("%d %b %H:%M WIB")
+    # ================= PRE-LIVE =================
+    for m in schedule_matches:
+        kickoff = datetime.fromisoformat(
+            m["fixture"]["date"].replace("Z", "+00:00")
+        ).astimezone(TIMEZONE_WIB)
 
-        schedule.append({
-            "league": league,
-            "match": title,
-            "status": "PRE-LIVE",
-            "kickoff": time_str
-        })
+        if NOW <= kickoff <= HORIZON:
+            league = clean(m["league"]["name"])
+            home = m["teams"]["home"]["name"]
+            away = m["teams"]["away"]["name"]
+            title = f"{home} vs {away}"
+            time_str = kickoff.strftime("%d %b %H:%M WIB")
 
+            schedule.append({
+                "league": league,
+                "match": title,
+                "status": "PRE-LIVE",
+                "kickoff": time_str
+            })
+
+            m3u.append(
+                f'#EXTINF:-1 group-title="PRE-LIVE | {league}",{title} (Kick-off {time_str})'
+            )
+            m3u.append("http://prelive.placeholder/stream")
+
+    # ================= INFO JIKA KOSONG =================
+    if len(m3u) <= 4:
         m3u.append(
-            f'#EXTINF:-1 group-title="PRE-LIVE | {league}",{title} (Kick-off {time_str})'
+            '#EXTINF:-1 group-title="INFO",Tidak ada pertandingan live / jadwal 24 jam ke depan'
         )
-        m3u.append("http://prelive.placeholder/stream")
-
-    # ---------- INFO JIKA KOSONG ----------
-    if len(m3u) <= 3:
-        m3u.append('#EXTINF:-1 group-title="INFO",Tidak ada live / jadwal 24 jam ke depan')
         m3u.append("http://info.placeholder/stream")
 
+    # SIMPAN FILE
     with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u) + "\n")
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(schedule, f, indent=2)
 
-    print("[OK] event_combined.m3u updated")
+    print("[OK] event_combined.m3u & schedule.json updated")
 
 # =====================================================
 # RUN
