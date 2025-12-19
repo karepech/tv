@@ -5,7 +5,7 @@ import os
 from datetime import datetime, timedelta, timezone
 
 # =====================================================
-# API-FOOTBALL (RapidAPI)
+# API-FOOTBALL
 # =====================================================
 API_BASE = "https://v3.football.api-sports.io"
 API_KEY = os.getenv("RAPIDAPI_KEY")
@@ -16,7 +16,7 @@ HEADERS = {
 }
 
 # =====================================================
-# WAKTU
+# TIME
 # =====================================================
 TIMEZONE_WIB = timezone(timedelta(hours=7))
 NOW = datetime.now(TIMEZONE_WIB)
@@ -31,7 +31,7 @@ OUTPUT_JSON = os.path.join(OUTPUT_DIR, "schedule.json")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # =====================================================
-# LOAD FILE
+# LOAD SOURCE FILES
 # =====================================================
 with open("playlist_sources.txt", encoding="utf-8") as f:
     PLAYLIST_URLS = [x.strip() for x in f if x.strip()]
@@ -40,10 +40,43 @@ with open("providers.json", encoding="utf-8") as f:
     PROVIDERS = json.load(f)
 
 # =====================================================
+# SPORT DEFINITIONS (KETAT)
+# =====================================================
+SPORT_LIGAS = [
+    "BUNDESLIGA", "PREMIER", "LALIGA", "LA LIGA",
+    "SERIE A", "LIGUE", "UEFA", "UCL", "UEL",
+    "CHAMPIONS", "EUROPA",
+    "MOTOGP", "FORMULA", "F1",
+    "NBA", "NFL"
+]
+
+SPORT_PROVIDERS = [
+    "BEIN", "SSC", "DAZN", "SKY",
+    "ESPN", "SPOTV", "FOX SPORTS"
+]
+
+# =====================================================
 # UTIL
 # =====================================================
-def clean(txt: str) -> str:
-    return re.sub(r"[^A-Z0-9 ]+", " ", txt.upper()).strip()
+def clean(text: str) -> str:
+    return re.sub(r"[^A-Z0-9 ]+", " ", text.upper()).strip()
+
+def is_sport_event(name: str) -> bool:
+    name = name.upper()
+
+    # 1️⃣ PERTANDINGAN (PALING KUAT)
+    if re.search(r"\sVS\s|\sV\s", name):
+        return True
+
+    # 2️⃣ LIGA SPORT
+    if any(lg in name for lg in SPORT_LIGAS):
+        return True
+
+    # 3️⃣ PROVIDER SPORT
+    if any(p in name for p in SPORT_PROVIDERS):
+        return True
+
+    return False
 
 def api_get(endpoint, params=None):
     try:
@@ -55,7 +88,7 @@ def api_get(endpoint, params=None):
         return []
 
 # =====================================================
-# LOAD IPTV CHANNEL (EVENT ONLY)
+# LOAD IPTV EVENT CHANNEL (ANTI MOVIE)
 # =====================================================
 def load_channels():
     channels = []
@@ -82,22 +115,15 @@ def load_channels():
                     continue
 
                 raw = line.split(",", 1)[-1].strip()
-                name = raw.upper()
 
-                # HANYA EVENT MATCH
-                is_match = (
-                    re.search(r"\sVS\s", name)
-                    or re.search(r"\sV\s", name)
-                    or re.search(r"\s-\s", name)
-                    or "WIB" in name
-                )
+                if not is_sport_event(raw):
+                    i += 2
+                    continue
 
-                if is_match:
-                    channels.append({
-                        "raw": raw,
-                        "clean": clean(raw),
-                        "url": url
-                    })
+                channels.append({
+                    "raw": raw,
+                    "url": url
+                })
 
                 i += 2
             else:
@@ -118,10 +144,10 @@ def get_schedule_matches():
     return data
 
 # =====================================================
-# GENERATE EVENT PLAYLIST
+# GENERATE FINAL PLAYLIST
 # =====================================================
 def generate():
-    channels = load_channels()
+    iptv_events = load_channels()
     api_live = get_live_matches()
     api_schedule = get_schedule_matches()
 
@@ -130,46 +156,31 @@ def generate():
     m3u = [
         "#EXTM3U",
         f"# UPDATED: {now_str}",
-        "# MODE: EVENT MATCH ONLY (DUPLICATE ALLOWED)",
+        "# MODE: SPORT EVENT ONLY (NO MOVIE)",
         "# SOURCE: IPTV + API-FOOTBALL"
     ]
 
     schedule = []
 
     # =================================================
-    # 1️⃣ EVENT DARI IPTV (PRIORITAS)
+    # 1️⃣ IPTV EVENTS (PRIORITAS)
     # =================================================
-    for ch in channels:
-        m3u.append(
-            f'#EXTINF:-1 group-title="LIVE | EVENT",{ch["raw"]}'
-        )
+    for ch in iptv_events:
+        m3u.append(f'#EXTINF:-1 group-title="LIVE | EVENT",{ch["raw"]}')
         m3u.append(ch["url"])
 
     # =================================================
-    # 2️⃣ LIVE EVENT DARI API (MULTI PROVIDER)
+    # 2️⃣ API LIVE EVENTS
     # =================================================
     for m in api_live:
-        league = clean(m["league"]["name"])
         home = m["teams"]["home"]["name"]
         away = m["teams"]["away"]["name"]
         title = f"{home} vs {away}"
 
         schedule.append({
-            "league": league,
             "match": title,
             "status": "LIVE"
         })
-
-        for key, providers in PROVIDERS.items():
-            if key in league:
-                for p in providers:
-                    p_clean = clean(p)
-                    for ch in channels:
-                        if p_clean in ch["clean"]:
-                            m3u.append(
-                                f'#EXTINF:-1 group-title="LIVE | EVENT",{title} ({p})'
-                            )
-                            m3u.append(ch["url"])
 
     # =================================================
     # 3️⃣ PRE-LIVE (H+1)
@@ -185,36 +196,28 @@ def generate():
             title = f"{home} vs {away}"
             time_str = kickoff.strftime("%d %b %H:%M WIB")
 
+            m3u.append(
+                f'#EXTINF:-1 group-title="PRE-LIVE | EVENT",{title} (Kick-off {time_str})'
+            )
+            m3u.append("http://prelive.placeholder/stream")
+
             schedule.append({
                 "match": title,
                 "status": "PRE-LIVE",
                 "kickoff": time_str
             })
 
-            m3u.append(
-                f'#EXTINF:-1 group-title="PRE-LIVE | EVENT",{title} (Kick-off {time_str})'
-            )
-            m3u.append("http://prelive.placeholder/stream")
-
-    # =================================================
-    # FALLBACK
-    # =================================================
     if len(m3u) <= 4:
-        m3u.append(
-            '#EXTINF:-1 group-title="INFO",Tidak ada event pertandingan'
-        )
+        m3u.append('#EXTINF:-1 group-title="INFO",Tidak ada event sport')
         m3u.append("http://info.placeholder/stream")
 
-    # =================================================
-    # SAVE
-    # =================================================
     with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u) + "\n")
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(schedule, f, indent=2)
 
-    print("[OK] EVENT MATCH ONLY playlist updated")
+    print("[OK] SPORT EVENT ONLY playlist generated")
 
 # =====================================================
 # RUN
