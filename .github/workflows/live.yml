@@ -1,7 +1,7 @@
-name: Auto Live IPTV (Smart Trigger)
+name: Auto Live IPTV (MODE A)
 
 on:
-  # Jalan otomatis jika ada perubahan file penting
+  # Trigger jika script / config berubah
   push:
     paths:
       - "**/*.py"
@@ -9,22 +9,21 @@ on:
       - "playlist_sources.txt"
       - ".github/workflows/live.yml"
 
-  # Jalan otomatis tiap 5 menit
+  # Trigger otomatis tiap 5 menit
   schedule:
     - cron: "*/5 * * * *"
 
-  # Manual run
+  # Trigger manual
   workflow_dispatch:
 
 jobs:
   live:
     runs-on: ubuntu-latest
-
     permissions:
-      contents: write   # ⬅️ WAJIB untuk push commit
+      contents: write
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -32,21 +31,19 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
-        run: |
-          pip install requests
+      - name: Install deps
+        run: pip install requests
 
-      - name: Generate Live Playlist
-        run: |
-          python generate_live.py
+      - name: Generate playlist
+        run: python generate_live.py
 
-      - name: Commit if output changed
+      - name: Commit if changed
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "livebot"
             git config user.email "livebot@github.com"
-            git add .
-            git commit -m "auto update live event"
+            git add output/event_combined.m3u output/schedule.json
+            git commit -m "auto update $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           else
             echo "No changes detected"
