@@ -1,110 +1,332 @@
 #EXTM3U
-# UPDATED: 2025-12-20 00:05:00 WIB
-# MODE: EVENT MATCH ONLY (DUPLICATE ALLOWED)
+# UPDATED: 2025-12-20 00:09:34 WIB
+# MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",Cinta Metropolitan - 1994
-https://worker-kasyah.buntai.workers.dev/0:/movie/Malay/Cinta%20Metropolitan%20(1996)%20HDRip%201080p.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Kanta Serigala - 1991
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Kanta%20Serigala.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Maria Mariana - 1996
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Maria%20Mariana.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Maria Mariana 2 - 1998
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Maria%20Mariana%20II.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Misteri Rumah Tua - 1987
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Misteri%20Rumah%20Tua.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Da Di Du - 1981
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Da%20Di%20Du.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Darah Satria - 1983
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Darah%20Satria.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Rombongan Cik Kiah Ke Sukan Komanwel - 1998
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Rombongan%20Cik%20Kiah%20ke%20Sukan%20Komanwel.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Sayang Salmah - 1995
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sayang%20Salmah.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Sembilu - 1994
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sembilu.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Sembilu 2 - 1995
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sembilu%20II.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Orang Kampung Otak Kimia - 1990
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Orang%20Kampung%20Otak%20Kimia.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Guru Badul - 1988
-https://worker-delicate-rain-inas.buntai.workers.dev/0:/movie/Malay/Guru%20Badul.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Pening Pening Lalat - 1990
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Pening%20Pening%20Lalat.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Abu Hasan Penchuri - 1955
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1955%5D%20Abu%20Hasan%20Penchuri%20VCD.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Ahmad Albab - 1968
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1968%5D%20Ahmad%20Albab%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Ali Baba Bujang Lapok - 1961
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1961%5D%20Ali%20Baba%20Bujang%20Lapok%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Anjoran Nasib - 1952
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1952%5D%20Anjoran%20Nasib%20VCD.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Antara Dua Darjat - 1960
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1960%5D%20Antara%20Dua%20Darjat%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Do Re Mi - 1966
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1966%5D%20Do%20Re%20Mi%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Dr Rushdi - 1970
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1970%5D%20Dr%20Rushdi%20VCD.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Enam Jahanam - 1969
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1969%5D%20Enam%20Jahanam%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Gerimis - 1968
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1968%5D%20Gerimis%20VCD.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Hang Tuah - 1954
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1955%5D%20Hang%20Tuah%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Hujan Panas - 1953
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1953%5D%20Hujan%20Panas%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Ibu - 1953
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1953%5D%20Ibu%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Ibu Mertuaku - 1962
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1969%5D%20Ibu%20Mertuaku%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Jangan Tinggal Daku - 1971
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1971%5D%20Jangan%20Tinggal%20Daku%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Juwita - 1951
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1951%5D%20Juwita%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Kanchan Tirana - 1969
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1968%5D%20Kanchan%20Tirana%20VCD.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Keluarga 69 - 1967
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1967%5D%20Keluarga%2069%20VCD.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Madu Tiga - 1964
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Madu%20Tiga%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Labu dan Labi - 1962
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1962%5D%20Labu%20dan%20Labi%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Laksamana Do Re Mi - 1972
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1972%5D%20Laksamana%20Do%20Re%20Mi%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Masam Masam Manis - 1965
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1965%5D%20Masam%20Masam%20Manis%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Merana - 1954
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1954%5D%20Merana%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Musang Berjanggut - 1959
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1959%5D%20Musang%20Berjanggut%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Nasib Do Re Mi - 1966
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1966%5D%20Nasib%20Do%20Re%20Mi%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Nasib Si Labu Labi - 1963
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1963%5D%20Nasib%20Si%20Labu%20Labi%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Nujum Pak Belalang - 1959
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1959%5D%20Nujum%20Pak%20Belalang%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Panggilan Pulau - 1954
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1954%5D%20Panggilan%20Pulau%20VCD.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Penarek Becha - 1955
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1955%5D%20Penarek%20Becha%20VCD.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Pendekar Bujang Lapok - 1959
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1959%5D%20Pendekar%20Bujang%20Lapok%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Putus Sudah Kasih Sayang - 1971
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1971%5D%20Putus%20Sudah%20Kasih%20Sayang%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Rachun Dunia - 1950
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1950%5D%20Rachun%20Dunia%20VCD.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Ragam - 1964
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Ragam%20P%20Ramlee%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Sergeant Hassan - 1958
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1958%5D%20Sarjan%20Hassan%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Sumpah Orang Minyak - 1956
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1958%5D%20Sumpah%20Orang%20Minyak%20VCD.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Tiga Abdul - 1964
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Tiga%20Abdul%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Mintak Nombor Ekor - 1964
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Ragam%20P%20Ramlee%20-%20Mintak%20Nombor%20Ekor%20VCD.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Sabarudin Tukang Kasut - 1966
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1966%5D%20Sabarudin%20Tukang%20Kasut%20SDTV.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Semerah Padi - 1956
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1956%5D%20Semerah%20Padi%20VCD.mp4
-#EXTINF:-1 group-title="LIVE | EVENT",Seniman Bujang Lapok - 1961
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1961%5D%20Seniman%20Bujang%20Lapok%20SDTV.mp4
+#EXTINF:-1 group-title="LIVE | EVENT",SpoTV
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",SpoTV 2
+https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports ID 4
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports ID 5
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",Peacock Premier League
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN RINGSIDE
+https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",CBS Champions
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65ea8b928145cb0008509426/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
+#EXTINF:-1 group-title="LIVE | EVENT",PEGADAIAN CHAMPIONSHIP⁽ˢᵉʳᵛᵉʳ ³⁾
+https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/BRISuper1.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",CHAMPIONS TV
+https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/champ1o.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE 1 ᴴᴰ
+http://ktpremium.online:2095/live/akm33333/900820/694537.ts
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 4
+http://fastopen.live:8080/MLS003/qZj4zbPNDn/18773
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 5
+http://fastopen.live:8080/MLS003/qZj4zbPNDn/75004
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 6
+http://fastopen.live:8080/MLS003/qZj4zbPNDn/75005
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 7
+http://fastopen.live:8080/MLS003/qZj4zbPNDn/75006
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 8
+http://fastopen.live:8080/MLS003/qZj4zbPNDn/18769
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS EXTRA
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV PRIME 2
+https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c68582449a2e0182597777ec21f3/manifest.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS PREMIERE LEAGUE
+http://line.extraott-iptv.com:88/2755789541/1300714776/191686
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS FOOTBALL
+http://line.extraott-iptv.com:88/2755789541/1300714776/191691
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORT ARENA ᴴᴰ
+http://line.extraott-iptv.com:88/2755789541/1300714776/153705
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORT F1 ᴴᴰ
+http://line.extraott-iptv.com:88/2755789541/1300714776/153701
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS GOLF ᴴᴰ
+http://line.extraott-iptv.com:88/2755789541/1300714776/191685
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN 1-DT1
+http://filex.tv:8080//live/Qasim1990/1990qasim/316811.ts
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN 3
+http://filex.tv:8080//live/Qasim1990/1990qasim/316813.ts
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN 4
+http://supersonictv.live:8080/006779/439866/7632
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN 5
+http://supersonictv.live:8080/006779/439866/7634
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN LALIGA
+http://exm3u.extraott.com:80/live/ZUL96376/UG4VTW4E/156478.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN FAST
+http://exm3u.extraott.com:80/live/ZUL96376/UG4VTW4E/82241.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN RISE
+http://exm3u.extraott.com:80/live/ZUL96376/UG4VTW4E/82238.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN F1
+http://medotv.nl:8000/RAMBOfoundedoninternetsoIchangedTheFuckinguSERNAMelol123/5caU9cN5jFjZ/115840
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN VIVO
+http://sinalprivado.info:80/live/632035/GqGcFV4ntu/22002.ts
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN VIVO 2
+http://sinalprivado.info:80/live/632035/GqGcFV4ntu/22005.ts
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 3
+http://46.151.196.223:14444/
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 5
+http://sinalprivado.info:80/live/632035/GqGcFV4ntu/22014.ts
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 6
+http://sinalprivado.info:80/live/632035/GqGcFV4ntu/22016.ts
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN
+http://medotv.nl:8000/RAMBOfoundedoninternetsoIchangedTheFuckinguSERNAMelol123/5caU9cN5jFjZ/14920
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2
+http://supersonictv.live:8080/006779/439866/22199
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN NETWORK
+http://supersonictv.live:8080/006779/439866/22208
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN U
+https://fl31.moveonjoy.com/ESPN_U/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",PREMIER SPORTS 1
+http://line.extraott-iptv.com:88/2755789541/1300714776/191694
+#EXTINF:-1 group-title="LIVE | EVENT",PREMIER SPORTS 2
+http://line.extraott-iptv.com:88/2755789541/1300714776/189891
+#EXTINF:-1 group-title="LIVE | EVENT",SKY NEWS Arabia CHANNEL
+https://stream.skynewsarabia.com/hls/sna.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN SERIE A⁽ˢᵉʳᵛᵉʳ ¹⁾
+http://iptvaruba.com:8080/rapidiptv/shhT6NQ6ZdFw5/79220
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN SERIE A⁽ˢᵉʳᵛᵉʳ ²⁾
+https://wahyu1ptv.pages.dev/DaznSerieA-HD.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN SERIE A⁽ˢᵉʳᵛᵉʳ ³⁾
+http://iptvaruba.com:8080/rapidiptv/shhT6NQ6ZdFw5/39497
+#EXTINF:-1 group-title="LIVE | EVENT",CINEMANIA PREMIERE
+http://filex.tv:8080//live/uk007/000920/533335.ts
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV
+https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTVHD/mediampd/SPOTVHD.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV 2
+https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 1
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 2
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 3
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 4
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 5
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",CHAMPIONS TV 1
+http://202.169.224.202:8800/udp/239.9.1.9:1234
+#EXTINF:-1 group-title="LIVE | EVENT",CHAMPIONS TV 2
+http://202.169.224.202:8800/udp/239.9.1.10:1234
+#EXTINF:-1 group-title="LIVE | EVENT",CHAMPIONS TV 3
+http://202.169.224.202:8800/udp/239.9.1.11:1234
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV (FMX)
+https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTVHD/mediampd/SPOTVHD.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV (VS+)
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV (🇵🇭)
+https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV (TVOD)
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000160/1024.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV 2 (VS+)
+https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV 2 (🇵🇭)
+https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV 2 (TVOD)
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000138/1024.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 2 (TVOD)
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000148/1024.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 1
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 2
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 3
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 4
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 5
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",PREMIER LEAGUE TV 🇺🇸
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",NFL NETWORK 🇺🇸
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(lc107a1ddy)/master.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 🇨🇴
+https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2 🇨🇴
+https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_2_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 3 🇨🇴
+https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_3_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 4 🇨🇴
+https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_PLUS_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
+#EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE
+http://156.239.254.7:5555/smt.php?id=Assp1
+#EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE 2
+http://156.239.254.7:5555/smt.php?id=Assp2
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS F1
+http://156.239.254.7:5555/smt.php?id=tiankongf1
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS CRICKET
+http://156.239.254.7:5555/smt.php?id=tiankongcricket
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS EPL
+http://156.239.254.7:5555/smt.php?id=tiankongepl
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS GOLF
+https://mimipipi22.github.io/logo/offline.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS MAIN
+http://156.239.254.7:5555/smt.php?id=tiankongmain
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS RACING
+http://156.239.254.7:5555/smt.php?id=tiankongracing
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS MIX
+http://156.239.254.7:5555/smt.php?id=tiankongmix
+#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 501 FHD
+https://a1xs.vip/700001
+#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 502 FHD
+https://a1xs.vip/700002
+#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 503 FHD
+https://a1xs.vip/700003
+#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 504 FHD
+https://a1xs.vip/700004
+#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 505 FHD
+https://a1xs.vip/700005
+#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 506 FHD
+https://a1xs.vip/700006
+#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 507 FHD
+https://a1xs.vip/700007
+#EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 1 FHD
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1032529&extension=ts&play_token=VA7zmv4IHy
+#EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 2 FHD
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1032528&extension=ts&play_token=1xUh8sTUZZ
+#EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 3 FHD
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1032527&extension=ts&play_token=RKs3fsIZAf
+#EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 4 FHD
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1032526&extension=ts&play_token=DxvC71v61P
+#EXTINF:-1 group-title="LIVE | EVENT",Astro Premier League
+https://a1xs.vip/1100030
+#EXTINF:-1 group-title="LIVE | EVENT",Astro Premier League 2
+https://a1xs.vip/1100031
+#EXTINF:-1 group-title="LIVE | EVENT",SKY NEWS
+https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BBC LIFESTYLE (SKYGO)
+https://cdn4.skygo.mn/live/disk1/BBC_lifestyle/HLSv3-FTA/BBC_lifestyle.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",GO| BEIN SPORTS XTRA
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931159&extension=ts&play_token=oAExmk4ra9
+#EXTINF:-1 group-title="LIVE | EVENT",GO| ESPN
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931094&extension=ts&play_token=wCAcyRME0d
+#EXTINF:-1 group-title="LIVE | EVENT",GO| ESPN2
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931093&extension=ts&play_token=XUwDNeMBeE
+#EXTINF:-1 group-title="LIVE | EVENT",GO| ESPN8: THE OCHO
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931092&extension=ts&play_token=Rgzooiu5w9
+#EXTINF:-1 group-title="LIVE | EVENT",GO| ESPNEWS
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931091&extension=ts&play_token=sjVqqdfk23
+#EXTINF:-1 group-title="LIVE | EVENT",GO| ESPNU
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931090&extension=ts&play_token=pCE2KK28UE
+#EXTINF:-1 group-title="LIVE | EVENT",GO| FANDUEL TV
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931085&extension=ts&play_token=lkv0BTFIE8
+#EXTINF:-1 group-title="LIVE | EVENT",GO| FOX SPORTS 1
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931078&extension=ts&play_token=W16C0K1K5x
+#EXTINF:-1 group-title="LIVE | EVENT",GO| FOX SPORTS 2
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931077&extension=ts&play_token=lvdjk16WM8
+#EXTINF:-1 group-title="LIVE | EVENT",GO| FUEL TV
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931073&extension=ts&play_token=NfILQcfFMf
+#EXTINF:-1 group-title="LIVE | EVENT",GO| NBA TV
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1930995&extension=ts&play_token=R5xj6yD5GT
+#EXTINF:-1 group-title="LIVE | EVENT",GO| NFL NETWORK
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1930988&extension=ts&play_token=bLsG8OHplp
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN HD
+https://storage.googleapis.com/gubnsterdsa3/mux_video_ts1/index-1.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN 6 IP
+http://opplex.tv:8080/live/12345678910/12345678910/233084.ts
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN F1 IP
+http://opplex.tv:8080/live/12345678910/12345678910/354195.ts
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN HELDINNEN
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64afe50c5dc16600087f3227/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84acf2d7-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=0334507c-ce21-4017-8651-7c2bf9912782
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN WOMEN'S FOOTBALL
+https://dazn-daznwomensfootball-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-daznwomensfootball-rakuten/CDN/master.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN RINGSIDE
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/649b6898f2ec0000081a9460/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c43-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a1e2a534-715c-495d-a4f3-2d56a6177548
+#EXTINF:-1 group-title="LIVE | EVENT",EPL 10 DAZN IP
+http://supersonictv.live:8080/Allen123/Allen123/7627
+#EXTINF:-1 group-title="LIVE | EVENT",SERIE A 1 PLUTO
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e9f2c05172a0f0007db4786/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=d0170d70-8952-11ef-8353-f70668e6a0ea&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=81c0c5ee-095f-4c79-94e3-b24647048b62&userId=&serverSideAds=true
+#EXTINF:-1 group-title="LIVE | EVENT",PREMIER 1
+http://tv.8dott.xyz:80/live/samuel/samuel123456/952022.ts
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 2 SERIE A
+https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/bEIN2.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 3 BUNDES LIGA
+https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/BS3.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS+
+https://a1xs.vip/2000012
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS EPL
+https://a1xs.vip/120004
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS F1
+http://line.extraott-iptv.com:88/2755789541/1300714776/153701
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS MAIN
+http://line.stayconnected.pro:80/play/live.php?mac=00:1A:79:39:37:34&stream=1608071&extension=ts&play_token=Yq2ejQhCtj
+#EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE 1 ᴴᴰ
+http://tv.8dott.xyz:80/live/samuel/samuel123456/709263.ts
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 4
+http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/142758
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 5
+http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/142759
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 6
+http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/142760
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 7
+http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/142761
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 8
+http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/142752
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS EXTRA
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS PREMIERE LEAGUE
+http://line.extraott-iptv.com:88/2755789541/1300714776/191686
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS FOOTBALL
+http://tv.8dott.xyz:80/live/samuel/samuel123456/35798.ts
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORT ARENA ᴴᴰ
+http://tv.8dott.xyz:80/live/samuel/samuel123456/35796.ts
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORT F1 ᴴᴰ
+http://line.extraott-iptv.com:88/2755789541/1300714776/153701
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS GOLF ᴴᴰ
+http://tv.8dott.xyz:80/live/samuel/samuel123456/164498.ts
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN 1-DT1
+http://213.176.3.65:8080/live/COOPERath/w3EBgdaXF0/111261.ts
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN 3
+http://1tv41.icu:8080/live/43761449506/smallwood/167748.ts
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN 4
+http://supersonictv.live:8080/006779/439866/7632
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN 5
+http://supersonictv.live:8080/006779/439866/7634
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN LALIGA
+http://tv.8dott.xyz:80/live/samuel/samuel123456/837876.ts
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN RISE
+http://exm3u.extraott.com:80/live/ZUL96376/UG4VTW4E/82238.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN F1
+http://medotv.nl:8000/RAMBOfoundedoninternetsoIchangedTheFuckinguSERNAMelol123/5caU9cN5jFjZ/115840
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN VIVO
+http://sinalprivado.info:80/live/632035/GqGcFV4ntu/22002.ts
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN VIVO 2
+http://sinalprivado.info:80/live/632035/GqGcFV4ntu/22005.ts
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 3
+http://46.151.196.223:14444/
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 5
+http://sinalprivado.info:80/live/632035/GqGcFV4ntu/22014.ts
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 6
+http://sinalprivado.info:80/live/632035/GqGcFV4ntu/22016.ts
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN
+http://medotv.nl:8000/RAMBOfoundedoninternetsoIchangedTheFuckinguSERNAMelol123/5caU9cN5jFjZ/14920
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2
+http://supersonictv.live:8080/006779/439866/22199
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN NETWORK
+http://supersonictv.live:8080/006779/439866/22208
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN U
+https://fl31.moveonjoy.com/ESPN_U/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",PREMIER SPORTS 1
+http://line.extraott-iptv.com:88/2755789541/1300714776/191694
+#EXTINF:-1 group-title="LIVE | EVENT",PREMIER SPORTS 2
+http://line.extraott-iptv.com:88/2755789541/1300714776/189891
+#EXTINF:-1 group-title="LIVE | EVENT",SpoTV
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",SpoTV 2
+https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports ID 4
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports ID 5
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",Peacock Premier League
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN RINGSIDE
+https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8
