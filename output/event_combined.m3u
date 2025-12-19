@@ -1,5 +1,6 @@
 #EXTM3U
-# UPDATED: 2025-12-19 23:06:22 WIB
-# MODE: PRE-LIVE -> LIVE (AUTO)
-#EXTINF:-1 group-title="INFO",Tidak ada live / jadwal 24 jam ke depan
+# UPDATED: 2025-12-19 23:29 WIB
+# SOURCE: API-FOOTBALL (RapidAPI)
+# MODE: PRE-LIVE -> LIVE AUTO
+#EXTINF:-1 group-title="INFO",Tidak ada pertandingan live / jadwal 24 jam ke depan
 http://info.placeholder/stream
