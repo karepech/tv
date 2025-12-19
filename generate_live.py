@@ -22,7 +22,7 @@ HEADERS = {
 
 TIMEZONE_WIB = timezone(timedelta(hours=7))
 NOW = datetime.now(TIMEZONE_WIB)
-HORIZON = NOW + timedelta(days=1)  # 1 hari ke depan
+HORIZON = NOW + timedelta(days=1)
 
 # =====================================================
 # OUTPUT
@@ -35,7 +35,7 @@ OUTPUT_JSON = os.path.join(OUTPUT_DIR, "schedule.json")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # =====================================================
-# LOAD FILE LOKAL
+# FILE LOKAL
 # =====================================================
 
 with open("providers.json", encoding="utf-8") as f:
@@ -45,11 +45,28 @@ with open("playlist_sources.txt", encoding="utf-8") as f:
     PLAYLIST_URLS = [x.strip() for x in f if x.strip()]
 
 # =====================================================
+# KEYWORD SPORT (FILTER UTAMA)
+# =====================================================
+
+SPORT_KEYWORDS = [
+    "SPORT", "SPORTS", "LIVE",
+    "FOOTBALL", "SOCCER", "FUTSAL",
+    "BUNDESLIGA", "PREMIER", "LALIGA",
+    "SERIE A", "LIGUE", "UCL", "UEL",
+    "VS", "MATCH",
+    "BEIN", "SSC", "DAZN", "SKY",
+    "ESPN", "SPOTV"
+]
+
+# =====================================================
 # UTIL
 # =====================================================
 
 def clean(text):
     return re.sub(r"[^A-Z0-9 ]+", " ", text.upper()).strip()
+
+def is_sport(name):
+    return any(k in name for k in SPORT_KEYWORDS)
 
 def api_get(endpoint, params=None):
     try:
@@ -66,11 +83,12 @@ def api_get(endpoint, params=None):
         return []
 
 # =====================================================
-# LOAD IPTV CHANNEL
+# LOAD IPTV CHANNEL (SPORT ONLY + VALID URL)
 # =====================================================
 
 def load_channels():
     channels = []
+
     for url in PLAYLIST_URLS:
         try:
             lines = requests.get(url, timeout=60).text.splitlines()
@@ -79,38 +97,48 @@ def load_channels():
 
         i = 0
         while i < len(lines):
-            if lines[i].startswith("#EXTINF") and i + 1 < len(lines):
-                name = clean(lines[i].split(",")[-1])
+            line = lines[i].strip()
+
+            if line.startswith("#EXTINF") and i + 1 < len(lines):
                 stream = lines[i + 1].strip()
+
+                # ---- FILTER URL VALID ----
+                if (
+                    not stream
+                    or stream.startswith("#")
+                    or len(stream) < 10
+                    or not stream.lower().startswith("http")
+                ):
+                    i += 1
+                    continue
+
+                name = clean(line.split(",")[-1])
+
+                # ---- FILTER SPORT ONLY ----
+                if not is_sport(name):
+                    i += 2
+                    continue
+
                 channels.append((name, stream))
                 i += 2
             else:
                 i += 1
+
     return channels
 
 # =====================================================
-# DETEKSI LIVE LANGSUNG DARI IPTV (PRIORITAS)
+# DETEKSI LIVE DARI IPTV (SPORT ONLY)
 # =====================================================
 
 def detect_live_from_iptv(channels):
-    live_channels = []
-
-    LIVE_KEYWORDS = [
-        "LIVE", "BUNDESLIGA", "PREMIER",
-        "LA LIGA", "SERIE A", "LIGUE",
-        "MATCH", "VS"
-    ]
-
+    live = []
     for name, url in channels:
-        for kw in LIVE_KEYWORDS:
-            if kw in name:
-                live_channels.append((name, url))
-                break
-
-    return live_channels
+        if "LIVE" in name or "VS" in name:
+            live.append((name, url))
+    return live
 
 # =====================================================
-# API-FOOTBALL LIVE & SCHEDULE
+# API-FOOTBALL
 # =====================================================
 
 def get_live_matches():
@@ -123,12 +151,12 @@ def get_schedule_matches():
     return matches
 
 # =====================================================
-# GENERATE PLAYLIST (MODE A+)
+# GENERATE M3U (SPORT ONLY)
 # =====================================================
 
 def generate():
     if not API_KEY:
-        raise RuntimeError("RAPIDAPI_KEY belum tersedia (cek GitHub Secrets)")
+        raise RuntimeError("RAPIDAPI_KEY belum tersedia")
 
     channels = load_channels()
     iptv_live = detect_live_from_iptv(channels)
@@ -140,24 +168,19 @@ def generate():
     m3u = [
         "#EXTM3U",
         f"# UPDATED: {now_str}",
-        "# MODE: A+ (IPTV LIVE PRIORITY)",
-        "# SOURCE: IPTV + API-FOOTBALL"
+        "# MODE: SPORT ONLY | IPTV LIVE PRIORITY"
     ]
 
     schedule = []
 
-    # =================================================
-    # 1️⃣ LIVE DARI IPTV (PAKSA TAMPIL)
-    # =================================================
+    # ================= LIVE IPTV =================
     for name, url in iptv_live:
         m3u.append(
-            f'#EXTINF:-1 group-title="LIVE | IPTV",{name}'
+            f'#EXTINF:-1 group-title="LIVE | SPORT",{name}'
         )
         m3u.append(url)
 
-    # =================================================
-    # 2️⃣ LIVE DARI API (INFO + MULTI STREAM)
-    # =================================================
+    # ================= LIVE API =================
     for m in api_live:
         league = clean(m["league"]["name"])
         home = m["teams"]["home"]["name"]
@@ -177,13 +200,11 @@ def generate():
                     for ch_name, ch_url in channels:
                         if p_clean in ch_name:
                             m3u.append(
-                                f'#EXTINF:-1 group-title="LIVE | {key}",{title} ({p})'
+                                f'#EXTINF:-1 group-title="LIVE | SPORT",{title} ({p})'
                             )
                             m3u.append(ch_url)
 
-    # =================================================
-    # 3️⃣ PRE-LIVE (H+1) DARI API
-    # =================================================
+    # ================= PRE-LIVE =================
     for m in api_schedule:
         kickoff = datetime.fromisoformat(
             m["fixture"]["date"].replace("Z", "+00:00")
@@ -204,29 +225,25 @@ def generate():
             })
 
             m3u.append(
-                f'#EXTINF:-1 group-title="PRE-LIVE | {league}",{title} (Kick-off {time_str})'
+                f'#EXTINF:-1 group-title="PRE-LIVE | SPORT",{title} (Kick-off {time_str})'
             )
             m3u.append("http://prelive.placeholder/stream")
 
-    # =================================================
-    # 4️⃣ FALLBACK INFO
-    # =================================================
-    if len(m3u) <= 4:
+    # ================= FALLBACK =================
+    if len(m3u) <= 3:
         m3u.append(
-            '#EXTINF:-1 group-title="INFO",Tidak ada live / jadwal 24 jam ke depan'
+            '#EXTINF:-1 group-title="INFO",Tidak ada live sport / jadwal 24 jam ke depan'
         )
         m3u.append("http://info.placeholder/stream")
 
-    # =================================================
-    # SIMPAN FILE
-    # =================================================
+    # SIMPAN
     with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u) + "\n")
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(schedule, f, indent=2)
 
-    print("[OK] MODE A+ playlist updated")
+    print("[OK] SPORT ONLY playlist updated")
 
 # =====================================================
 # RUN
