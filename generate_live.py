@@ -35,7 +35,7 @@ OUTPUT_JSON = os.path.join(OUTPUT_DIR, "schedule.json")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # =====================================================
-# FILE LOKAL
+# LOAD FILE LOKAL
 # =====================================================
 
 with open("providers.json", encoding="utf-8") as f:
@@ -45,7 +45,7 @@ with open("playlist_sources.txt", encoding="utf-8") as f:
     PLAYLIST_URLS = [x.strip() for x in f if x.strip()]
 
 # =====================================================
-# KEYWORD SPORT (FILTER UTAMA)
+# SPORT KEYWORDS (FILTER UTAMA)
 # =====================================================
 
 SPORT_KEYWORDS = [
@@ -55,18 +55,18 @@ SPORT_KEYWORDS = [
     "SERIE A", "LIGUE", "UCL", "UEL",
     "VS", "MATCH",
     "BEIN", "SSC", "DAZN", "SKY",
-    "ESPN", "SPOTV"
+    "ESPN", "SPOTV", "MOTOGP", "F1"
 ]
 
 # =====================================================
 # UTIL
 # =====================================================
 
-def clean(text):
+def clean(text: str) -> str:
     return re.sub(r"[^A-Z0-9 ]+", " ", text.upper()).strip()
 
-def is_sport(name):
-    return any(k in name for k in SPORT_KEYWORDS)
+def is_sport(clean_name: str) -> bool:
+    return any(k in clean_name for k in SPORT_KEYWORDS)
 
 def api_get(endpoint, params=None):
     try:
@@ -89,9 +89,9 @@ def api_get(endpoint, params=None):
 def load_channels():
     channels = []
 
-    for url in PLAYLIST_URLS:
+    for src in PLAYLIST_URLS:
         try:
-            lines = requests.get(url, timeout=60).text.splitlines()
+            lines = requests.get(src, timeout=60).text.splitlines()
         except:
             continue
 
@@ -100,19 +100,19 @@ def load_channels():
             line = lines[i].strip()
 
             if line.startswith("#EXTINF") and i + 1 < len(lines):
-                stream = lines[i + 1].strip()
+                url = lines[i + 1].strip()
 
-                # valid URL
+                # URL WAJIB VALID
                 if (
-                    not stream
-                    or stream.startswith("#")
-                    or len(stream) < 10
-                    or not stream.lower().startswith("http")
+                    not url
+                    or url.startswith("#")
+                    or len(url) < 10
+                    or not url.lower().startswith("http")
                 ):
                     i += 1
                     continue
 
-                raw_name = line.split(",")[-1].strip()
+                raw_name = line.split(",", 1)[-1].strip()
                 clean_name = clean(raw_name)
 
                 if not is_sport(clean_name):
@@ -122,7 +122,7 @@ def load_channels():
                 channels.append({
                     "raw": raw_name,
                     "clean": clean_name,
-                    "url": stream
+                    "url": url
                 })
                 i += 2
             else:
@@ -131,7 +131,7 @@ def load_channels():
     return channels
 
 # =====================================================
-# DETEKSI LIVE DARI IPTV (SPORT ONLY)
+# DETEKSI LIVE DARI IPTV (PRIORITAS UTAMA)
 # =====================================================
 
 def detect_live_from_iptv(channels):
@@ -156,13 +156,10 @@ def get_schedule_matches():
     return matches
 
 # =====================================================
-# GENERATE M3U (SPORT ONLY)
+# GENERATE PLAYLIST (MODE A+ SPORT ONLY)
 # =====================================================
 
 def generate():
-    if not API_KEY:
-        raise RuntimeError("RAPIDAPI_KEY belum tersedia")
-
     channels = load_channels()
     iptv_live = detect_live_from_iptv(channels)
     api_live = get_live_matches()
@@ -173,19 +170,24 @@ def generate():
     m3u = [
         "#EXTM3U",
         f"# UPDATED: {now_str}",
-        "# MODE: SPORT ONLY | IPTV LIVE PRIORITY"
+        "# MODE: A+ SPORT ONLY | IPTV LIVE PRIORITY",
+        "# SOURCE: IPTV + API-FOOTBALL"
     ]
 
     schedule = []
 
-    # ================= LIVE IPTV =================
-    for name, url in iptv_live:
+    # =================================================
+    # 1️⃣ LIVE DARI IPTV (PASTI ADA URL)
+    # =================================================
+    for ch in iptv_live:
         m3u.append(
             f'#EXTINF:-1 group-title="LIVE | SPORT",{ch["raw"]}'
         )
-        m3u.append(url)
+        m3u.append(ch["url"])
 
-    # ================= LIVE API =================
+    # =================================================
+    # 2️⃣ LIVE DARI API (MULTI PROVIDER)
+    # =================================================
     for m in api_live:
         league = clean(m["league"]["name"])
         home = m["teams"]["home"]["name"]
@@ -202,14 +204,16 @@ def generate():
             if key in league:
                 for p in providers:
                     p_clean = clean(p)
-                    for ch_name, ch_url in channels:
-                        if p_clean in ch_name:
+                    for ch in channels:
+                        if p_clean in ch["clean"]:
                             m3u.append(
                                 f'#EXTINF:-1 group-title="LIVE | SPORT",{title} ({p})'
                             )
-                            m3u.append(ch_url)
+                            m3u.append(ch["url"])
 
-    # ================= PRE-LIVE =================
+    # =================================================
+    # 3️⃣ PRE-LIVE (H+1)
+    # =================================================
     for m in api_schedule:
         kickoff = datetime.fromisoformat(
             m["fixture"]["date"].replace("Z", "+00:00")
@@ -234,21 +238,25 @@ def generate():
             )
             m3u.append("http://prelive.placeholder/stream")
 
-    # ================= FALLBACK =================
-    if len(m3u) <= 3:
+    # =================================================
+    # 4️⃣ FALLBACK
+    # =================================================
+    if len(m3u) <= 4:
         m3u.append(
             '#EXTINF:-1 group-title="INFO",Tidak ada live sport / jadwal 24 jam ke depan'
         )
         m3u.append("http://info.placeholder/stream")
 
+    # =================================================
     # SIMPAN
+    # =================================================
     with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u) + "\n")
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(schedule, f, indent=2)
 
-    print("[OK] SPORT ONLY playlist updated")
+    print("[OK] SPORT ONLY MODE A+ playlist updated")
 
 # =====================================================
 # RUN
