@@ -2,7 +2,7 @@ import requests
 import json
 import re
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 # =====================================================
 # KONFIGURASI
@@ -10,6 +10,19 @@ from datetime import datetime, timezone
 
 API_KEY = "1"
 LIVE_API = "https://www.thesportsdb.com/api/v1/json/1/livescore.php?s=Soccer"
+NEXT_API = "https://www.thesportsdb.com/api/v1/json/1/eventsnextleague.php?id="
+
+# League ID (penting untuk PRE-LIVE)
+LEAGUE_IDS = {
+    "PREMIER LEAGUE": "4328",
+    "LA LIGA": "4335",
+    "SERIE A": "4332",
+    "BUNDESLIGA": "4331",
+    "LIGUE 1": "4334",
+    "SAUDI": "4646"
+}
+
+TIMEZONE_WIB = timezone(timedelta(hours=7))
 
 OUTPUT_DIR = "output"
 OUTPUT_M3U = os.path.join(OUTPUT_DIR, "event_combined.m3u")
@@ -18,15 +31,11 @@ OUTPUT_JSON = os.path.join(OUTPUT_DIR, "schedule.json")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # =====================================================
-# LOAD PROVIDER MAPPING
+# LOAD FILE EKSTERNAL
 # =====================================================
 
 with open("providers.json", encoding="utf-8") as f:
     PROVIDERS = json.load(f)
-
-# =====================================================
-# LOAD PLAYLIST SOURCES
-# =====================================================
 
 with open("playlist_sources.txt", encoding="utf-8") as f:
     PLAYLIST_URLS = [x.strip() for x in f if x.strip()]
@@ -35,125 +44,155 @@ with open("playlist_sources.txt", encoding="utf-8") as f:
 # UTIL
 # =====================================================
 
-def clean_text(txt):
+def clean(txt):
     return re.sub(r"[^A-Z0-9 ]+", " ", txt.upper()).strip()
 
+def safe_get(url):
+    try:
+        r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+        if r.status_code != 200:
+            return None
+        if "application/json" not in r.headers.get("Content-Type", ""):
+            return None
+        return r.json()
+    except:
+        return None
+
 # =====================================================
-# LOAD IPTV CHANNELS (AMAN)
+# LOAD IPTV CHANNEL
 # =====================================================
 
-def load_all_channels():
+def load_channels():
     channels = []
-
     for url in PLAYLIST_URLS:
-        print(f"[IPTV] Load: {url}")
+        print(f"[IPTV] {url}")
         try:
-            r = requests.get(url, timeout=60, headers={"User-Agent": "Mozilla/5.0"})
-            if r.status_code != 200:
-                print(f"[WARN] IPTV HTTP {r.status_code}")
-                continue
-            lines = r.text.splitlines()
-        except Exception as e:
-            print(f"[WARN] IPTV gagal: {e}")
+            lines = requests.get(url, timeout=60).text.splitlines()
+        except:
             continue
 
         i = 0
         while i < len(lines):
             if lines[i].startswith("#EXTINF") and i + 1 < len(lines):
-                name = clean_text(lines[i].split(",")[-1])
+                name = clean(lines[i].split(",")[-1])
                 stream = lines[i + 1].strip()
                 channels.append((name, stream))
                 i += 2
             else:
                 i += 1
 
-    print(f"[OK] Total channel IPTV: {len(channels)}")
+    print(f"[OK] IPTV channel loaded: {len(channels)}")
     return channels
 
 # =====================================================
-# AMBIL LIVE EVENT (REAL STATUS, ANTI ERROR)
+# LIVE EVENT (REAL STATUS)
 # =====================================================
 
 def get_live_events():
-    try:
-        r = requests.get(
-            LIVE_API,
-            timeout=30,
-            headers={"User-Agent": "Mozilla/5.0"}
-        )
-
-        if r.status_code != 200:
-            print(f"[WARN] Live API HTTP {r.status_code}")
-            return []
-
-        if "application/json" not in r.headers.get("Content-Type", ""):
-            print("[WARN] Live API bukan JSON")
-            return []
-
-        data = r.json()
-        events = data.get("events")
-
-        if not events:
-            print("[INFO] Tidak ada event live")
-            return []
-
-        live = [
-            e for e in events
-            if e.get("strStatus") in ("Live", "In Progress")
-        ]
-
-        print(f"[OK] Live event: {len(live)}")
-        return live
-
-    except Exception as e:
-        print(f"[ERROR] Live API error: {e}")
+    data = safe_get(LIVE_API)
+    if not data:
         return []
 
+    events = data.get("events") or []
+    return [
+        e for e in events
+        if e.get("strStatus") in ("Live", "In Progress")
+    ]
+
 # =====================================================
-# GENERATE LIVE PLAYLIST + JSON
+# PRE-LIVE EVENT (JADWAL)
+# =====================================================
+
+def get_pre_live_events():
+    upcoming = []
+
+    for league, lid in LEAGUE_IDS.items():
+        data = safe_get(NEXT_API + lid)
+        if not data:
+            continue
+
+        for e in data.get("events", []):
+            if not e.get("dateEvent") or not e.get("strTime"):
+                continue
+
+            try:
+                kickoff_utc = datetime.strptime(
+                    f"{e['dateEvent']} {e['strTime']}",
+                    "%Y-%m-%d %H:%M:%S"
+                ).replace(tzinfo=timezone.utc)
+
+                kickoff_wib = kickoff_utc.astimezone(TIMEZONE_WIB)
+
+                # tampilkan max H-6 jam
+                if datetime.now(TIMEZONE_WIB) <= kickoff_wib <= datetime.now(TIMEZONE_WIB) + timedelta(hours=6):
+                    upcoming.append((league, e, kickoff_wib))
+            except:
+                continue
+
+    return upcoming
+
+# =====================================================
+# GENERATE MODE A
 # =====================================================
 
 def generate():
-    all_channels = load_all_channels()
-    events = get_live_events()
+    channels = load_channels()
+    live_events = get_live_events()
+    pre_live_events = get_pre_live_events()
 
     m3u = ["#EXTM3U"]
     schedule = []
 
-    for e in events:
-        league = clean_text(e.get("strLeague", "UNKNOWN"))
+    # ---------------- LIVE ----------------
+    for e in live_events:
+        league = clean(e.get("strLeague", ""))
         home = e.get("strHomeTeam", "")
         away = e.get("strAwayTeam", "")
         title = f"{home} vs {away}"
 
-        schedule.append({
-            "league": league,
-            "match": title,
-            "status": e.get("strStatus")
-        })
+        schedule.append({"league": league, "match": title, "status": "LIVE"})
 
-        for league_key, providers in PROVIDERS.items():
-            if league_key in league:
-                for provider in providers:
-                    provider_clean = clean_text(provider)
-                    for ch_name, ch_url in all_channels:
-                        if provider_clean in ch_name:
+        for key, providers in PROVIDERS.items():
+            if key in league:
+                for p in providers:
+                    p_clean = clean(p)
+                    for ch_name, ch_url in channels:
+                        if p_clean in ch_name:
                             m3u.append(
-                                f'#EXTINF:-1 group-title="LIVE | {league_key}",{title} ({provider})'
+                                f'#EXTINF:-1 group-title="LIVE | {key}",{title} ({p})'
                             )
                             m3u.append(ch_url)
 
-    # SIMPAN FILE
+    # ---------------- PRE-LIVE ----------------
+    for league, e, kickoff in pre_live_events:
+        home = e.get("strHomeTeam", "")
+        away = e.get("strAwayTeam", "")
+        title = f"{home} vs {away}"
+        time_str = kickoff.strftime("%H:%M WIB")
+
+        schedule.append({
+            "league": league,
+            "match": title,
+            "status": "PRE-LIVE",
+            "kickoff": time_str
+        })
+
+        m3u.append(
+            f'#EXTINF:-1 group-title="PRE-LIVE | {league}",{title} (Kick-off {time_str})'
+        )
+        m3u.append("http://prelive.placeholder/stream")
+
+    # SIMPAN
     with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u) + "\n")
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(schedule, f, indent=2)
 
-    print("[DONE] event_combined.m3u & schedule.json dibuat")
+    print("[DONE] MODE A generated")
 
 # =====================================================
-# MAIN
+# RUN
 # =====================================================
 
 if __name__ == "__main__":
