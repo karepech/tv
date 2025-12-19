@@ -1,13 +1,27 @@
-name: Auto Live IPTV (MODE A)
+name: Auto Live IPTV (Smart Trigger)
 
 on:
+  # Jalan otomatis jika ada perubahan file penting
+  push:
+    paths:
+      - "**/*.py"
+      - "providers.json"
+      - "playlist_sources.txt"
+      - ".github/workflows/live.yml"
+
+  # Jalan otomatis tiap 5 menit
   schedule:
-    - cron: "*/5 * * * *"   # setiap 5 menit
+    - cron: "*/5 * * * *"
+
+  # Manual run
   workflow_dispatch:
 
 jobs:
   live:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # ⬅️ WAJIB untuk push commit
 
     steps:
       - name: Checkout repo
@@ -26,24 +40,14 @@ jobs:
         run: |
           python generate_live.py
 
-      - name: Check changes
-        id: git-check
+      - name: Commit if output changed
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
+            git config user.name "livebot"
+            git config user.email "livebot@github.com"
+            git add .
+            git commit -m "auto update live event"
+            git push
           else
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
           fi
-
-      - name: Commit & Push (only if changed)
-        if: steps.git-check.outputs.changed == 'true'
-        run: |
-          git config user.name "livebot"
-          git config user.email "livebot@github.com"
-          git add output/event_combined.m3u output/schedule.json
-          git commit -m "auto update live event"
-          git push
-
-      - name: Skip commit (no change)
-        if: steps.git-check.outputs.changed == 'false'
-        run: echo "No changes detected, skip commit."
