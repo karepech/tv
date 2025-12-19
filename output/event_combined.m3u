@@ -1,6 +1,624 @@
 #EXTM3U
-# UPDATED: 2025-12-19 23:33 WIB
-# SOURCE: API-FOOTBALL (RapidAPI)
-# MODE: PRE-LIVE -> LIVE AUTO
-#EXTINF:-1 group-title="INFO",Tidak ada pertandingan live / jadwal 24 jam ke depan
-http://info.placeholder/stream
+# UPDATED: 2025-12-19 23:36:28 WIB
+# MODE: A+ (IPTV LIVE PRIORITY)
+# SOURCE: IPTV + API-FOOTBALL
+#EXTINF:-1 group-title="LIVE | IPTV",19 30 WIB VIETNAM VS THAILAND
+
+#EXTINF:-1 group-title="LIVE | IPTV",17 30 WIB THAILAND VS INDONESIA
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTINF:-1 group-title="LIVE | IPTV",19 00 WIB THAILAND VS INDONESIA  FUTSAL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",03 00 WIB VALENCIA VS MALLORCA
+#EXTVLCOPT:http-referrer=https://arwen1.panaka1.cfd/000/
+#EXTINF:-1 group-title="LIVE | IPTV",02 30 WIB BORUSSIA DORTMUND VS BORUSSIA M GLADBACH
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTINF:-1 group-title="LIVE | IPTV",02 00 WIB BOLOGNA VS INTERNAZIONALE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",03 00 WIB SWANSEA CITY VS WREXHAM
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTINF:-1 group-title="LIVE | IPTV",00 30 WIB AL TAAWON VS AL HILAL
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#EXTINF:-1 group-title="LIVE | IPTV",B1 PREMIER LEAGUE 1
+#EXTINF:-1 group-title="EVENT 019/DESEMBER/2025" tvg-logo="https://iili.io/FtSMHX9.jpg", B2 LALIGA 1
+#EXTINF:-1 group-title="LIVE | IPTV",B3 SERIE A 1
+#EXTINF:-1 group-title="EVENT 019/DESEMBER/2025" tvg-logo="https://abnnews.id/wp-content/uploads/2025/08/images-3-12.jpeg", B4 Bundesliga 1
+#EXTINF:-1 group-title="LIVE | IPTV",B5 PERANCIS   LIGUE 1
+#EXTINF:-1 group-title="EVENT 019/DESEMBER/2025" tvg-logo="https://iili.io/3cSp4Lu.md.png", B6 MotoGP 2025
+#EXTINF:-1 group-title="LIVE | IPTV",00 00 WIB PSG VS FLAMENGO
+
+#EXTINF:-1 group-title="LIVE | IPTV",B1 PREMIER LEAGUE 1
+
+#EXTINF:-1 group-title="LIVE | IPTV",PEACOCK PREMIER LEAGUE
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",SKY SPORTS BUNDESLIGA
+
+#EXTINF:-1 group-title="LIVE | IPTV",SKYSPORTSPREMIERELEAGUE
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/SkySportsLaliga.png" group-title="Sports", SkySportsLaliga
+#EXTINF:-1 group-title="LIVE | IPTV",RTB GO LIVE FHD
+https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",KBS LIVECAM DOKDO
+http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",M LIVE 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",M LIVE 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",M LIVE 6
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE MAKKAH
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE MADINAH 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",MTV LIVE HD
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#EXTINF:-1 group-title="LIVE | IPTV",MTV LIVE
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 01
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 02
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 03
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 04
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 05
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 06
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 07
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 08
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 09
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 10
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 11
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 12
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 13
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 14
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 15
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 16
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 17
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 18
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 19
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 20
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 21
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 22
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 23
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 24
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 25
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 26
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 27
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 28
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 29
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 30
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 31
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 32
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 33
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 34
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 35
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",C1 LIVE 36
+#EXTVLCOPT:http-origin=https://demo.crunchyrolll.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE STREAM
+#https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",M LIVE EVENT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",1 LIVE CHANNEL
+#https://7pal.short.gy/nowhkp1
+#EXTINF:-1 group-title="LIVE | IPTV",2 LIVE CHANNEL
+#https://a1xs.vip/1100002
+#EXTINF:-1 group-title="LIVE | IPTV",3 LIVE CHANNEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#EXTINF:-1 group-title="LIVE | IPTV",4 LIVE CHANNEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",5 LIVE CHANNEL
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTINF:-1 group-title="LIVE | IPTV",6 LIVE CHANNEL
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTINF:-1 group-title="LIVE | IPTV",7 LIVE CHANNEL
+#https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/bEIN2.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",8 LIVE CHANNEL
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTINF:-1 group-title="LIVE | IPTV",9 LIVE CHANNEL
+https://wahyu1ptv.pages.dev/ZiggoSport2-HD.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",10 LIVE CHANNEL
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",11 LIVE CHANNEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",12 LIVE CHANNEL
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#EXTINF:-1 group-title="LIVE | IPTV",13 LIVE CHANNEL
+https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",14 LIVE CHANNEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTINF:-1 group-title="LIVE | IPTV",15 LIVE CHANNEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTINF:-1 group-title="LIVE | IPTV",16 LIVE CHANNEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTINF:-1 group-title="LIVE | IPTV",17 LIVE CHANNEL
+#https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/Son2.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",18 LIVE CHANNEL
+#http://norkadymm.top:8080/32173480057546/81734800575822/53631
+#EXTINF:-1 group-title="LIVE | IPTV",19 LIVE CHANNEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",20 LIVE CHANNEL
+https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/Foxsports2.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",21 LIVE CHANNEL
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTINF:-1 group-title="LIVE | IPTV",22 LIVE CHANNEL
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/united-fight-alliance/master.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",23 LIVE CHANNEL
+https://unifi-live01.secureswiftcontent.com/UnifiHD/live11.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",24 LIVE CHANNEL
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#EXTINF:-1 group-title="LIVE | IPTV",25 LIVE CHANNEL
+#http://filex.tv:8080//live/Qasim1990/1990qasim/509260.ts
+#EXTINF:-1 group-title="LIVE | IPTV",26 LIVE CHANNEL
+https://a1xs.vip/2000012
+#EXTINF:-1 group-title="LIVE | IPTV",27 LIVE CHANNEL
+https://a1xs.vip/700008
+#EXTINF:-1 group-title="LIVE | IPTV",28 LIVE CHANNEL
+#http://norkadymm.top:8080/32173480057546/81734800575822/62231
+#EXTINF:-1 group-title="LIVE | IPTV",29 LIVE CHANNEL
+http://medotv.nl:8000/RAMBOfoundedoninternetsoIchangedTheFuckinguSERNAMelol123/5caU9cN5jFjZ/127759
+#EXTINF:-1 group-title="LIVE | IPTV",30 LIVE CHANNEL
+http://line.stayconnected.pro:80/play/live.php?mac=00:1A:79:39:37:34&stream=1608071&extension=ts&play_token=Yq2ejQhCtj
+#EXTINF:-1 group-title="LIVE | IPTV",1 LIVE EVENT WWE
+#http://filex.tv:8080//live/Qasim1990/1990qasim/509260.ts
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE EVENT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",ASTRO PREMIER LEAGUE 1
+http://ktpremium.online:2095/live/akm33333/900820/694537.ts
+#EXTINF:-1 group-title="LIVE | IPTV",ASTRO PREMIER LEAGUE 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",SKY SPORTS PREMIERE LEAGUE
+http://line.extraott-iptv.com:88/2755789541/1300714776/191686
+#EXTINF:-1 group-title="LIVE | IPTV",SKY SPORTS BUNDESLIGA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#EXTINF:-1 group-title="LIVE | IPTV",PREMIER SPORTS 1
+http://line.extraott-iptv.com:88/2755789541/1300714776/191694
+#EXTINF:-1 group-title="LIVE | IPTV",PREMIER SPORTS 2
+http://line.extraott-iptv.com:88/2755789541/1300714776/189891
+#EXTINF:-1 group-title="LIVE | IPTV",RTB GO LIVE
+https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",PREMIER SPORTS
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTINF:-1 group-title="LIVE | IPTV",WATTAR LIVE
+http://htvint.mada.ps:8889/orient/index.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE MAKKAH
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE MADINAH
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",DAZN SERIE A
+http://iptvaruba.com:8080/rapidiptv/shhT6NQ6ZdFw5/79220
+#EXTINF:-1 group-title="LIVE | IPTV",DAZN SERIE A
+https://wahyu1ptv.pages.dev/DaznSerieA-HD.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",DAZN SERIE A
+http://iptvaruba.com:8080/rapidiptv/shhT6NQ6ZdFw5/39497
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE MAKKAH
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE MADINAH
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",GAZWAH TV LIVE
+#https://sonar.ytlive.workers.dev/stream/UCiTK5pzTj6BMIO14YYLA_jA/master.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE MAKKAH YOUTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+#EXTINF:-1 group-title="LIVE | IPTV",LIVE MADINAH YOUTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+#EXTINF:-1 group-title="LIVE | IPTV",CINEMANIA PREMIERE
+http://filex.tv:8080//live/uk007/000920/533335.ts
+#EXTINF:-1 group-title="LIVE | IPTV",MTV LIVE
+http://85.11.144.6:6060/play/a08w/index.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",RCTI LIVE SPORTS
+#https://liveplus.rctiplus.id/RTMP-IN.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",MTV LIVE
+https://atemecdnbalancer-voe.sysln.id/live/eds/MTVLiveHD/mediampd/MTVLiveHD.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",RCTI  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",RCTI LIVE SPORTS
+https://liveplus.rctiplus.id/RTMP-IN.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",MNCTV  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",GTV  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",SCTV  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",TRANS TV  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",TRANS TV  LIVE
+https://livestream.transtv.co.id/stream/live/ttv.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",TRANS 7  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",ANTV  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",RTV  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/abf3e254818c4608aab8aa109a972203/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",TVONE  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",KOMPAS TV  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/dafcaf8b26064ae7b27702088240b535/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",METRO TV  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/fd4360b1c12c4375848c8f085fd51d41/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",BTV  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/36d936f64cd2482ebc077567dbcf0919/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",TVRI  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/85f6d3da0e064dbe99e7bf1e18bc47c4/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",DAAI TV  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/744044c3985142399fbd466f9f3fd8fa/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",DAAI TV  LIVE
+https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",MDTV  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/6941abe8211d4ce8bd13d9b96bdd1630/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",JTV  VS
+https://fta3-cdn-flr.visionplus.id/out/v1/77641c37b4834a9db823ec5137774973/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",JAKTV  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/1f05c642353a4a778d8a544837e1b49c/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",BALI TV  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/44a2d1ab71a740babb233cf14832c59d/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",BANDUNG TV  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f16b53f0d5ed459da208c459049c9bb0/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",HANACARAKA TV  VS
+https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",ORIGINALS  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/e992e986a88346c18a5dcc4fbcdae6b9/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",BUDDY STAR  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/c70975aaa68d47f2a38799e6730a7816/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",UNIQUES  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",SUPERRIX  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/782400332c96440598260730a864bc6f/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",CINEEDGE  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/47c895ca72544fcfa4221c499b555a10/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",GALAXY PREMIUM  VS
+https://live-channel4-cdn.visionplus.id/out/v1/45c0752c6b6b4397b80243ac9fed96fd/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",GALAXY  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/751a0982779f4edd904205eb351e220d/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",STUDIO UNIVERSAL  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/dc63bd198bc44193b570e0567ff5b22c/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",ROCK ACTION  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/010bb28c19b64975b318d3b00f58b18b/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",CELESTIAL MOVIES  VS
+https://fta1-cdn-flr.visionplus.id/out/v1/6bdbe6ce7f034807aba5f09bed048b05/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",TVN MOVIES  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/096d5cf064294e7ea3a7f59ee2899669/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",HITS MOVIES  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/de93893d01e6446daaf052a7fec694fc/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",CCM  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/6bdbe6ce7f034807aba5f09bed048b05/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",Z BIOSKOP  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/81cb1af2ea4d4842a94f1c83957b4cd2/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",IMC  VS
+https://fta3-cdn-flr.visionplus.id/out/v1/65432a4c12ca4a52abf473a0e41d7c7e/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",UNIVERSAL PREMIERE
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",AXN  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/456143d3b12140e1a872b25f067ddb62/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",ROCK ENTERTAINMENT  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/4cae4723d4d54a7fb71020bd7939a202/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",HITS  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/333a9658ed6a4424a92e319114fb7111/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",KIX  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/7a50d44c0a154dd29880c3728fb49a56/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",LIFETIME  VS
+https://fta1-cdn-flr.visionplus.id/out/v1/1880fc1b32d3449196e80345f6cd5918/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",TVN  VS
+https://fta1-cdn-flr.visionplus.id/out/v1/6dc5412d26ea4e65961c825d866f2a34/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",ONE  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/9ec31bcce34848d69d4771270ff23ab9/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",ANIMAX  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/ab3ef0f0e4144c3c8b7e60f1873a3bcc/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",DRAMA CHANNEL  VS
+https://fta4-cdn-flr.visionplus.id/out/v1/db82aed7a1864935b8b8f960651c3db7/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",ENT  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/a90cb773466446b08595007bab12b920/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",VISION PRIME  VS
+https://d43tg978oium5.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",CELEBRITIES TV  VS
+https://fta3-cdn-flr.visionplus.id/out/v1/8cf72e61626f4361a45c57ce6f2fdad8/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",DENS SHOWBIZ  VS
+https://op-group1-densxvisionhd-1.dens.tv/h/h203/index.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",SPORTSTARS  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",SPORTSTARS 2  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",SPORTSTARS 3  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/9a06560796f441a3981cd5a27c7d917f/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",SPORTSTARS 4  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",SOCCER CHANNEL  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",SPOTV  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",SPOTV 2  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",V  LIVE
+https://mimipipi22.github.io/logo/offline.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",V  LIVE 2
+https://mimipipi22.github.io/logo/offline.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",V  LIVE 3
+https://mimipipi22.github.io/logo/offline.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",V  LIVE 4
+https://mimipipi22.github.io/logo/offline.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",V  LIVE 5
+https://mimipipi22.github.io/logo/offline.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",PREMIER LEAGUE TV
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",RTVS SPORT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",BUNDESLIGA 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",ASTRO PREMIER LEAGUE
+http://156.239.254.7:5555/smt.php?id=Assp1
+#EXTINF:-1 group-title="LIVE | IPTV",ASTRO PREMIER LEAGUE 2
+http://156.239.254.7:5555/smt.php?id=Assp2
+#EXTINF:-1 group-title="LIVE | IPTV",HUB PREMIER 1 FHD
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1032529&extension=ts&play_token=VA7zmv4IHy
+#EXTINF:-1 group-title="LIVE | IPTV",HUB PREMIER 2 FHD
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1032528&extension=ts&play_token=1xUh8sTUZZ
+#EXTINF:-1 group-title="LIVE | IPTV",HUB PREMIER 3 FHD
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1032527&extension=ts&play_token=RKs3fsIZAf
+#EXTINF:-1 group-title="LIVE | IPTV",HUB PREMIER 4 FHD
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1032526&extension=ts&play_token=DxvC71v61P
+#EXTINF:-1 group-title="LIVE | IPTV",ASTRO PREMIER LEAGUE
+https://a1xs.vip/1100030
+#EXTINF:-1 group-title="LIVE | IPTV",ASTRO PREMIER LEAGUE 2
+https://a1xs.vip/1100031
+#EXTINF:-1 group-title="LIVE | IPTV",ABC AUSTRALIA  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/6c075b570f99473fa6715bb399bc9571/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",NHK WORLD PREMIUM  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/85b02e02587747058c1940af6aa3d0fa/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",NHK WORLD JAPAN  VS
+https://atemeshield1-voe.sysln.id/live/eds/NHKWorldJapanHD/mediampd/NHKWorldJapanHD.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",NHK WORLD JAPAN  VS
+https://fta1-cdn-flr.visionplus.id/out/v1/8decf3562fe943e88872ef868d6fb6a5/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",CCTV4  VS
+https://atemecdnbalancer-voe.sysln.id/live/eds/CCTV4/mediampd/CCTV4.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",XING KONG  VS
+https://fta3-cdn-flr.visionplus.id/out/v1/a1dc0cb4b4f14a3094088b16366bbeed/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",DRAGON TV  VS
+https://fta4-cdn-flr.visionplus.id/out/v1/2c21b0f4792a42a09a7ed5fee3f010c0/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",HUNAN TV  VS
+https://fta2-cdn-flr.visionplus.id/out/v1/63e4d9f383cb4ca59317c7be9407e228/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",JIANGSU TV  VS
+https://fta4-cdn-flr.visionplus.id/out/v1/ccc51c0317284496b6cde9f7bd670b80/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",ANHUI TV  VS
+https://fta2-cdn-flr.visionplus.id/out/v1/39a34211e80145678ce1616b52368f99/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",FOX NEWS  VS
+https://fta3-cdn-flr.visionplus.id/out/v1/444f3d7b909d470f9f5a55c781a79728/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",BBC NEWS  VS
+https://fta1-cdn-flr.visionplus.id/out/v1/7d38a4525dfa42b08a94c22c173061da/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",FRANCE24  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/498b57e974a843d28ea1a393603e5318/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",TRT WORLD  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/be2bcc4b75e348e5b331fc5f99aa3daf/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",EURONEWS  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/23af54d57d8a447dbf0621ec71d89e7e/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",CNA  VS
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",CGTN  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/c3e6d7241fbf404082087774d7221635/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",CNBC ASIA  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/e8d3f81aae4b46fbacf545140b86f2c4/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",BLOOMBERG  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/3212c95b42154b6284671f28cc2c943c/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",IDX  VS
+https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",BBC EARTH  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/4e5b2a283adf462c8b6b55b2ef059fac/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",CGTN DOC  VS
+https://d1ebgtxjo246w3.cloudfront.net/out/v1/9757e131659a4ab8ba08d448c4a3779e/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",CRIME INVESTIGATION  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/384f26c1c3b74ce09fa60bed24719b79/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",OUTDOOR CHANNEL  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/c169ca1dcbe249c5bf233aabc3db4a4f/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",HISTORY  VS
+https://fta3-cdn-flr.visionplus.id/out/v1/936ed6f98448469b924a0ce456586651/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",LOVE NATURE  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/15500e8f0dc44058ba0431d39a8fed57/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",KIDS TV  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9041826689ae4f9c9619576d411fa989/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",DREAMWORKS  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/7518da9041c4414d86f173daa719152e/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",NICK  VS
+https://d2tjypxxy769fn.cloudfront.net/out/v1/3fe6d9eb97ed455c942eb8d3d1c2c2e8/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",NICK JR  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/27163af9499b4bcca2da96677b158efe/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",MOONBUG  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/198f7febb48c4c909d62977d88c195b0/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",CBEEBIES BBC  VS
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2a5668fb3b9f4e34ab7c02cdc6ef56db/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",ZOO MOO  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/8554b3cb938e44038093df2d65080932/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",MUSIC TV  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/c20d75deb06f401aa89681a9e5054de7/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",MTV LIVE  FMX
+https://atemecdnbalancer-voe.sysln.id/live/eds/MTVLiveHD/mediampd/MTVLiveHD.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",MTV LIVE  IND
+https://cdn10jtedge.indihometv.com/atm/DASH/MTV_LIVE/manifest.
+#EXTINF:-1 group-title="LIVE | IPTV",TV9  VS
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9688c51b534d4165bf4b0b328e53b980/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",TV9  VS
+https://cdn10jtedge.indihometv.com/atm/DASH/tv9/manifest.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",TVMU  VS
+https://fta1-cdn-flr.visionplus.id/out/v1/980cfe26ff00479c97eb8057a1129c7f/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",MUSLIM TV  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/a8f14e34c687494fb1454b88742db085/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",AL QURAN KAREEM  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/099aba2d60b44679915cd56f303b975d/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",EWTN  VS
+https://fta3-cdn-flr.visionplus.id/out/v1/96e20532df53449ab254f765073ec866/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",LIFE  VS
+https://fta2-cdn-flr.visionplus.id/out/v1/a61250017f23459692bf28a6841cf087/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",REFORMED 21  VS
+https://fta4-cdn-flr.visionplus.id/out/v1/623c771560e443f2920ea5be99016b7e/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",GLOBAL TREKKER  VS
+https://fta2-cdn-flr.visionplus.id/out/v1/99b07f39f4964b7cb9bfc092b51af734/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",FOOD TRAVEL  VS
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/77d7eac1b90247ac9aa745bd2eb47fa8/index.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",DENS PLAY  VS
+https://op-group1-densxvisionhd-1.dens.tv/h/h225/index.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",DENSFOOD CHANNEL  VS
+https://op-group1-densxvisionhd-1.dens.tv/h/h248/index.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",RTVSSPORT HD
+http://185.188.188.237:5000/live/rtvssport/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",GO  ABC NEWS LIVE
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931183&extension=ts&play_token=AeImX57kV3
+#EXTINF:-1 group-title="LIVE | IPTV",GO  JAMIE OLIVER
+http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931034&extension=ts&play_token=m5UE1EQmky
+#EXTINF:-1 group-title="LIVE | IPTV",SKY SPORTS LIVE 5 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",SKY SPORTS LIVE 6 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",AFF U23 M LIVE 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",AFF U23 M LIVE 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",AFF U23 M LIVE 6
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",19 40 ECZACIBASI W VS GALATASARAY W
+#EXTVLCOPT:http-origin=https://g.zoomplayer.xyz
+#EXTINF:-1 group-title="LIVE | IPTV",LIGA 1 BRI 15 30 PERSITA VS AREMA FC
+#EXTVLCOPT:http-referrer=https://jlbfpc.jlbfyh.com/
+#EXTINF:-1 group-title="LIVE | IPTV",LIGA 1 BRI 19 00 PERSEBAYA VS MADURA UNITED
+#EXTVLCOPT:http-referrer=https://jlbfpc.jlbfyh.com/
+#EXTINF:-1 group-title="LIVE | IPTV",PRO LIGA 16 00 JAKARTA POPSIVO POLWAN VS JAKARTA ELECTRIC PLN
+#EXTVLCOPT:http-referrer=https://jlbfpc.jlbfyh.com/
+#EXTINF:-1 group-title="LIVE | IPTV",PRO LIGA 19 00 JAKARTA LAVANI LIVIN TRANSMEDIA VS SURABAYA SAMATOR
+#EXTVLCOPT:http-referrer=https://jlbfpc.jlbfyh.com/
+#EXTINF:-1 group-title="LIVE | IPTV",INDONESIA VS KORUT SD
+#EXTVLCOPT:http-referrer=https://playerlive.xyz/
+#EXTINF:-1 group-title="LIVE | IPTV",SKY SPORTS BUNDESLIGA
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#EXTINF:-1 group-title="LIVE | IPTV",SKY LIVE 1
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#EXTINF:-1 group-title="LIVE | IPTV",SKY LIVE 2
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#EXTINF:-1 group-title="LIVE | IPTV",SKY LIVE 3
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#EXTINF:-1 group-title="LIVE | IPTV",SKY LIVE 4
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#EXTINF:-1 group-title="LIVE | IPTV",SKY LIVE 5
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#EXTINF:-1 group-title="LIVE | IPTV",SKY LIVE 6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
+#EXTINF:-1 group-title="LIVE | IPTV",SKY LIVE 7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
+#EXTINF:-1 group-title="LIVE | IPTV",ASTRO PREMIER LEAGUE
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTINF:-1 group-title="LIVE | IPTV",ASTRO PREMIER LEAGUE 2
+#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+#EXTINF:-1 group-title="LIVE | IPTV",PREMIER SPORTS
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",KOVO LIVE 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTINF:-1 group-title="LIVE | IPTV",KOVO LIVE 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",KOVO LIVE 3
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 12; V2030 Build/SP1A.210812.003)
+#EXTINF:-1 group-title="LIVE | IPTV",KOVO LIVE 4
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 12; V2030 Build/SP1A.210812.003)
+#EXTINF:-1 group-title="LIVE | IPTV",KOVO LIVE 5
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 12; V2030 Build/SP1A.210812.003)
+#EXTINF:-1 group-title="LIVE | IPTV",PREMIER LEAGUE TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",PREMIER LEAGUE TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",ASTRO PREMIER LEAGUE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTINF:-1 group-title="LIVE | IPTV",ASTRO PREMIER LEAGUE 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTINF:-1 group-title="LIVE | IPTV",EPL 1 HUB PREMIER 1
+#EXTVLCOPT:http-referrer=https://github.com/
+#EXTINF:-1 group-title="LIVE | IPTV",EPL 2 HUB PREMIER 2
+#EXTVLCOPT:http-referrer=https://github.com/
+#EXTINF:-1 group-title="LIVE | IPTV",EPL 9 HUB PREMIER 3
+#EXTVLCOPT:http-referrer=https://github.com/
+#EXTINF:-1 group-title="LIVE | IPTV",BUNDESLIGA 1 SOCCER
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",BUNDESLIGA 2 SKY 24
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+#EXTINF:-1 group-title="LIVE | IPTV",SERIE A 1 PLUTO
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e9f2c05172a0f0007db4786/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=d0170d70-8952-11ef-8353-f70668e6a0ea&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=81c0c5ee-095f-4c79-94e3-b24647048b62&userId=&serverSideAds=true
+#EXTINF:-1 group-title="LIVE | IPTV",SERIE A 2 SPORT 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",SERIE A 3 SPORT 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",M LIVE EVENT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 group-title="LIVE | IPTV",1 LIVE EVENT
+#http://203.77.246.58:4500/udp/239.1.2.240:5000
+#EXTINF:-1 group-title="LIVE | IPTV",PREMIER 1
+http://tv.8dott.xyz:80/live/samuel/samuel123456/952022.ts
+#EXTINF:-1 group-title="LIVE | IPTV",BEIN SPORTS 2 SERIE A
+https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/bEIN2.m3u8
+#EXTINF:-1 group-title="LIVE | IPTV",WWW LIVE
+#http://filex.tv:8080//live/Qasim1990/1990qasim/509260.ts
+#EXTINF:-1 group-title="LIVE | IPTV",1 LIVE EVENT WWE
+#http://filex.tv:8080//live/Qasim1990/1990qasim/509260.ts
+#EXTINF:-1 group-title="LIVE | IPTV",ASTRO PREMIER LEAGUE 1
+http://tv.8dott.xyz:80/live/samuel/samuel123456/709263.ts
+#EXTINF:-1 group-title="LIVE | IPTV",ASTRO PREMIER LEAGUE 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="LIVE | IPTV",SKY SPORTS PREMIERE LEAGUE
+http://line.extraott-iptv.com:88/2755789541/1300714776/191686
+#EXTINF:-1 group-title="LIVE | IPTV",SKY SPORTS BUNDESLIGA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#EXTINF:-1 group-title="LIVE | IPTV",PREMIER SPORTS 1
+http://line.extraott-iptv.com:88/2755789541/1300714776/191694
+#EXTINF:-1 group-title="LIVE | IPTV",PREMIER SPORTS 2
+http://line.extraott-iptv.com:88/2755789541/1300714776/189891
+#EXTINF:-1 group-title="LIVE | IPTV",PEACOCK PREMIER LEAGUE
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
+#EXTINF:-1 group-title="LIVE | IPTV",SKY SPORTS BUNDESLIGA
+
+#EXTINF:-1 group-title="LIVE | IPTV",SKYSPORTSPREMIERELEAGUE
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/SkySportsLaliga.png" group-title="SPORTS", SkySportsLaliga
