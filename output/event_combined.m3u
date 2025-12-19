@@ -1,29 +1,30 @@
 #EXTM3U
-# UPDATED: 2025-12-19 23:42:29 WIB
-# MODE: SPORT ONLY | IPTV LIVE PRIORITY
-#EXTINF:-1 group-title="LIVE | SPORT",RTB GO LIVE FHD
+# UPDATED: 2025-12-19 23:51:50 WIB
+# MODE: A+ SPORT ONLY | IPTV LIVE PRIORITY
+# SOURCE: IPTV + API-FOOTBALL
+#EXTINF:-1 group-title="LIVE | SPORT",RTB Go Live FHD
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8
 #EXTINF:-1 group-title="LIVE | SPORT",KBS LIVECAM DOKDO
 http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",9 LIVE CHANNEL
+#EXTINF:-1 group-title="LIVE | SPORT",9-LIVE CHANNEL
 https://wahyu1ptv.pages.dev/ZiggoSport2-HD.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",13 LIVE CHANNEL
+#EXTINF:-1 group-title="LIVE | SPORT",13-LIVE CHANNEL
 https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",20 LIVE CHANNEL
+#EXTINF:-1 group-title="LIVE | SPORT",20-LIVE CHANNEL
 https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/Foxsports2.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",22 LIVE CHANNEL
+#EXTINF:-1 group-title="LIVE | SPORT",22-LIVE CHANNEL
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/united-fight-alliance/master.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",23 LIVE CHANNEL
+#EXTINF:-1 group-title="LIVE | SPORT",23-LIVE CHANNEL
 https://unifi-live01.secureswiftcontent.com/UnifiHD/live11.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",26 LIVE CHANNEL
+#EXTINF:-1 group-title="LIVE | SPORT",26-LIVE CHANNEL
 https://a1xs.vip/2000012
-#EXTINF:-1 group-title="LIVE | SPORT",27 LIVE CHANNEL
+#EXTINF:-1 group-title="LIVE | SPORT",27-LIVE CHANNEL
 https://a1xs.vip/700008
-#EXTINF:-1 group-title="LIVE | SPORT",29 LIVE CHANNEL
+#EXTINF:-1 group-title="LIVE | SPORT",29-LIVE CHANNEL
 http://medotv.nl:8000/RAMBOfoundedoninternetsoIchangedTheFuckinguSERNAMelol123/5caU9cN5jFjZ/127759
-#EXTINF:-1 group-title="LIVE | SPORT",30 LIVE CHANNEL
+#EXTINF:-1 group-title="LIVE | SPORT",30-LIVE CHANNEL
 http://line.stayconnected.pro:80/play/live.php?mac=00:1A:79:39:37:34&stream=1608071&extension=ts&play_token=Yq2ejQhCtj
-#EXTINF:-1 group-title="LIVE | SPORT",RTB GO LIVE
+#EXTINF:-1 group-title="LIVE | SPORT",group-title="🇲🇾|MALAYSIA CHANNEL", RTB GO LIVE
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | SPORT",WATTAR LIVE
 http://htvint.mada.ps:8889/orient/index.m3u8
@@ -31,231 +32,27 @@ http://htvint.mada.ps:8889/orient/index.m3u8
 http://85.11.144.6:6060/play/a08w/index.m3u8
 #EXTINF:-1 group-title="LIVE | SPORT",MTV LIVE
 https://atemecdnbalancer-voe.sysln.id/live/eds/MTVLiveHD/mediampd/MTVLiveHD.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",RCTI  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
 #EXTINF:-1 group-title="LIVE | SPORT",RCTI LIVE SPORTS
 https://liveplus.rctiplus.id/RTMP-IN.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",MNCTV  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",GTV  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",SCTV  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",TRANS TV  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",TRANS TV  LIVE
+#EXTINF:-1 group-title="LIVE | SPORT",TRANS TV (LIVE)
 https://livestream.transtv.co.id/stream/live/ttv.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",TRANS 7  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",ANTV  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",RTV  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/abf3e254818c4608aab8aa109a972203/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",TVONE  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",KOMPAS TV  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/dafcaf8b26064ae7b27702088240b535/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",METRO TV  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/fd4360b1c12c4375848c8f085fd51d41/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",BTV  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/36d936f64cd2482ebc077567dbcf0919/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",TVRI  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/85f6d3da0e064dbe99e7bf1e18bc47c4/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",DAAI TV  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/744044c3985142399fbd466f9f3fd8fa/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",DAAI TV  LIVE
+#EXTINF:-1 group-title="LIVE | SPORT",DAAI TV (LIVE)
 https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",MDTV  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/6941abe8211d4ce8bd13d9b96bdd1630/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",JTV  VS
-https://fta3-cdn-flr.visionplus.id/out/v1/77641c37b4834a9db823ec5137774973/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",JAKTV  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/1f05c642353a4a778d8a544837e1b49c/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",BALI TV  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/44a2d1ab71a740babb233cf14832c59d/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",BANDUNG TV  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f16b53f0d5ed459da208c459049c9bb0/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",HANACARAKA TV  VS
-https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",ORIGINALS  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/e992e986a88346c18a5dcc4fbcdae6b9/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",BUDDY STAR  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/c70975aaa68d47f2a38799e6730a7816/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",UNIQUES  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",SUPERRIX  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/782400332c96440598260730a864bc6f/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",CINEEDGE  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/47c895ca72544fcfa4221c499b555a10/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",GALAXY PREMIUM  VS
-https://live-channel4-cdn.visionplus.id/out/v1/45c0752c6b6b4397b80243ac9fed96fd/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",GALAXY  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/751a0982779f4edd904205eb351e220d/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",STUDIO UNIVERSAL  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/dc63bd198bc44193b570e0567ff5b22c/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",ROCK ACTION  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/010bb28c19b64975b318d3b00f58b18b/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",CELESTIAL MOVIES  VS
-https://fta1-cdn-flr.visionplus.id/out/v1/6bdbe6ce7f034807aba5f09bed048b05/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",TVN MOVIES  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/096d5cf064294e7ea3a7f59ee2899669/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",HITS MOVIES  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/de93893d01e6446daaf052a7fec694fc/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",CCM  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/6bdbe6ce7f034807aba5f09bed048b05/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",Z BIOSKOP  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/81cb1af2ea4d4842a94f1c83957b4cd2/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",IMC  VS
-https://fta3-cdn-flr.visionplus.id/out/v1/65432a4c12ca4a52abf473a0e41d7c7e/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",AXN  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/456143d3b12140e1a872b25f067ddb62/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",ROCK ENTERTAINMENT  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/4cae4723d4d54a7fb71020bd7939a202/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",HITS  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/333a9658ed6a4424a92e319114fb7111/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",KIX  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/7a50d44c0a154dd29880c3728fb49a56/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",LIFETIME  VS
-https://fta1-cdn-flr.visionplus.id/out/v1/1880fc1b32d3449196e80345f6cd5918/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",TVN  VS
-https://fta1-cdn-flr.visionplus.id/out/v1/6dc5412d26ea4e65961c825d866f2a34/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",ONE  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/9ec31bcce34848d69d4771270ff23ab9/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",ANIMAX  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/ab3ef0f0e4144c3c8b7e60f1873a3bcc/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",DRAMA CHANNEL  VS
-https://fta4-cdn-flr.visionplus.id/out/v1/db82aed7a1864935b8b8f960651c3db7/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",ENT  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/a90cb773466446b08595007bab12b920/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",VISION PRIME  VS
-https://d43tg978oium5.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",CELEBRITIES TV  VS
-https://fta3-cdn-flr.visionplus.id/out/v1/8cf72e61626f4361a45c57ce6f2fdad8/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",DENS SHOWBIZ  VS
-https://op-group1-densxvisionhd-1.dens.tv/h/h203/index.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",SPORTSTARS  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",SPORTSTARS 2  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",SPORTSTARS 3  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/9a06560796f441a3981cd5a27c7d917f/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",SPORTSTARS 4  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",SOCCER CHANNEL  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",SPOTV  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",SPOTV 2  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",V  LIVE
+#EXTINF:-1 group-title="LIVE | SPORT",V+ LIVE
 https://mimipipi22.github.io/logo/offline.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",V  LIVE 2
+#EXTINF:-1 group-title="LIVE | SPORT",V+ LIVE 2
 https://mimipipi22.github.io/logo/offline.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",V  LIVE 3
+#EXTINF:-1 group-title="LIVE | SPORT",V+ LIVE 3
 https://mimipipi22.github.io/logo/offline.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",V  LIVE 4
+#EXTINF:-1 group-title="LIVE | SPORT",V+ LIVE 4
 https://mimipipi22.github.io/logo/offline.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",V  LIVE 5
+#EXTINF:-1 group-title="LIVE | SPORT",V+ LIVE 5
 https://mimipipi22.github.io/logo/offline.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",ABC AUSTRALIA  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/6c075b570f99473fa6715bb399bc9571/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",NHK WORLD PREMIUM  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/85b02e02587747058c1940af6aa3d0fa/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",NHK WORLD JAPAN  VS
-https://atemeshield1-voe.sysln.id/live/eds/NHKWorldJapanHD/mediampd/NHKWorldJapanHD.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",NHK WORLD JAPAN  VS
-https://fta1-cdn-flr.visionplus.id/out/v1/8decf3562fe943e88872ef868d6fb6a5/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",CCTV4  VS
-https://atemecdnbalancer-voe.sysln.id/live/eds/CCTV4/mediampd/CCTV4.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",XING KONG  VS
-https://fta3-cdn-flr.visionplus.id/out/v1/a1dc0cb4b4f14a3094088b16366bbeed/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",DRAGON TV  VS
-https://fta4-cdn-flr.visionplus.id/out/v1/2c21b0f4792a42a09a7ed5fee3f010c0/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",HUNAN TV  VS
-https://fta2-cdn-flr.visionplus.id/out/v1/63e4d9f383cb4ca59317c7be9407e228/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",JIANGSU TV  VS
-https://fta4-cdn-flr.visionplus.id/out/v1/ccc51c0317284496b6cde9f7bd670b80/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",ANHUI TV  VS
-https://fta2-cdn-flr.visionplus.id/out/v1/39a34211e80145678ce1616b52368f99/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",FOX NEWS  VS
-https://fta3-cdn-flr.visionplus.id/out/v1/444f3d7b909d470f9f5a55c781a79728/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",BBC NEWS  VS
-https://fta1-cdn-flr.visionplus.id/out/v1/7d38a4525dfa42b08a94c22c173061da/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",FRANCE24  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/498b57e974a843d28ea1a393603e5318/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",TRT WORLD  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/be2bcc4b75e348e5b331fc5f99aa3daf/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",EURONEWS  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/23af54d57d8a447dbf0621ec71d89e7e/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",CNA  VS
-https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",CGTN  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/c3e6d7241fbf404082087774d7221635/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",CNBC ASIA  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/e8d3f81aae4b46fbacf545140b86f2c4/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",BLOOMBERG  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/3212c95b42154b6284671f28cc2c943c/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",IDX  VS
-https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",BBC EARTH  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/4e5b2a283adf462c8b6b55b2ef059fac/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",CGTN DOC  VS
-https://d1ebgtxjo246w3.cloudfront.net/out/v1/9757e131659a4ab8ba08d448c4a3779e/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",CRIME INVESTIGATION  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/384f26c1c3b74ce09fa60bed24719b79/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",OUTDOOR CHANNEL  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/c169ca1dcbe249c5bf233aabc3db4a4f/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",HISTORY  VS
-https://fta3-cdn-flr.visionplus.id/out/v1/936ed6f98448469b924a0ce456586651/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",LOVE NATURE  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/15500e8f0dc44058ba0431d39a8fed57/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",KIDS TV  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9041826689ae4f9c9619576d411fa989/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",DREAMWORKS  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/7518da9041c4414d86f173daa719152e/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",NICK  VS
-https://d2tjypxxy769fn.cloudfront.net/out/v1/3fe6d9eb97ed455c942eb8d3d1c2c2e8/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",NICK JR  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/27163af9499b4bcca2da96677b158efe/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",MOONBUG  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/198f7febb48c4c909d62977d88c195b0/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",CBEEBIES BBC  VS
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2a5668fb3b9f4e34ab7c02cdc6ef56db/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",ZOO MOO  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/8554b3cb938e44038093df2d65080932/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",MUSIC TV  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/c20d75deb06f401aa89681a9e5054de7/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",MTV LIVE  FMX
+#EXTINF:-1 group-title="LIVE | SPORT",MTV LIVE (FMX)
 https://atemecdnbalancer-voe.sysln.id/live/eds/MTVLiveHD/mediampd/MTVLiveHD.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",MTV LIVE  IND
+#EXTINF:-1 group-title="LIVE | SPORT",MTV LIVE (IND)
 https://cdn10jtedge.indihometv.com/atm/DASH/MTV_LIVE/manifest.
-#EXTINF:-1 group-title="LIVE | SPORT",TV9  VS
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9688c51b534d4165bf4b0b328e53b980/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",TV9  VS
-https://cdn10jtedge.indihometv.com/atm/DASH/tv9/manifest.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",TVMU  VS
-https://fta1-cdn-flr.visionplus.id/out/v1/980cfe26ff00479c97eb8057a1129c7f/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",MUSLIM TV  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/a8f14e34c687494fb1454b88742db085/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",AL QURAN KAREEM  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/099aba2d60b44679915cd56f303b975d/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",EWTN  VS
-https://fta3-cdn-flr.visionplus.id/out/v1/96e20532df53449ab254f765073ec866/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",LIFE  VS
-https://fta2-cdn-flr.visionplus.id/out/v1/a61250017f23459692bf28a6841cf087/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",REFORMED 21  VS
-https://fta4-cdn-flr.visionplus.id/out/v1/623c771560e443f2920ea5be99016b7e/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",GLOBAL TREKKER  VS
-https://fta2-cdn-flr.visionplus.id/out/v1/99b07f39f4964b7cb9bfc092b51af734/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",FOOD TRAVEL  VS
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/77d7eac1b90247ac9aa745bd2eb47fa8/index.mpd
-#EXTINF:-1 group-title="LIVE | SPORT",DENS PLAY  VS
-https://op-group1-densxvisionhd-1.dens.tv/h/h225/index.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",DENSFOOD CHANNEL  VS
-https://op-group1-densxvisionhd-1.dens.tv/h/h248/index.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",RTVSSPORT HD
-http://185.188.188.237:5000/live/rtvssport/playlist.m3u8
-#EXTINF:-1 group-title="LIVE | SPORT",GO  ABC NEWS LIVE
+#EXTINF:-1 group-title="LIVE | SPORT",GO| ABC NEWS LIVE
 http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931183&extension=ts&play_token=AeImX57kV3
-#EXTINF:-1 group-title="LIVE | SPORT",GO  JAMIE OLIVER
+#EXTINF:-1 group-title="LIVE | SPORT",GO| JAMIE OLIVER
 http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931034&extension=ts&play_token=m5UE1EQmky
