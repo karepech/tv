@@ -1,7 +1,7 @@
-name: Auto Live IPTV (MODE A)
+name: Auto Live IPTV (API-Football)
 
 on:
-  # Trigger jika script / config berubah
+  # Jalan otomatis kalau ada perubahan script / config
   push:
     paths:
       - "**/*.py"
@@ -9,21 +9,22 @@ on:
       - "playlist_sources.txt"
       - ".github/workflows/live.yml"
 
-  # Trigger otomatis tiap 5 menit
+  # Jalan otomatis tiap 5 menit
   schedule:
     - cron: "*/5 * * * *"
 
-  # Trigger manual
+  # Manual trigger
   workflow_dispatch:
 
 jobs:
   live:
     runs-on: ubuntu-latest
+
     permissions:
-      contents: write
+      contents: write   # WAJIB agar bisa commit & push
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -31,20 +32,24 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install deps
-        run: pip install requests
+      - name: Install dependencies
+        run: |
+          pip install requests
 
-      - name: Generate playlist
-        run: python generate_live.py
+      - name: Generate Live Playlist
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: |
+          python generate_live.py
 
-      - name: Commit if changed
+      - name: Commit & Push (only if changed)
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "livebot"
             git config user.email "livebot@github.com"
             git add output/event_combined.m3u output/schedule.json
-            git commit -m "auto update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "auto update live $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           else
-            echo "No changes detected"
+            echo "No changes detected, skip commit."
           fi
