@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2025-12-20 18:42:16 WIB
+# UPDATED: 2025-12-20 18:54:49 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Persebaya Surabaya vs Borneo
@@ -18,6 +18,14 @@ https://shorter.me/5LrNV
 https://shorter.me/mROE6
 #EXTINF:-1 group-title="LIVE | EVENT",21:30 WIB Wolfsburg vs Freiburg
 https://shorter.me/7JFzd
+#EXTINF:-1 group-title="LIVE | EVENT",22:30 WIB Heracles Almelo VS SC Heerenveen
+https://shorter.me/CoS8g
+#EXTINF:-1 group-title="LIVE | EVENT",00:45 WIB Excelsior vs PEC Zwolle
+https://shorter.me/pXCtl
+#EXTINF:-1 group-title="LIVE | EVENT",02:00 WIB NEC vs Ajax
+https://shorter.me/sSPbm
+#EXTINF:-1 group-title="LIVE | EVENT",03:00 WIB NAC Breda vs Telstar
+https://shorter.me/SMIRw
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV 2
