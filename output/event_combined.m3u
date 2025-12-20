@@ -1,7 +1,11 @@
 #EXTM3U
-# UPDATED: 2025-12-20 14:48:12 WIB
+# UPDATED: 2025-12-20 15:00:29 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
+#EXTINF:-1 group-title="LIVE | EVENT",15:30 WIB Dewa United vs Persis Solo
+https://shorter.me/7fKsL
+#EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Persebaya Surabaya vs Borneo
+https://shorter.me/6Q-BM
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV 2
