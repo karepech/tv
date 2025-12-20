@@ -1,21 +1,11 @@
 #EXTM3U
-# UPDATED: 2025-12-21 00:12:15 WIB
+# UPDATED: 2025-12-21 00:32:03 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",22:00 WIB AFC Bournemouth vs Burnley
-https://shorter.me/j02or
-#EXTINF:-1 group-title="LIVE | EVENT",22:00 WIB Wolverhampton Wanderers vs Brentford
-https://shorter.me/K9JsG
-#EXTINF:-1 group-title="LIVE | EVENT",22:00 WIB Brighton & Hove Albion vs Sunderland
-https://shorter.me/Wm4x8
-#EXTINF:-1 group-title="LIVE | EVENT",22:00 WIB Manchester City vs West Ham United
-https://shorter.me/LDUFL
 #EXTINF:-1 group-title="LIVE | EVENT",03:00 WIB Everton vs Arsenal
 https://shorter.me/5LrNV
 #EXTINF:-1 group-title="LIVE | EVENT",03:00 WIB Leeds United vs Crystal Palace
 https://shorter.me/mROE6
-#EXTINF:-1 group-title="LIVE | EVENT",21:30 WIB Wolfsburg vs Freiburg
-https://shorter.me/7JFzd
 #EXTINF:-1 group-title="LIVE | EVENT",03:00 WIB FONTENAY VENDEE FOOT VS Paris Saint Germain
 https://shorter.me/Lp3Vj
 #EXTINF:-1 group-title="LIVE | EVENT",22:30 WIB Heracles Almelo VS SC Heerenveen
