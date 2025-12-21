@@ -1,9 +1,7 @@
 #EXTM3U
-# UPDATED: 2025-12-22 02:44:20 WIB
+# UPDATED: 2025-12-22 02:56:41 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",03:00 WIB Lyon vs Saint-cyr Collonges
-https://shorter.me/RQm3P
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV 2
