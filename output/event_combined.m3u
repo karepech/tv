@@ -1,11 +1,7 @@
 #EXTM3U
-# UPDATED: 2025-12-21 21:28:39 WIB
+# UPDATED: 2025-12-21 21:44:58 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Persib vs Bhayangkara
-http://filex.tv:8080//live/shafiq02/1234/302264.ts
-#EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Persib vs Bhayangkara
-https://shorter.me/mviHP
 #EXTINF:-1 group-title="LIVE | EVENT",20:45 WIB Auxerre vs Monaco
 https://shorter.me/D8YLC
 #EXTINF:-1 group-title="LIVE | EVENT",20:45 WIB Bourg en Bresse vs Olympique Marseille
