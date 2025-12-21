@@ -1,23 +1,9 @@
 #EXTM3U
-# UPDATED: 2025-12-21 22:55:21 WIB
+# UPDATED: 2025-12-21 23:30:06 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",20:45 WIB Auxerre vs Monaco
-https://shorter.me/D8YLC
-#EXTINF:-1 group-title="LIVE | EVENT",20:45 WIB Bourg en Bresse vs Olympique Marseille
-https://shorter.me/Oorgp
-#EXTINF:-1 group-title="LIVE | EVENT",23:30 WIB Rennes vs Les Sables
-https://shorter.me/Qp1EQ
 #EXTINF:-1 group-title="LIVE | EVENT",03:00 WIB Lyon vs Saint-cyr Collonges
 https://shorter.me/RQm3P
-#EXTINF:-1 group-title="LIVE | EVENT",20:30 WIB Feyenoord vs Twente
-https://shorter.me/fbMjy
-#EXTINF:-1 group-title="LIVE | EVENT",20:30 WIB Go Ahead Eagles vs Groningen
-https://shorter.me/p8BiI
-#EXTINF:-1 group-title="LIVE | EVENT",22:45 WIB Fortuna Sittard vs AZ
-https://shorter.me/ERRnt
-#EXTINF:-1 group-title="LIVE | EVENT",22:45 WIB Volendam vs Sparta Rotterdam
-https://shorter.me/R9b3l
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV 2
