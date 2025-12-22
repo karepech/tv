@@ -1,13 +1,7 @@
 #EXTM3U
-# UPDATED: 2025-12-22 20:57:44 WIB
+# UPDATED: 2025-12-22 21:30:37 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Semen Padang vs Persija
-http://filex.tv:8080//live/shafiq02/1234/302264.ts
-#EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Semen Padang vs Persija
-https://shorter.me/nDk8p
-#EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Semen Padang vs Persija
-https://shorter.me/P5XII
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV 2
