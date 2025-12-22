@@ -1,11 +1,7 @@
 #EXTM3U
-# UPDATED: 2025-12-22 18:47:32 WIB
+# UPDATED: 2025-12-22 18:59:39 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",15:30 WIB PSBS Biak Numfor vs Bali United
-http://filex.tv:8080//live/shafiq02/1234/302264.ts
-#EXTINF:-1 group-title="LIVE | EVENT",15:30 WIB PSBS Biak Numfor vs Bali United
-https://shorter.me/pW9Do
 #EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Semen Padang vs Persija
 http://filex.tv:8080//live/shafiq02/1234/302264.ts
 #EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Semen Padang vs Persija
