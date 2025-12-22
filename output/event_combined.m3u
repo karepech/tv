@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2025-12-22 14:03:17 WIB
+# UPDATED: 2025-12-22 14:33:28 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",15:30 WIB PSBS Biak Numfor vs Bali United
@@ -24,6 +24,8 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/ind
 https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN RINGSIDE
 https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBA TV
+http://line.trx-ott.com/play/live.php?mac=00:1a:79:bc:D3:35&stream=1955135&extension=ts
 #EXTINF:-1 group-title="LIVE | EVENT",CBS Champions
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65ea8b928145cb0008509426/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
 #EXTINF:-1 group-title="LIVE | EVENT",PEGADAIAN CHAMPIONSHIP⁽ˢᵉʳᵛᵉʳ ³⁾
@@ -212,30 +214,6 @@ https://a1xs.vip/1100031
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",BBC LIFESTYLE (SKYGO)
 https://cdn4.skygo.mn/live/disk1/BBC_lifestyle/HLSv3-FTA/BBC_lifestyle.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",GO| BEIN SPORTS XTRA
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931159&extension=ts&play_token=oAExmk4ra9
-#EXTINF:-1 group-title="LIVE | EVENT",GO| ESPN
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931094&extension=ts&play_token=wCAcyRME0d
-#EXTINF:-1 group-title="LIVE | EVENT",GO| ESPN2
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931093&extension=ts&play_token=XUwDNeMBeE
-#EXTINF:-1 group-title="LIVE | EVENT",GO| ESPN8: THE OCHO
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931092&extension=ts&play_token=Rgzooiu5w9
-#EXTINF:-1 group-title="LIVE | EVENT",GO| ESPNEWS
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931091&extension=ts&play_token=sjVqqdfk23
-#EXTINF:-1 group-title="LIVE | EVENT",GO| ESPNU
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931090&extension=ts&play_token=pCE2KK28UE
-#EXTINF:-1 group-title="LIVE | EVENT",GO| FANDUEL TV
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931085&extension=ts&play_token=lkv0BTFIE8
-#EXTINF:-1 group-title="LIVE | EVENT",GO| FOX SPORTS 1
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931078&extension=ts&play_token=W16C0K1K5x
-#EXTINF:-1 group-title="LIVE | EVENT",GO| FOX SPORTS 2
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931077&extension=ts&play_token=lvdjk16WM8
-#EXTINF:-1 group-title="LIVE | EVENT",GO| FUEL TV
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1931073&extension=ts&play_token=NfILQcfFMf
-#EXTINF:-1 group-title="LIVE | EVENT",GO| NBA TV
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1930995&extension=ts&play_token=R5xj6yD5GT
-#EXTINF:-1 group-title="LIVE | EVENT",GO| NFL NETWORK
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1930988&extension=ts&play_token=bLsG8OHplp
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
 https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN HD
