@@ -1,9 +1,7 @@
 #EXTM3U
-# UPDATED: 2025-12-23 18:49:26 WIB
+# UPDATED: 2025-12-23 19:22:52 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Persijap vs PSIM Yogyakarta
-http://filex.tv:8080//live/shafiq02/1234/302264.ts
 #EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Persijap vs PSIM Yogyakarta
 https://shorter.me/Tskua
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV
