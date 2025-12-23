@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2025-12-23 11:26:37 WIB
+# UPDATED: 2025-12-23 11:58:29 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV
@@ -189,17 +189,71 @@ https://a1xs.vip/700006
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 507 FHD
 https://a1xs.vip/700007
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 1 FHD
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1032529&extension=ts&play_token=VA7zmv4IHy
+http://vocotv.pro:80/robins/robins/288375
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 2 FHD
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1032528&extension=ts&play_token=1xUh8sTUZZ
+http://vocotv.pro:80/robins/robins/288374
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 3 FHD
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1032527&extension=ts&play_token=RKs3fsIZAf
+http://vocotv.pro:80/robins/robins/288373
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 4 FHD
-http://tr.simotvgold.com:80/play/live.php?mac=00:1A:79:51:77:37&stream=1032526&extension=ts&play_token=DxvC71v61P
-#EXTINF:-1 group-title="LIVE | EVENT",Astro Premier League
-https://a1xs.vip/1100030
-#EXTINF:-1 group-title="LIVE | EVENT",Astro Premier League 2
-https://a1xs.vip/1100031
+http://vocotv.pro:80/robins/robins/288372
+#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 1
+http://vocotv.pro:80/robins/robins/715574
+#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 2
+http://vocotv.pro:80/robins/robins/715573
+#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 3
+http://vocotv.pro:80/robins/robins/715572
+#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 4
+http://vocotv.pro:80/robins/robins/715571
+#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 5
+http://vocotv.pro:80/robins/robins/715570
+#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 6
+http://vocotv.pro:80/robins/robins/715569
+#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 7
+http://vocotv.pro:80/robins/robins/715568
+#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 8
+http://vocotv.pro:80/robins/robins/715567
+#EXTINF:-1 group-title="LIVE | EVENT",SG| BEIN SPORTS HD
+http://line.senpay23.com:80/play/live.php?mac=00:1A:79:AD:3B:D0&extension=ts&stream=941569
+#EXTINF:-1 group-title="LIVE | EVENT",SG| BEIN SPORTS 2 HD
+http://line.senpay23.com:80/play/live.php?mac=00:1A:79:AD:3B:D0&extension=ts&stream=941568
+#EXTINF:-1 group-title="LIVE | EVENT",SG| BEIN SPORTS 3 HD
+http://line.senpay23.com:80/play/live.php?mac=00:1A:79:AD:3B:D0&extension=ts&stream=941567
+#EXTINF:-1 group-title="LIVE | EVENT",SG| BEIN SPORTS 4 HD
+http://line.senpay23.com:80/play/live.php?mac=00:1A:79:AD:3B:D0&extension=ts&stream=941566
+#EXTINF:-1 group-title="LIVE | EVENT",SG| BEIN SPORTS 5 HD
+http://line.senpay23.com:80/play/live.php?mac=00:1A:79:AD:3B:D0&extension=ts&stream=941565
+#EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 1 FHD UK
+http://vocotv.pro:80/robins/robins/709352
+#EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 2 FHD UK
+http://vocotv.pro:80/robins/robins/709350
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Action FHD UK
+http://vocotv.pro:80/robins/robins/709403
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Arena FHD UK
+http://vocotv.pro:80/robins/robins/709401
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Cricket FHD UK
+http://vocotv.pro:80/robins/robins/709399
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Darts FHD UK
+http://vocotv.pro:80/robins/robins/709397
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports F1 FHD UK
+http://vocotv.pro:80/robins/robins/709396
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Football FHD UK
+http://vocotv.pro:80/robins/robins/709394
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Golf FHD UK
+http://vocotv.pro:80/robins/robins/709391
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Main Event FHD UK
+http://vocotv.pro:80/robins/robins/709389
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Mix FHD UK
+http://vocotv.pro:80/robins/robins/709387
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports News FHD UK
+http://vocotv.pro:80/robins/robins/709385
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports NFL HD UK
+http://vocotv.pro:80/robins/robins/709383
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Plus (HEVC) UK
+http://vocotv.pro:80/robins/robins/709392
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Premier League FHD UK
+http://vocotv.pro:80/robins/robins/709382
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Racing FHD UK
+http://vocotv.pro:80/robins/robins/709380
 #EXTINF:-1 group-title="LIVE | EVENT",SKY NEWS
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",BBC LIFESTYLE (SKYGO)
