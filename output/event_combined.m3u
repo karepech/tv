@@ -1,7 +1,9 @@
 #EXTM3U
-# UPDATED: 2025-12-24 12:50:03 WIB
+# UPDATED: 2025-12-24 13:21:07 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
+#EXTINF:-1 group-title="LIVE | EVENT",23:00 WIB Al Ahli vs Andijan
+https://shorter.me/FqgBa
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV 2
