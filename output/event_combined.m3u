@@ -1,7 +1,23 @@
 #EXTM3U
-# UPDATED: 2025-12-24 11:23:05 WIB
+# UPDATED: 2025-12-24 11:55:01 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
+#EXTINF:-1 group-title="LIVE | EVENT",SpoTV
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",SpoTV 2
+https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports ID 4
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports ID 5
+https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",Peacock Premier League
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN RINGSIDE
+https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBA TV
+http://line.trx-ott.com/play/live.php?mac=00:1a:79:bc:D3:35&stream=1955135&extension=ts
+#EXTINF:-1 group-title="LIVE | EVENT",CBS Champions
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65ea8b928145cb0008509426/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
 #EXTINF:-1 group-title="LIVE | EVENT",PEGADAIAN CHAMPIONSHIP⁽ˢᵉʳᵛᵉʳ ³⁾
 https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/BRISuper1.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",CHAMPIONS TV
@@ -158,6 +174,8 @@ http://156.239.254.7:5555/smt.php?id=tiankongmain
 http://156.239.254.7:5555/smt.php?id=tiankongracing
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS MIX
 http://156.239.254.7:5555/smt.php?id=tiankongmix
+#EXTINF:-1 group-title="LIVE | EVENT",SpoTv Now
+https://slive.mana2.my/SpotvNow/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 501 FHD
 https://a1xs.vip/700001
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 502 FHD
