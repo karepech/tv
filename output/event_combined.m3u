@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2025-12-24 14:58:32 WIB
+# UPDATED: 2025-12-24 15:40:06 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",23:00 WIB Al Ahli vs Andijan
@@ -120,32 +120,6 @@ http://202.169.224.202:8800/udp/239.9.1.9:1234
 http://202.169.224.202:8800/udp/239.9.1.10:1234
 #EXTINF:-1 group-title="LIVE | EVENT",CHAMPIONS TV 3
 http://202.169.224.202:8800/udp/239.9.1.11:1234
-#EXTINF:-1 group-title="LIVE | EVENT",SPOTV (FMX)
-https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTVHD/mediampd/SPOTVHD.mpd
-#EXTINF:-1 group-title="LIVE | EVENT",SPOTV (VS+)
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
-#EXTINF:-1 group-title="LIVE | EVENT",SPOTV (🇵🇭)
-https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
-#EXTINF:-1 group-title="LIVE | EVENT",SPOTV (TVOD)
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000160/1024.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SPOTV 2 (VS+)
-https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
-#EXTINF:-1 group-title="LIVE | EVENT",SPOTV 2 (🇵🇭)
-https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
-#EXTINF:-1 group-title="LIVE | EVENT",SPOTV 2 (TVOD)
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000138/1024.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 2 (TVOD)
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000148/1024.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 1
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 2
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 3
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 4
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 5
-https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",PREMIER LEAGUE TV 🇺🇸
 https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",NFL NETWORK 🇺🇸
@@ -260,8 +234,6 @@ http://vocotv.pro:80/robins/robins/709382
 http://vocotv.pro:80/robins/robins/709380
 #EXTINF:-1 group-title="LIVE | EVENT",SKY NEWS
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BBC LIFESTYLE (SKYGO)
-https://cdn4.skygo.mn/live/disk1/BBC_lifestyle/HLSv3-FTA/BBC_lifestyle.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
 https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN HD
