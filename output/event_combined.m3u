@@ -1,7 +1,11 @@
 #EXTM3U
-# UPDATED: 2025-12-27 13:56:30 WIB
+# UPDATED: 2025-12-27 14:26:13 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
+#EXTINF:-1 group-title="LIVE | EVENT",15:30 WIB Persik Kediri vs Persis Solo
+https://shorter.me/oNbSn
+#EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Persib vs PSM
+https://shorter.me/GkziE
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV 2
