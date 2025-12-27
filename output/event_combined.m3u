@@ -1,13 +1,7 @@
 #EXTM3U
-# UPDATED: 2025-12-27 21:08:02 WIB
+# UPDATED: 2025-12-27 21:32:58 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Persib vs PSM
-https://shorter.me/GkziE
-#EXTINF:-1 group-title="LIVE | EVENT",22:00 WIB Arsenal vs Brighton & Hove Albion
-https://drive.google.com/uc?export=download&id=117qXM3z-86sXISJbsHlZjiw137nd4qhB&usp
-#EXTINF:-1 group-title="LIVE | EVENT",22:00 WIB Liverpool vs Wolverhampton Wanderers
-https://drive.google.com/uc?export=download&id=117qXM3z-86sXISJbsHlZjiw137nd4qhB&usp
 #EXTINF:-1 group-title="LIVE | EVENT",B1 Premier League
 https://wahyu1ptv.pages.dev/SuperSport1-HD.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",B1 Premier League
