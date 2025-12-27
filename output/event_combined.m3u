@@ -1,9 +1,7 @@
 #EXTM3U
-# UPDATED: 2025-12-27 17:40:02 WIB
+# UPDATED: 2025-12-27 17:53:04 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",15:30 WIB Persik Kediri vs Persis Solo
-https://shorter.me/oNbSn
 #EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Persib vs PSM
 https://shorter.me/GkziE
 #EXTINF:-1 group-title="LIVE | EVENT",22:00 WIB Arsenal vs Brighton & Hove Albion
