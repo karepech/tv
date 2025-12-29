@@ -1,11 +1,7 @@
 #EXTM3U
-# UPDATED: 2025-12-29 18:18:56 WIB
+# UPDATED: 2025-12-29 18:37:46 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",15:30 WIB Bali United vs Dewa United
-https://play.live8818.com/nami/sd-6MuTNFj6bmuS25S9AT.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",15:30 WIB PSIM Yogyakarta vs PSBS Biak Numfor
-https://play.live8818.com/nami/sd-6MuTNFjrG2ewvg8Luq.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Persija vs Bhayangkara
 https://shorter.me/5sgty
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV
