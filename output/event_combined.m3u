@@ -1,12 +1,14 @@
 #EXTM3U
-# UPDATED: 2025-12-31 02:55:31 WIB
+# UPDATED: 2025-12-31 03:29:50 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",02:30 WIB Chelsea vs AFC Bournemouth
 https://play.live8818.com/nami/hd-en-6MuT7JyjrY7erWbxGj.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",B1 Premier League 2
+#EXTINF:-1 group-title="LIVE | EVENT",03:15 WIB Manchester United vs Wolverhampton Wanderers
+https://play.live8818.com/nami/hd-en-6MuT7Jyjr7wNHEWsas.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",B1 Premier League 1
 https://shorter.me/bI3Bh
-#EXTINF:-1 group-title="LIVE | EVENT",B1 Premier League 4
+#EXTINF:-1 group-title="LIVE | EVENT",B1 Premier League 3
 https://shorter.me/MN5Sl
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTV
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
