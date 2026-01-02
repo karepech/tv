@@ -1,9 +1,7 @@
 #EXTM3U
-# UPDATED: 2026-01-03 02:20:59 WIB
+# UPDATED: 2026-01-03 02:36:04 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",02:45 WIB Toulouse vs Lens
-https://shorter.me/rNb9E
 #EXTINF:-1 group-title="LIVE | EVENT",B1 Premier League 1
 https://shorter.me/rt1lO
 #EXTINF:-1 group-title="LIVE | EVENT",B1 Premier League 2
