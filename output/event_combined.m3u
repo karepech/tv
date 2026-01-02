@@ -1,11 +1,9 @@
 #EXTM3U
-# UPDATED: 2026-01-02 12:55:38 WIB
+# UPDATED: 2026-01-02 13:42:11 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",03:00 WIB Sunderland vs Manchester City
-https://pullsgp.yyzb456.top/live/stream-506605_lhd.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",03:00 WIB Brentford vs Tottenham Hotspur
-https://pullsgp.yyzb456.top/live/stream-453781_lhd.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",02:45 WIB Toulouse vs Lens
+https://shorter.me/rNb9E
 #EXTINF:-1 group-title="LIVE | EVENT",B1 Premier League 1
 https://shorter.me/rt1lO
 #EXTINF:-1 group-title="LIVE | EVENT",B1 Premier League 2
