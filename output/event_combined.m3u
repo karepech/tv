@@ -1,9 +1,7 @@
 #EXTM3U
-# UPDATED: 2026-01-04 02:51:18 WIB
+# UPDATED: 2026-01-04 03:16:55 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",03:05 WIB Lille vs Rennes
-https://shorter.me/z1u_H
 #EXTINF:-1 group-title="LIVE | EVENT",002 Premier League 1
 https://shorter.me/rt1lO
 #EXTINF:-1 group-title="LIVE | EVENT",002 Premier League 2
