@@ -1,7 +1,11 @@
 #EXTM3U
-# UPDATED: 2026-01-04 13:29:59 WIB
+# UPDATED: 2026-01-04 13:57:02 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
+#EXTINF:-1 group-title="LIVE | EVENT",13:30 WIB Malut United vs PSBS Biak Numfor
+https://shorter.me/LSns-
+#EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Bali United vs Arema
+https://shorter.me/dR7Fn
 #EXTINF:-1 group-title="LIVE | EVENT",002 Premier League 1
 https://shorter.me/rt1lO
 #EXTINF:-1 group-title="LIVE | EVENT",002 Premier League 2
