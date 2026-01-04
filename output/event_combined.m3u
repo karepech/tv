@@ -1,9 +1,7 @@
 #EXTM3U
-# UPDATED: 2026-01-05 01:57:33 WIB
+# UPDATED: 2026-01-05 02:23:05 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
-#EXTINF:-1 group-title="LIVE | EVENT",00:00 WIB Verona vs Torino
-https://stitcher.pluto.tv/stitch/hls/channel/63a0e33a45264d000850ed7e/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=cb5874fc-6948-11ef-b8e3-ea3db3d97a96
 #EXTINF:-1 group-title="LIVE | EVENT",002 Premier League 1
 https://shorter.me/rt1lO
 #EXTINF:-1 group-title="LIVE | EVENT",002 Premier League 2
