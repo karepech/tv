@@ -1,7 +1,13 @@
 #EXTM3U
-# UPDATED: 2026-01-05 12:24:43 WIB
+# UPDATED: 2026-01-05 12:57:34 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
+#EXTINF:-1 group-title="LIVE | EVENT",15:30 WIB Bhayangkara vs Dewa United
+https://drive.google.com/uc?export=download&id=117qXM3z-86sXISJbsHlZjiw137nd4qhB&usp
+#EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Persik Kediri vs Persib
+https://drive.google.com/uc?export=download&id=117qXM3z-86sXISJbsHlZjiw137nd4qhB&usp
+#EXTINF:-1 group-title="LIVE | EVENT",19:00 WIB Persik Kediri vs Persib
+https://shorter.me/9ghKw
 #EXTINF:-1 group-title="LIVE | EVENT",002 Premier League 1
 https://shorter.me/rt1lO
 #EXTINF:-1 group-title="LIVE | EVENT",002 Premier League 2
