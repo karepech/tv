@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-01-05 15:23:22 WIB
+# UPDATED: 2026-01-05 15:56:17 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",PEGADAIAN CHAMPIONSHIP⁽ˢᵉʳᵛᵉʳ ³⁾
@@ -119,19 +119,25 @@ http://live.catvod.com/live.php?id=Assp1
 #EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE 2
 http://live.catvod.com/live.php?id=Assp2
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS F1
-http://live.catvod.com/live.php?id=tiankongf1
+http://178.33.239.54:8080/508/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS CRICKET
-http://live.catvod.com/live.php?id=tiankongcricket
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9258/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS EPL
-http://live.catvod.com/live.php?id=tiankongepl
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9334/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS GOLF
-https://mimipipi22.github.io/logo/offline.m3u8
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9293/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS MAIN
-http://live.catvod.com/live.php?id=tiankongmain
-#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS RACING
-http://live.catvod.com/live.php?id=tiankongracing
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/7337/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS MIX
-http://live.catvod.com/live.php?id=tiankongmix
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9310/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS NEWS
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9314/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS TENNIS
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6546/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS FOOTBALL
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9289/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY ACTION
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9155/index.m3u
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTv Now
 https://slive.mana2.my/SpotvNow/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",Dazn Ringside
@@ -216,6 +222,56 @@ http://vocotv.pro:80/robins/robins/709392
 http://vocotv.pro:80/robins/robins/709382
 #EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Racing FHD UK
 http://vocotv.pro:80/robins/robins/709380
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 1 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebs1.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 2 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebs2.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 2 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebs2.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 3 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebs3.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 3 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebs3.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 4 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 4 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 5 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebs5.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 5 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebs5.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports Max 1 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports Max 1 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports Max 2 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebsm2.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports Max 2 🇹🇷
+https://andro.2385437.xyz/checklist/androstreamlivebsm2.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN Deportes
+https://daffodil.shadow-ran.online/deportes.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport Main
+https://daffodil.shadow-ran.online/main.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBA
+https://daffodil.shadow-ran.online/nba.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBA 2
+https://daffodil.shadow-ran.online/nba2.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBA 3
+https://601.shadow-ran.online/nba3.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBA 4
+https://601.shadow-ran.online/nba4.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBA 5
+https://601.shadow-ran.online/nba5.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBA 6
+https://daffodil.shadow-ran.online/nba6.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBA 7
+https://daffodil.shadow-ran.online/nba7.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBA 7 Alt
+https://daffodil.shadow-ran.online/nba7alt.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBA 8
+https://601.shadow-ran.online/nba8.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NFL 10
+https://601.shadow-ran.online/nfl10.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY NEWS
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
