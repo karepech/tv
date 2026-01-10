@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-01-10 16:19:44 WIB
+# UPDATED: 2026-01-10 16:38:47 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",PEGADAIAN CHAMPIONSHIP⁽ˢᵉʳᵛᵉʳ ³⁾
@@ -115,9 +115,9 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 #EXTINF:-1 group-title="LIVE | EVENT",ESPN 4 🇨🇴
 https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_PLUS_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
 #EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE
-https://live.catvod.com/live.php?id=Assp1
+http://iptvpro.pw:35451//live/加QQ群1078393318领福利/66661111/694.ts
 #EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE 2
-https://live.catvod.com/live.php?id=Assp2
+http://iptvpro.pw:35451//live/加QQ群1078393318领福利/66661111/695.ts
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS F1
 http://178.33.239.54:8080/508/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS CRICKET
@@ -156,122 +156,6 @@ https://a1xs.vip/700005
 https://a1xs.vip/700006
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 507 FHD
 https://a1xs.vip/700007
-#EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 1 FHD
-http://vocotv.pro:80/robins/robins/288375
-#EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 2 FHD
-http://vocotv.pro:80/robins/robins/288374
-#EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 3 FHD
-http://vocotv.pro:80/robins/robins/288373
-#EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 4 FHD
-http://vocotv.pro:80/robins/robins/288372
-#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 1
-http://vocotv.pro:80/robins/robins/715574
-#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 2
-http://vocotv.pro:80/robins/robins/715573
-#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 3
-http://vocotv.pro:80/robins/robins/715572
-#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 4
-http://vocotv.pro:80/robins/robins/715571
-#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 5
-http://vocotv.pro:80/robins/robins/715570
-#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 6
-http://vocotv.pro:80/robins/robins/715569
-#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 7
-http://vocotv.pro:80/robins/robins/715568
-#EXTINF:-1 group-title="LIVE | EVENT",Now HK Premier Sports 8
-http://vocotv.pro:80/robins/robins/715567
-#EXTINF:-1 group-title="LIVE | EVENT",SG| BEIN SPORTS HD
-http://line.senpay23.com:80/play/live.php?mac=00:1A:79:AD:3B:D0&extension=ts&stream=941569
-#EXTINF:-1 group-title="LIVE | EVENT",SG| BEIN SPORTS 2 HD
-http://line.senpay23.com:80/play/live.php?mac=00:1A:79:AD:3B:D0&extension=ts&stream=941568
-#EXTINF:-1 group-title="LIVE | EVENT",SG| BEIN SPORTS 3 HD
-http://line.senpay23.com:80/play/live.php?mac=00:1A:79:AD:3B:D0&extension=ts&stream=941567
-#EXTINF:-1 group-title="LIVE | EVENT",SG| BEIN SPORTS 4 HD
-http://line.senpay23.com:80/play/live.php?mac=00:1A:79:AD:3B:D0&extension=ts&stream=941566
-#EXTINF:-1 group-title="LIVE | EVENT",SG| BEIN SPORTS 5 HD
-http://line.senpay23.com:80/play/live.php?mac=00:1A:79:AD:3B:D0&extension=ts&stream=941565
-#EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 1 FHD UK
-http://vocotv.pro:80/robins/robins/709352
-#EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 2 FHD UK
-http://vocotv.pro:80/robins/robins/709350
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Action FHD UK
-http://vocotv.pro:80/robins/robins/709403
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Arena FHD UK
-http://vocotv.pro:80/robins/robins/709401
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Cricket FHD UK
-http://vocotv.pro:80/robins/robins/709399
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Darts FHD UK
-http://vocotv.pro:80/robins/robins/709397
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports F1 FHD UK
-http://vocotv.pro:80/robins/robins/709396
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Football FHD UK
-http://vocotv.pro:80/robins/robins/709394
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Golf FHD UK
-http://vocotv.pro:80/robins/robins/709391
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Main Event FHD UK
-http://vocotv.pro:80/robins/robins/709389
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Mix FHD UK
-http://vocotv.pro:80/robins/robins/709387
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports News FHD UK
-http://vocotv.pro:80/robins/robins/709385
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports NFL HD UK
-http://vocotv.pro:80/robins/robins/709383
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Plus (HEVC) UK
-http://vocotv.pro:80/robins/robins/709392
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Premier League FHD UK
-http://vocotv.pro:80/robins/robins/709382
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Racing FHD UK
-http://vocotv.pro:80/robins/robins/709380
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 1 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebs1.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 2 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebs2.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 2 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebs2.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 3 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebs3.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 3 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebs3.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 4 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 4 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 5 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebs5.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 5 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebs5.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports Max 1 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports Max 1 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports Max 2 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebsm2.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports Max 2 🇹🇷
-https://andro.2385437.xyz/checklist/androstreamlivebsm2.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN Deportes
-https://daffodil.shadow-ran.online/deportes.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport Main
-https://daffodil.shadow-ran.online/main.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NBA
-https://daffodil.shadow-ran.online/nba.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NBA 2
-https://daffodil.shadow-ran.online/nba2.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NBA 3
-https://601.shadow-ran.online/nba3.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NBA 4
-https://601.shadow-ran.online/nba4.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NBA 5
-https://601.shadow-ran.online/nba5.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NBA 6
-https://daffodil.shadow-ran.online/nba6.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NBA 7
-https://daffodil.shadow-ran.online/nba7.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NBA 7 Alt
-https://daffodil.shadow-ran.online/nba7alt.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NBA 8
-https://601.shadow-ran.online/nba8.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NFL 10
-https://601.shadow-ran.online/nfl10.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY NEWS
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Sky A
