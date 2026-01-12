@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-01-12 13:00:35 WIB
+# UPDATED: 2026-01-12 13:53:04 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",PEGADAIAN CHAMPIONSHIP⁽ˢᵉʳᵛᵉʳ ³⁾
@@ -115,9 +115,9 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 #EXTINF:-1 group-title="LIVE | EVENT",ESPN 4 🇨🇴
 https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_PLUS_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
 #EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE
-http://iptvpro.pw:35451//live/加QQ群1078393318领福利/66661111/694.ts
+http://iptvpro.pw:35451/live/加QQ群1077202079/33596872/694.ts
 #EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE 2
-http://iptvpro.pw:35451//live/加QQ群1078393318领福利/66661111/695.ts
+http://iptvpro.pw:35451/live/加QQ群1077202079/33596872/695.ts
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS F1
 http://178.33.239.54:8080/508/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS CRICKET
