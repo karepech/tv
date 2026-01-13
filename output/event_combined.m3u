@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-01-13 15:18:50 WIB
+# UPDATED: 2026-01-13 15:51:40 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -37,9 +37,9 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 #EXTINF:-1 group-title="LIVE | EVENT",ESPN 4 🇨🇴
 https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_PLUS_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
 #EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE
-http://iptvpro.pw:35451/live/加QQ群1077202079/33596872/694.ts
+http://96.44.160.246:9999/smt.php?id=Assp1
 #EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE 2
-http://iptvpro.pw:35451/live/加QQ群1077202079/33596872/695.ts
+http://96.44.160.246:9999/smt.php?id=Assp2
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS F1
 http://178.33.239.54:8080/508/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS CRICKET
@@ -65,19 +65,69 @@ https://slive.mana2.my/SpotvNow/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",Dazn Ringside
 https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 501 FHD
-https://a1xs.vip/700001
+https://7pal.short.gy/fox501au
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 502 FHD
-https://a1xs.vip/700002
+https://7pal.short.gy/fox502au
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 503 FHD
-https://a1xs.vip/700003
+https://7pal.short.gy/fox503au
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 504 FHD
-https://a1xs.vip/700004
+https://7pal.short.gy/fox504au
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 505 FHD
-https://a1xs.vip/700005
+https://7pal.short.gy/fox505au
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 506 FHD
-https://a1xs.vip/700006
+https://7pal.short.gy/fox506au
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 507 FHD
-https://a1xs.vip/700007
+https://7pal.short.gy/fox507au
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport1 NZ FHD
+https://7pal.short.gy/skyspt1nz
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport2 NZ FHD
+https://7pal.short.gy/skyspt2nz
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport3 NZ FHD
+https://7pal.short.gy/skyspt3nz
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport4 NZ FHD
+https://7pal.short.gy/skyspt4nz
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport5 NZ FHD
+https://7pal.short.gy/skyspt5nz
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport6 NZ FHD
+https://7pal.short.gy/skyspt6nz
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport7 NZ FHD
+https://7pal.short.gy/skyspt7nz
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport Premier League FHD
+https://7pal.short.gy/skyspt8nz
+#EXTINF:-1 group-title="LIVE | EVENT",Hub Premier1 FHD
+https://7pal.short.gy/HPremier1
+#EXTINF:-1 group-title="LIVE | EVENT",Hub Premier2 FHD
+https://7pal.short.gy/HPremier2
+#EXTINF:-1 group-title="LIVE | EVENT",Hub Premier3 FHD
+https://7pal.short.gy/HPremier3
+#EXTINF:-1 group-title="LIVE | EVENT",Now Sports Premier League1 FHD
+https://7pal.short.gy/nowhkp1
+#EXTINF:-1 group-title="LIVE | EVENT",Now Sports PremierLeague 2 FHD
+https://7pal.short.gy/nowhkp2
+#EXTINF:-1 group-title="LIVE | EVENT",Now Sports Premier League 3 FHD
+https://7pal.short.gy/nowhkp3
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Main Event FHD
+https://7pal.short.gy/SkSpMainE
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports PremierLeague FHD
+https://7pal.short.gy/ssportspl
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Football FHD
+https://7pal.short.gy/ssportsfb
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports F1 FHD
+https://7pal.short.gy/ssportsf1
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Tennis FHD
+https://7pal.short.gy/ssportstn
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports+ FHD
+https://7pal.short.gy/ssportplus
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Criket FHD
+https://7pal.short.gy/ssportscrk
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Golf FHD
+https://7pal.short.gy/ssportsgf
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports News-FHD
+https://7pal.short.gy/ssportsnw
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Action FHD
+https://7pal.short.gy/ssportsat
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Box Office
+https://7pal.short.gy/ssportsbo
 #EXTINF:-1 group-title="LIVE | EVENT",SKY NEWS
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Sky A
