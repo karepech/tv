@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-01-16 15:17:56 WIB
+# UPDATED: 2026-01-16 15:48:57 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -58,7 +58,7 @@ http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9314/index.m3u8
 http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6546/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS FOOTBALL
 http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9289/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SKY ACTION
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS ACTION
 http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9155/index.m3u
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTv Now
 https://slive.mana2.my/SpotvNow/index.mpd
