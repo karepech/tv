@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-01-19 11:59:33 WIB
+# UPDATED: 2026-01-19 12:42:18 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -40,26 +40,32 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 http://96.44.160.246:9999/smt.php?id=Assp1
 #EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE 2
 http://96.44.160.246:9999/smt.php?id=Assp2
+#EXTINF:-1 group-title="LIVE | EVENT",PREMIER SPORTS
+https://ast.livecricketsl.live/proxy/sg.php/https://linearjitp-playback.astro.com.my/dash-wv/linear/2601/default_ott.mpd
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS ACTION
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9155/index.m3u
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS F1
-http://178.33.239.54:8080/508/index.m3u8
+https://zamlb.tgaadi.workers.dev/1783.ts
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS CRICKET
 http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9258/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS EPL
-http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9334/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS FOOTBALL
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9289/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS GOLF
 http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9293/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS MAIN
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS MAIN EVENT
 http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/7337/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS MIX
 http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9310/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS NEWS
 http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9314/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS EPL
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9334/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS RACING
+https://zamlb.tgaadi.workers.dev/3102.ts
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS TENNIS
 http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6546/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS FOOTBALL
-http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9289/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS ACTION
-http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9155/index.m3u
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS+
+https://zamlb.tgaadi.workers.dev/1777.ts
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTv Now
 https://slive.mana2.my/SpotvNow/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",Dazn Ringside
