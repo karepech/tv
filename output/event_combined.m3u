@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-01-21 14:45:45 WIB
+# UPDATED: 2026-01-21 14:59:42 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -134,6 +134,8 @@ https://7pal.short.gy/ssportsnw
 https://7pal.short.gy/ssportsat
 #EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Box Office
 https://7pal.short.gy/ssportsbo
+#EXTINF:-1 group-title="LIVE | EVENT",Lotus Macao Skygo
+https://cdn4.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY NEWS
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Sky A
