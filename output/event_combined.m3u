@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-01-22 15:38:01 WIB
+# UPDATED: 2026-01-22 16:04:30 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -70,6 +70,8 @@ https://zamlb.tgaadi.workers.dev/1777.ts
 https://slive.mana2.my/SpotvNow/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",Dazn Ringside
 https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Fanduel TV
+https://d2jl8r92tdc3f1.cloudfront.net/out/v1/59419700344b4625b7cb0693ba265ea3/TVGindex.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 501 FHD
 https://7pal.short.gy/fox501au
 #EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 502 FHD
