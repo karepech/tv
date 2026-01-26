@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-01-26 13:32:48 WIB
+# UPDATED: 2026-01-26 14:03:47 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -36,12 +36,6 @@ https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(
 https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_3_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
 #EXTINF:-1 group-title="LIVE | EVENT",ESPN 4 🇨🇴
 https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_PLUS_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
-#EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE
-https://load.perfecttv.net/rwt.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=epl1hd
-#EXTINF:-1 group-title="LIVE | EVENT",ASTRO PREMIER LEAGUE 2
-https://load.perfecttv.net/rwt.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=epl2hd
-#EXTINF:-1 group-title="LIVE | EVENT",PREMIER SPORTS
-https://ast.livecricketsl.live/proxy/sg.php/https://linearjitp-playback.astro.com.my/dash-wv/linear/2601/default_ott.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS ACTION
 http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9155/index.m3u
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS F1
