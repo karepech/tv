@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-02-12 10:15:35 WIB
+# UPDATED: 2026-02-12 12:10:27 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -79,15 +79,15 @@ https://7pal.short.gy/HPremier2
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier3 HD
 https://7pal.short.gy/HPremier3
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 4 HD
-https://012v4.goiptv.us.ci/stream/starhub/hubpremier4hd/
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314080&extension=ts&play_token=tlQaY2nd4P
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 5 HD
-https://012v4.goiptv.us.ci/stream/starhub/hubpremier5hd/
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314081&extension=ts&play_token=oCrh7Xg3in
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 6 HD
-https://012v4.goiptv.us.ci/stream/starhub/hubpremier6hd/
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314082&extension=ts&play_token=mbznWD9xYe
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 7 HD
-https://012v4.goiptv.us.ci/stream/starhub/hubpremier7hd/
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314083&extension=ts&play_token=CxgiuXGw0c
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 8 HD
-https://012v4.goiptv.us.ci/stream/starhub/hubpremier8hd/
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314084&extension=ts&play_token=Suotild03T
 #EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 1 HD
 https://012v4.goiptv.us.ci/stream/starhub/beinsportshd/
 #EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 2 HD
