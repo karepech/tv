@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-02-12 15:05:28 WIB
+# UPDATED: 2026-02-12 16:04:58 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -28,14 +28,6 @@ http://202.169.224.202:8800/udp/239.9.1.11:1234
 https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",NFL NETWORK 🇺🇸
 https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(lc107a1ddy)/master.mpd
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 🇨🇴
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2 🇨🇴
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_2_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 3 🇨🇴
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_3_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 4 🇨🇴
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_PLUS_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
 #EXTINF:-1 group-title="LIVE | EVENT",SpoTv Now
 https://slive.mana2.my/SpotvNow/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",Dazn Ringside
@@ -168,6 +160,14 @@ https://zamlb.tgaadi.workers.dev/1777.ts
 https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY NEWS NOW
 https://amg00663-skynews-skynewsau-samsungau-r7n40.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 🇨🇴
+https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2 🇨🇴
+https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_2_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 3 🇨🇴
+https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_3_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 4 🇨🇴
+https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_PLUS_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
 #EXTINF:-1 group-title="LIVE | EVENT",Sky A
 https://nl.utako.moe/skya/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA ACTION HD
