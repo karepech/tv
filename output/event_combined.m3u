@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-02-13 14:29:03 WIB
+# UPDATED: 2026-02-13 15:05:57 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -118,16 +118,6 @@ https://7pal.short.gy/ssportsnw
 https://7pal.short.gy/ssportsat
 #EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Box Office
 https://7pal.short.gy/ssportsbo
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports 1 🇹🇷
-https://firinmakinesi.lol/static/bs1.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports UHD 2 🇹🇷
-https://firinmakinesi.lol/static/bs2.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports UHD 3 🇹🇷
-https://firinmakinesi.lol/static/bs3.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports UHD 4 🇹🇷
-https://firinmakinesi.lol/static/bs4.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BeIN Sports UHD 5 🇹🇷
-https://firinmakinesi.lol/static/bs5.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN 1 🇹🇼
 http://208.87.242.79/livehttpplay?channel_id=10104
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN 2 🇹🇼
