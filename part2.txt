@@ -1,0 +1,102 @@
+# ==========================================
+# 🇲🇾 ASTRO SPORTS (PREMIER LEAGUE & BADMINTON)
+# ==========================================
+
+#EXTINF:-1 tvg-id="AstroArena.my" tvg-name="Astro Arena" tvg-logo="https://i.imgur.com/jVooopM.jpg" group-title="🇲🇾 ASTRO SPORTS",ASTRO ARENA 1 HD
+http://iptvmedia.live:8080/live/Marino/59b865ca/157485.ts
+
+#EXTINF:-1 tvg-id="AstroArena2.my" tvg-name="Astro Arena 2" tvg-logo="https://i.imgur.com/jOaanPV.jpg" group-title="🇲🇾 ASTRO SPORTS",ASTRO ARENA 2 HD
+https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/Astar2.m3u8
+
+#EXTINF:-1 tvg-id="AstroPremierLeague.my" tvg-name="Astro Premier League" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYR8AKA9yoPg-vCK1slZXANJAewnEZQAoqC2t0WoWGQ7vtZjGBKA6cHtBYZirUawOEEGWkRuhIBe8KOwV9elN9BQxQdgxNXn4VgyMZBtXFRbpfdgqnKgzTyzyFFMzHs7OGrSHiF29pb6RT3CW6DTibzRQho5rTxDAurX3cYe4BwV0_BZfDnR83Dp0akEtZ/s700/ASTRO%20PREMIER%20LEAGUE.png" group-title="🇲🇾 ASTRO SPORTS",ASTRO PREMIER LEAGUE 1 HD
+http://tv.8dott.xyz:80/live/samuel/samuel123456/709263.ts
+
+#EXTINF:-1 tvg-id="AstroPremierLeague2.my" tvg-name="Astro Premier League 2" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvXKVyZxI7QgeCL0DSu3Wgt9pC4iJgt0Zwz1p2mgOvrHuAi7pvvRlkSiUTcMnuq3n3kw__NZF6ciYGVdz4APy_BAenh8ijGgpJlkBIfijnej5joCdSeDhmB_k8jY5JQX2TyRPZTx9pWnZR4c-QW7jzDY8oRA6ULJ5evMaPd4tbNp1ROMq_vVG4k-A9bTsS/s700/ASTRO%20PREMIER%20LEAGUE%202.png" group-title="🇲🇾 ASTRO SPORTS",ASTRO PREMIER LEAGUE 2 HD
+http://my.bianet.es.vip.hk:80///p//y/kontol26/709260
+
+#EXTINF:-1 tvg-id="AstroFootball.my" tvg-name="Astro Football" tvg-logo="https://i.imgur.com/GpZxtSR.jpg" group-title="🇲🇾 ASTRO SPORTS",ASTRO FOOTBALL HD
+https://raw.githubusercontent.com/DonzCompIndonesia/donztelevision/refs/heads/main/v1/AstFut.m3u8
+
+#EXTINF:-1 tvg-id="AstroBadminton.my" tvg-logo="https://i.imgur.com/qOH3x4Q.jpg" group-title="🇲🇾 ASTRO SPORTS",ASTRO BADMINTON 1 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://zozotv.xyz:443/live/ZZA21216/zxe36880/155.ts
+
+#EXTINF:-1 tvg-id="AstroBadminton.my" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfW5SVlkovRcfs0GoHDw0pqvi-WR7kPUBtOVAT6I62uZ9o9kcxjL94GWpNQ7H9HY_3xUEkaAcFVj7Zixq26xwJBg2NT41T4BU1asot4XdufB-d5gVgk1JLFSxTVigBNcn9X0lj6R0aI5r8i9Wbt-Fi8i5E96byfRm3Qigtkn18w3kgAgTZDMLIxGhu8D1z/s700/ASTRO%20BADMINTON%202.png" group-title="🇲🇾 ASTRO SPORTS",ASTRO BADMINTON 2 HD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=6ff0e040d544ec3f02243865990f0c10:83728b47019abdbb37aa36ed5f2951bd
+https://load.perfecttv.net/rwt.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=badminton2hd
+
+
+# ==========================================
+# 🇬🇧 SKY SPORTS (PREMIER LEAGUE & BUNDESLIGA)
+# ==========================================
+
+#EXTINF:-1 tvg-id="SkySportsPremierLeague.uk" tvg-logo="https://i.imgur.com/rcSRMh9/sky-sports-pl.png" group-title="🇬🇧 SKY SPORTS",SKY SPORTS PREMIER LEAGUE FHD
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9334/index.m3u8
+
+#EXTINF:-1 tvg-id="SkySportsPremierLeague.uk" tvg-logo="https://i.imgur.com/rcSRMh9/sky-sports-pl.png" group-title="🇬🇧 SKY SPORTS",SKY SPORTS PREMIER LEAGUE (Backup)
+https://zamlb.tgaadi.workers.dev/1773.ts
+
+#EXTINF:-1 tvg-id="SkySportsFootball.uk" tvg-logo="https://i.imgur.com/WcCrBqx/sky-football.png" group-title="🇬🇧 SKY SPORTS",SKY SPORTS FOOTBALL FHD
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9289/index.m3u8
+
+#EXTINF:-1 tvg-id="SkySportsMainEvent.uk" tvg-logo="https://i.imgur.com/CwMZcpP/sky-main-event.png" group-title="🇬🇧 SKY SPORTS",SKY SPORTS MAIN EVENT FHD
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/7337/index.m3u8
+
+#EXTINF:-1 tvg-id="SkySportsBundesliga.uk" tvg-logo="https://i.ibb.co.com/cX84N4zt/SKYBL.png" group-title="🇬🇧 SKY SPORTS",SKY SPORTS BUNDESLIGA
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d8d5823d92a9ef9306a4cc4bd634b4b4:df9fbdaa0ef9e905b75f4692f213af19
+https://zap-live1-ott.izzigo.tv/5/out/u/dash/SKYSPORTS24HD/default.mpd
+
+
+# ==========================================
+# 🇪🇺 TNT SPORTS (LIGA CHAMPIONS & EROPA)
+# ==========================================
+
+#EXTINF:-1 tvg-id="TNTSports1.uk" tvg-logo="https://i.ibb.co.com/7dNPfNGB/Tntsports1.png" group-title="🇪🇺 TNT SPORTS (LIGA EROPA)",TNT SPORTS 1 HD
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d0f2e5c39e70c18f29bf77768a1ad89a:d6853c51fcf37a18905f0609972395d7
+https://a129aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/bsaaetko8v/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
+
+#EXTINF:-1 tvg-id="TNTSports2.uk" tvg-logo="https://i.ibb.co.com/Q3V8tDNL/Tntsports2.png" group-title="🇪🇺 TNT SPORTS (LIGA EROPA)",TNT SPORTS 2 HD
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9f51f3dc6313ac8bc668e2d9d1c04dfa:74bc63e5a193454a91ca494975db33f9
+https://a129aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd
+
+#EXTINF:-1 tvg-id="TNTSports3.uk" tvg-logo="https://i.ibb.co.com/Lzkztmpw/Tntsports3.png" group-title="🇪🇺 TNT SPORTS (LIGA EROPA)",TNT SPORTS 3 HD
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a93c1cbfdccd23233bac13540c693e7f:2f6ab2e6693eb847eff3c9da8f9d01fc
+https://a129aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd
+
+#EXTINF:-1 tvg-id="TNTSports4.uk" tvg-logo="https://i.ibb.co.com/yJ8TWnb/Tntsports4.png" group-title="🇪🇺 TNT SPORTS (LIGA EROPA)",TNT SPORTS 4 HD
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258
+https://a129aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd
+
+
+# ==========================================
+# 🇪🇸 DAZN ESPANA (LALIGA & SEPAKBOLA DUNIA)
+# ==========================================
+
+#EXTINF:-1 tvg-id="DAZNLaLiga.es" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXjz9InaI_q3-VmGbiH5UgkZcm27NfgIzxTP2zAyZoY1rD2C-KSkSLoW1IO2LuoOfldPYL6mKGYV9Osqr_DhzH2eyYye0kg4e5nlhZnJfBr5AIRJBnN9H-QhTlYo5B1O0NNOB1VwkHhtIAJr-9I-5lOfqHZGAMGrq7UtrgIbxrj6BEVxvvMTyguLjGFPd0/s700/DAZN%20LALIGA.png" group-title="🇪🇸 DAZN LALIGA",DAZN LALIGA
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=43d1c3b25207ff38b22ccfe17d302367:7b1f85f6e81059473b114c16a25c829a
+https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/wjgklbtvhh/out/v1/659736a1e24c40e4865a80ffd75e7de7/cenc.mpd
+
+#EXTINF:-1 tvg-id="DAZN1.es" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeT4u1nAktEXfgIZwAfNRX4p1V92nn7ivtPBKnpSGBIzqiusuAPbfpNSRANU0ENBJEmp1vFnZyLpUbBCebg9ya400a-62HRackCrUXKV-j1dUMPqRi2OB8ONfz__XPi8C5NG8bbpuYmamrJZGqmbqdMNpF58uLIopuoHnSk8fVpTopJxVSvR3Tqc7_a_K9/s700/DAZN%201.png" group-title="🇪🇸 DAZN LALIGA",DAZN 1 ES
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0
+https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd
+
+#EXTINF:-1 tvg-id="DAZN2.es" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuF1i_l_AfA80mcc4Lq1lfT4fMtbarGk9qLY0mqUHOHRO3xUEU6vZkO2neqby6yPd6WeGnd5TROJhfh7VrV9mtEChwCm3BuwxgU5UBJw44u7cA7NZWc1Otoxj4G-q2d6HG3DRVE78_QAltu_mwEoqnN5-Mc_faPxoWffkMzhX3hhrom8hyphenhyphencFNWSnrKj1Cl/s700/DAZN%202.png" group-title="🇪🇸 DAZN LALIGA",DAZN 2 ES
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0eab5a3f3e3b4ba5d42d40ca30d17571:f3f061ded9b70e8160590d5802ecda6d
+https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/xnk4m9bnxt/out/v1/4ced7b7329a54652b9bb0521ed38bd4d/cenc.mpd
