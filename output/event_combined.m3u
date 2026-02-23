@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-02-23 12:50:28 WIB
+# UPDATED: 2026-02-23 13:55:20 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -152,40 +152,8 @@ https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8
 https://amg00663-skynews-skynewsau-samsungau-r7n40.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",SKY UK
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 🇨🇴
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2 🇨🇴
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_2_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 3 🇨🇴
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_3_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 4 🇨🇴
-https://covoslivechannels2dash.clarovideo.com/Content/DASH_DASH_FK/Live/Channel(ESPN_PLUS_HD)/manifest.mpd?|referer=https://covoslivechannels2dash.clarovideo.com/
 #EXTINF:-1 group-title="LIVE | EVENT",Sky A
 https://nl.utako.moe/skya/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA ACTION HD
-http://line.iptvgoat.com:80/play/live.php?mac=00:1A:79:4D:5D:F8&stream=30517&extension=ts&play_token=xibG7hzqwP
-#EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA ANIMATION HD
-http://line.iptvgoat.com:80/play/live.php?mac=00:1A:79:4D:5D:F8&stream=30513&extension=ts&play_token=0OIOj9sN9C
-#EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA COMEDY HD
-http://line.iptvgoat.com:80/play/live.php?mac=00:1A:79:4D:5D:F8&stream=30516&extension=ts&play_token=GmmbmszWEQ
-#EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA FAMILY HD
-http://line.iptvgoat.com:80/play/live.php?mac=00:1A:79:4D:5D:F8&stream=79467&extension=ts&play_token=CclYMOxHra
-#EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA DRAMA HD
-http://line.iptvgoat.com:80/play/live.php?mac=00:1A:79:4D:5D:F8&stream=30514&extension=ts&play_token=cevfDYK7mg
-#EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA GREATS HD
-http://line.iptvgoat.com:80/play/live.php?mac=00:1A:79:4D:5D:F8&stream=30512&extension=ts&play_token=ELyeQVUcgX
-#EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA HITS HD
-http://line.iptvgoat.com:80/play/live.php?mac=00:1A:79:4D:5D:F8&stream=30510&extension=ts&play_token=RUVLCvhMbk
-#EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA OSCARS HD
-http://line.iptvgoat.com:80/play/live.php?mac=00:1A:79:4D:5D:F8&stream=30511&extension=ts&play_token=NwnwCk6DYO
-#EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA PREMIERE HD
-http://line.iptvgoat.com:80/play/live.php?mac=00:1A:79:4D:5D:F8&stream=30509&extension=ts&play_token=5V4Z3wUB6p
-#EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA SCIFI HD
-http://line.iptvgoat.com:80/play/live.php?mac=00:1A:79:4D:5D:F8&stream=30508&extension=ts&play_token=eGkrhUSVHX
-#EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA SELECT HD
-http://line.iptvgoat.com:80/play/live.php?mac=00:1A:79:4D:5D:F8&stream=949137&extension=ts&play_token=iL3is5Zsz1
-#EXTINF:-1 group-title="LIVE | EVENT",SKY CINEMA THRILLER HD
-http://line.iptvgoat.com:80/play/live.php?mac=00:1A:79:4D:5D:F8&stream=30506&extension=ts&play_token=On9v9bMYre
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
 https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN HD
