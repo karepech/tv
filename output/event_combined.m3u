@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-02-26 14:40:16 WIB
+# UPDATED: 2026-02-26 15:28:27 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -150,6 +150,8 @@ https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Liv
 https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Sky A
 https://nl.utako.moe/skya/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ID | V Radio
+http://202.147.199.100:8000/;stream.nsv
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
 https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN HD
