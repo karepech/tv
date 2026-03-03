@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-03-03 09:52:17 WIB
+# UPDATED: 2026-03-03 11:44:07 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -154,6 +154,120 @@ http://212.102.60.231/NBA_TV/index.m3u8
 https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Sky A
 https://nl.utako.moe/skya/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",FANDUEL RACING
+http://104.238.222.251:9090/279463_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",FANDUEL TV RACING
+http://199.127.63.143:9090/279482_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS XTRA
+http://104.238.205.58:9090/279421_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS
+http://104.194.8.54:9090/161161_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS n
+http://104.238.222.251:9090/279422_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 4
+http://79.143.17.114:9090/279415_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 5
+http://199.127.63.143:9090/279416_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 6
+http://79.143.17.114:9090/279417_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 7
+http://199.127.63.143:9090/279418_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 8
+http://79.143.17.114:9090/279419_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN
+http://104.194.8.54:9090/279424_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2
+http://79.143.17.114:9090/279425_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN NEWS
+http://199.127.63.143:9090/279428_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN DEPORTES
+http://199.127.63.143:9090/279426_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN U
+http://79.143.17.114:9090/279427_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",FANDUEL SPORTS NETWORK
+http://79.143.17.114:9090/279487_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",FANDUEL TV RACING
+http://199.127.63.143:9090/279482_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",FANDUEL RACING
+http://104.238.222.251:9090/279463_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 1
+http://104.238.205.58:9090/278939_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 2
+http://104.238.205.58:9090/278940_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 3
+http://104.238.205.58:9090/278941_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 4
+http://104.238.205.28:9090/278934_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 5
+http://45.90.106.85:9090/278935_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 6
+http://79.143.17.114:9090/278936_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 7
+http://104.238.205.58:9090/278937_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 8
+http://104.238.205.58:9090/278938_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY Bundesliga
+http://104.194.8.54:9090/281188_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY Sports Bundesliga
+http://104.194.8.54:9090/281188_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY La Liga
+http://45.90.106.85:9090/281171_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS PREMIER LEAGUE
+http://79.143.17.114:9090/164433_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS MIX
+http://108.181.135.111:9090/286229_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV 3
+http://104.238.205.58:9090/278944_.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 1
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178453
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 2
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178452
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 3
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178451
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 4
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178450
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 5
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178449
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 6
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178448
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 7
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178447
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 9
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178445
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 1 NL
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/891520
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2 NL
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/891519
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 3 NL
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/891518
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 4 NL
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/891517
+#EXTINF:-1 group-title="LIVE | EVENT",FOX SPORTS 1
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/487776
+#EXTINF:-1 group-title="LIVE | EVENT",FOX SPORTS 2
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/469343
+#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 1
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/802488
+#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 2
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/827981
+#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 3
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/827979
+#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 4
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/827978
+#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 5
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/827977
+#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 6
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/827976
+#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 7
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/827975
+#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 8
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/827974
+#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 9
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/827973
+#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 10
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/827972
+#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 11
+http://dragon1977.com:80/047306b75f/b5a06cc482d6/827971
 #EXTINF:-1 group-title="LIVE | EVENT",ID | V Radio
 http://202.147.199.100:8000/;stream.nsv
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
