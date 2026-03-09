@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-03-09 14:59:09 WIB
+# UPDATED: 2026-03-09 15:57:43 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -304,6 +304,8 @@ http://84.17.50.102/tf1/index.m3u8
 http://151.80.18.177:86/Paris_Premiere_HD/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",TF1 HD
 http://151.80.18.177:86/TF1_HD/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",VIP Premiere
+https://a3569457567-s70378.cdn.ngenix.net/vip_premiere/2/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
 https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN HD
