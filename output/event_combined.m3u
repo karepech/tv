@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-03-09 09:54:13 WIB
+# UPDATED: 2026-03-09 11:53:38 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -154,6 +154,8 @@ https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Liv
 http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",NBA TV
 http://212.102.60.231/NBA_TV/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",VIP Premiere
+https://minsk-cache07t.voka.tv/live/6001-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Lotus Macao Skygo
 https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Sky A
@@ -288,6 +290,20 @@ http://dragon1977.com:80/047306b75f/b5a06cc482d6/827972
 http://dragon1977.com:80/047306b75f/b5a06cc482d6/827971
 #EXTINF:-1 group-title="LIVE | EVENT",ID | V Radio
 http://202.147.199.100:8000/;stream.nsv
+#EXTINF:-1 group-title="LIVE | EVENT",USA_BEIN
+http://23.237.104.106:8080/USA_BEIN/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",USA_ESPNU
+http://23.237.104.106:8080/USA_ESPNU/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",espn HD
+http://84.17.50.102/espn/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",nbatv
+http://84.17.50.102/nbatv/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",tf1 HD
+http://84.17.50.102/tf1/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Paris Premiere HD
+http://151.80.18.177:86/Paris_Premiere_HD/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",TF1 HD
+http://151.80.18.177:86/TF1_HD/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
 https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN HD
