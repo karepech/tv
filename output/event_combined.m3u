@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-03-12 14:33:29 WIB
+# UPDATED: 2026-03-12 15:05:41 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -160,6 +160,20 @@ https://minsk-cache07t.voka.tv/live/6001-req_offset_28000000-req_window_0-1k_v5.
 https://cdn.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Sky A
 https://nl.utako.moe/skya/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/MCLv35oBEef-9-uVH-D2/posters/0d1e571c-ebb2-4277-9814-760a4f1603a6.png" group-title="Toffee Live",ATN Bangla
+https://sm-monirul.top/Toffee/live.php?id=72236e9ac8d0&e=.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/CXz4PJwBcqxnFHJBPwrG/posters/2f913e34-3a6c-45e6-9f1f-97bf129a2ff5.png" group-title="Toffee Live",Movie Bangla
+https://sm-monirul.top/Toffee/live.php?id=899f6184acd9&e=.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png" group-title="Toffee Live",Nexus TV
+https://sm-monirul.top/Toffee/live.php?id=2152917b80f2&e=.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/6Hz1PJwBcqxnFHJBhgkV/posters/845f1e3f-987a-47cc-a48d-ee12d8f4d419.png" group-title="Toffee Live",Desh TV
+https://sm-monirul.top/Toffee/live.php?id=09958247947d&e=.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",w_400,q_100/PnZefJcBcqxnFHJBoxca/posters/955ae898-8336-4936-8d78-c6b8866e35f7.png" group-title="Toffee Live",ICC Test Championship Highlights
+https://sm-monirul.top/Toffee/live.php?id=b18613696a70&e=.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/JS1AqZgBNnOkwJLWlwg-/posters/08617b27-2af1-4035-bcc3-d054ce42ca4b.png" group-title="Toffee Live",EPL channel 1
+https://sm-monirul.top/Toffee/live.php?id=bf1aced37e2b&e=.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/-C7MX5UBv9knK3AHdKOi/posters/b0f0bfe0-f1f3-48b3-83ce-203cd44cafe2.png" group-title="Toffee Live",Zee Bangla Cinema
+https://sm-monirul.top/Toffee/live.php?id=3c1cc31a847f&e=.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 1
 http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178453
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 2
