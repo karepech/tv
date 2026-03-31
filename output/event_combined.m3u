@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-03-31 14:58:07 WIB
+# UPDATED: 2026-03-31 16:12:59 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -172,56 +172,6 @@ https://sm-monirul.top/Toffee/live.php?id=icc_wtc_final&e=.m3u8
 https://sm-monirul.top/Toffee/live.php?id=match-1&e=.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/-C7MX5UBv9knK3AHdKOi/posters/b0f0bfe0-f1f3-48b3-83ce-203cd44cafe2.png" group-title="TOFFEE",Zee Bangla Cinema
 https://sm-monirul.top/Toffee/live.php?id=zee_bangla_cinema&e=.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 1
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178453
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 2
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178452
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 3
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178451
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 4
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178450
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 5
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178449
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 6
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178448
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 7
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178447
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 9
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/1178445
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 1 NL
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/891520
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2 NL
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/891519
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 3 NL
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/891518
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 4 NL
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/891517
-#EXTINF:-1 group-title="LIVE | EVENT",FOX SPORTS 1
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/487776
-#EXTINF:-1 group-title="LIVE | EVENT",FOX SPORTS 2
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/469343
-#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 1
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/802488
-#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 2
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/827981
-#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 3
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/827979
-#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 4
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/827978
-#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 5
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/827977
-#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 6
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/827976
-#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 7
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/827975
-#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 8
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/827974
-#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 9
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/827973
-#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 10
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/827972
-#EXTINF:-1 group-title="LIVE | EVENT",HUB PREMIER 11
-http://dragon1977.com:80/047306b75f/b5a06cc482d6/827971
 #EXTINF:-1 group-title="LIVE | EVENT",ID | V Radio
 http://202.147.199.100:8000/;stream.nsv
 #EXTINF:-1 group-title="LIVE | EVENT",USA_BEIN
