@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-04-06 12:22:20 WIB
+# UPDATED: 2026-04-06 14:07:58 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -172,6 +172,40 @@ https://sm-monirul.top/Toffee/live.php?id=icc_wtc_final&e=.m3u8
 https://sm-monirul.top/Toffee/live.php?id=match-1&e=.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/-C7MX5UBv9knK3AHdKOi/posters/b0f0bfe0-f1f3-48b3-83ce-203cd44cafe2.png" group-title="TOFFEE",Zee Bangla Cinema
 https://sm-monirul.top/Toffee/live.php?id=zee_bangla_cinema&e=.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn Eleven 1 pt
+https://canaiss.fazoeli.co.za/fontes/smart/pt_eleven3.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn Eleven 2 pt
+https://canaiss.fazoeli.co.za/fontes/smart/pt_eleven2.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn Eleven 3 pt
+https://canaiss.fazoeli.co.za/fontes/smart/pt_eleven3.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN
+https://canaiss.fazoeli.co.za/fontes/smart/espn.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2
+https://canaiss.fazoeli.co.za/fontes/smart/espn2.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 3
+https://canaiss.fazoeli.co.za/fontes/smart/espn3.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 4
+https://canaiss.fazoeli.co.za/fontes/smart/espn4.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 5
+https://canaiss.fazoeli.co.za/fontes/smart/espn5.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 6
+https://canaiss.fazoeli.co.za/fontes/smart/espn6.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premiere
+https://canaiss.fazoeli.co.za/fontes/smart/premiere.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premiere 2
+https://canaiss.fazoeli.co.za/fontes/smart/premiere2.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premiere 3
+https://canaiss.fazoeli.co.za/fontes/smart/premiere3.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premiere 4
+https://canaiss.fazoeli.co.za/fontes/smart/premiere4.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premiere 5
+https://canaiss.fazoeli.co.za/fontes/smart/premiere5.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premiere 6
+https://canaiss.fazoeli.co.za/fontes/smart/premiere6.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premiere 7
+https://canaiss.fazoeli.co.za/fontes/smart/premiere7.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Premiere 8
+https://canaiss.fazoeli.co.za/fontes/smart/premiere8.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",ID | V Radio
 http://202.147.199.100:8000/;stream.nsv
 #EXTINF:-1 group-title="LIVE | EVENT",USA_BEIN
