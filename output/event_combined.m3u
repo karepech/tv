@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-04-10 13:22:55 WIB
+# UPDATED: 2026-04-10 15:06:04 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -28,42 +28,12 @@ https://slive.mana2.my/SpotvNow/index.mpd
 https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Fanduel TV
 https://d2jl8r92tdc3f1.cloudfront.net/out/v1/59419700344b4625b7cb0693ba265ea3/TVGindex.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 501 FHD
-https://7pal.short.gy/fox501au
-#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 502 FHD
-https://7pal.short.gy/fox502au
-#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 503 FHD
-https://7pal.short.gy/fox503au
-#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 504 FHD
-https://7pal.short.gy/fox504au
-#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 505 FHD
-https://7pal.short.gy/fox505au
-#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 506 FHD
-https://7pal.short.gy/fox506au
-#EXTINF:-1 group-title="LIVE | EVENT",Fox Sports 507 FHD
-https://7pal.short.gy/fox507au
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport1 NZ FHD
-https://7pal.short.gy/skyspt1nz
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport2 NZ FHD
-https://7pal.short.gy/skyspt2nz
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport3 NZ FHD
-https://7pal.short.gy/skyspt3nz
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport4 NZ FHD
-https://7pal.short.gy/skyspt4nz
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport5 NZ FHD
-https://7pal.short.gy/skyspt5nz
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport6 NZ FHD
-https://7pal.short.gy/skyspt6nz
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport7 NZ FHD
-https://7pal.short.gy/skyspt7nz
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sport Premier League FHD
-https://7pal.short.gy/skyspt8nz
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier1 HD
-https://7pal.short.gy/HPremier1
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314077&extension=ts&play_token=OkTEn6qiDL
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier2 HD
-https://7pal.short.gy/HPremier2
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314078&extension=ts&play_token=1dWiSXJFZ1
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier3 HD
-https://7pal.short.gy/HPremier3
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314079&extension=ts&play_token=bW9r3i6SUO
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 4 HD
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314080&extension=ts&play_token=tlQaY2nd4P
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 5 HD
@@ -74,44 +44,6 @@ http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314082&
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314083&extension=ts&play_token=CxgiuXGw0c
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 8 HD
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314084&extension=ts&play_token=Suotild03T
-#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 1 HD
-https://012v4.goiptv.us.ci/stream/starhub/beinsportshd/
-#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 2 HD
-https://012v4.goiptv.us.ci/stream/starhub/beinsports2hd/
-#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 3 HD
-https://012v4.goiptv.us.ci/stream/starhub/beinsports3hd/
-#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 4 HD
-https://012v4.goiptv.us.ci/stream/starhub/beinsports4hd/
-#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 5 HD
-https://012v4.goiptv.us.ci/stream/starhub/beinsports5hd/
-#EXTINF:-1 group-title="LIVE | EVENT",Now Sports Premier League1 HD
-https://7pal.short.gy/nowhkp1
-#EXTINF:-1 group-title="LIVE | EVENT",Now Sports PremierLeague 2 HD
-https://7pal.short.gy/nowhkp2
-#EXTINF:-1 group-title="LIVE | EVENT",Now Sports Premier League 3 HD
-https://7pal.short.gy/nowhkp3
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Main Event FHD
-https://7pal.short.gy/SkSpMainE
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports PremierLeague FHD
-https://7pal.short.gy/ssportspl
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Football FHD
-https://7pal.short.gy/ssportsfb
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports F1 FHD
-https://7pal.short.gy/ssportsf1
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Tennis FHD
-https://7pal.short.gy/ssportstn
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports+ FHD
-https://7pal.short.gy/ssportplus
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Criket FHD
-https://7pal.short.gy/ssportscrk
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Golf FHD
-https://7pal.short.gy/ssportsgf
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports News-FHD
-https://7pal.short.gy/ssportsnw
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Action FHD
-https://7pal.short.gy/ssportsat
-#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Box Office
-https://7pal.short.gy/ssportsbo
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN 1 🇹🇼
 http://208.87.242.79/livehttpplay?channel_id=10104
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN 2 🇹🇼
