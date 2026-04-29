@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-04-29 13:34:03 WIB
+# UPDATED: 2026-04-29 15:59:00 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -154,10 +154,6 @@ http://202.147.199.100:8000/;stream.nsv
 http://23.237.104.106:8080/USA_BEIN/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",USA_ESPNU
 http://23.237.104.106:8080/USA_ESPNU/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NBATV
-http://89.105.221.127/NBATV/index.m3u8?token=test
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN1
-http://89.105.221.127/ESPN1/index.m3u8?token=test
 #EXTINF:-1 group-title="LIVE | EVENT",espn HD
 http://84.17.50.102/espn/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",nbatv
