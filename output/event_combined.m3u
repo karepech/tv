@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-05-13 12:35:47 WIB
+# UPDATED: 2026-05-13 15:21:15 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -52,10 +52,6 @@ http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314082&
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314083&extension=ts&play_token=CxgiuXGw0c
 #EXTINF:-1 group-title="LIVE | EVENT",Hub Premier 8 HD
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:3A:93:FD&stream=1314084&extension=ts&play_token=Suotild03T
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN 1 🇹🇼
-http://208.87.242.79/livehttpplay?channel_id=10104
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN 2 🇹🇼
-http://208.87.242.79/livehttpplay?channel_id=10105
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS ACTION
 http://kstv.us:8080/4VUyfZBQzk/95104974615/47862
 #EXTINF:-1 group-title="LIVE | EVENT",SKY SPORTS F1
