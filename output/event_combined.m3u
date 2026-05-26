@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-05-26 11:38:16 WIB
+# UPDATED: 2026-05-26 15:21:59 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -16,8 +16,6 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/ind
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORTS 5
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd
-#EXTINF:-1 group-title="LIVE | EVENT",SpoTv Now
-https://slive.mana2.my/SpotvNow/index.mpd
 #EXTINF:-1 group-title="LIVE | EVENT",Dazn Ringside
 https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Fanduel TV
@@ -74,40 +72,6 @@ https://ottbanglaplatform.com/tv/toffee/live.php?id=icc_wtc_final&e=.m3u8
 https://ottbanglaplatform.com/tv/toffee/live.php?id=match-1&e=.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/-C7MX5UBv9knK3AHdKOi/posters/b0f0bfe0-f1f3-48b3-83ce-203cd44cafe2.png" group-title="TOFFEE",Zee Bangla Cinema
 https://ottbanglaplatform.com/tv/toffee/live.php?id=zee_bangla_cinema&e=.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Dazn Eleven 1 pt
-https://canaiss.fazoeli.co.za/fontes/smart/pt_eleven3.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Dazn Eleven 2 pt
-https://canaiss.fazoeli.co.za/fontes/smart/pt_eleven2.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Dazn Eleven 3 pt
-https://canaiss.fazoeli.co.za/fontes/smart/pt_eleven3.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN
-https://canaiss.fazoeli.co.za/fontes/smart/espn.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2
-https://canaiss.fazoeli.co.za/fontes/smart/espn2.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 3
-https://canaiss.fazoeli.co.za/fontes/smart/espn3.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 4
-https://canaiss.fazoeli.co.za/fontes/smart/espn4.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 5
-https://canaiss.fazoeli.co.za/fontes/smart/espn5.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN 6
-https://canaiss.fazoeli.co.za/fontes/smart/espn6.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Premiere
-https://canaiss.fazoeli.co.za/fontes/smart/premiere.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Premiere 2
-https://canaiss.fazoeli.co.za/fontes/smart/premiere2.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Premiere 3
-https://canaiss.fazoeli.co.za/fontes/smart/premiere3.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Premiere 4
-https://canaiss.fazoeli.co.za/fontes/smart/premiere4.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Premiere 5
-https://canaiss.fazoeli.co.za/fontes/smart/premiere5.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Premiere 6
-https://canaiss.fazoeli.co.za/fontes/smart/premiere6.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Premiere 7
-https://canaiss.fazoeli.co.za/fontes/smart/premiere7.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",Premiere 8
-https://canaiss.fazoeli.co.za/fontes/smart/premiere8.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",ID | V Radio
 http://202.147.199.100:8000/;stream.nsv
 #EXTINF:-1 group-title="LIVE | EVENT",USA_BEIN
@@ -124,6 +88,36 @@ http://84.17.50.102/tf1/index.m3u8
 http://151.80.18.177:86/Paris_Premiere_HD/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",TF1 HD
 http://151.80.18.177:86/TF1_HD/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",nba
+http://198.58.104.90:8989/nba/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN
+http://179.60.51.134:8888/ESPN/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN2
+http://179.60.51.134:8888/ESPN2/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN3
+http://179.60.51.134:8888/ESPN3/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN4
+http://179.60.51.134:8888/ESPN4/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",USA_BEIN
+http://23.237.104.106:8080/USA_BEIN/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",USA_NFL_NETWORK
+http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",USA_NBA
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",USA_ESPNU
+http://23.237.104.106:8080/USA_ESPNU/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN_2
+http://23.237.104.106:8080/DAZN_2/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN_3
+http://23.237.104.106:8080/DAZN_3/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN_4
+http://23.237.104.106:8080/DAZN_4/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN_5
+http://23.237.104.106:8080/DAZN_5/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN_6
+http://23.237.104.106:8080/DAZN_6/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN1
+http://50.7.120.34:8080/DAZN1/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",VIP Premiere
 https://a3569457567-s70378.cdn.ngenix.net/vip_premiere/2/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
