@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-06-03 14:12:37 WIB
+# UPDATED: 2026-06-03 19:13:13 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -57,21 +57,23 @@ https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_720_30/Live
 #EXTINF:-1 group-title="LIVE | EVENT",VIP Premiere
 https://a3569457567-s70378.cdn.ngenix.net/vip_premiere/2/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Sky A
-https://nl.utako.moe/skya/index.m3u8
+http://akariko.netgenx.site/stream/jp/sky_a/stream-output.m3u8?mode=hls
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/MCLv35oBEef-9-uVH-D2/posters/0d1e571c-ebb2-4277-9814-760a4f1603a6.png" group-title="TOFFEE",ATN Bangla
-https://ottbanglaplatform.com/tv/toffee/live.php?id=atn_bangla&e=.m3u8
+http://sm-monirul.top/ultra_restream/play/atn_bangla.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png" group-title="TOFFEE",Rajdhani TV
+http://sm-monirul.top/ultra_restream/play/rajdhani_tv.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/CXz4PJwBcqxnFHJBPwrG/posters/2f913e34-3a6c-45e6-9f1f-97bf129a2ff5.png" group-title="TOFFEE",Movie Bangla
-https://ottbanglaplatform.com/tv/toffee/live.php?id=movie_bangla&e=.m3u8
+http://sm-monirul.top/ultra_restream/play/movie_bangla.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png" group-title="TOFFEE",Nexus TV
-https://ottbanglaplatform.com/tv/toffee/live.php?id=nexus_tv&e=.m3u8
+http://sm-monirul.top/ultra_restream/play/nexus_tv.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/6Hz1PJwBcqxnFHJBhgkV/posters/845f1e3f-987a-47cc-a48d-ee12d8f4d419.png" group-title="TOFFEE",Desh TV
-https://ottbanglaplatform.com/tv/toffee/live.php?id=desh_tv&e=.m3u8
+http://sm-monirul.top/ultra_restream/play/desh_tv.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",w_400,q_100/PnZefJcBcqxnFHJBoxca/posters/955ae898-8336-4936-8d78-c6b8866e35f7.png" group-title="TOFFEE",ICC Test Championship Highlights
-https://ottbanglaplatform.com/tv/toffee/live.php?id=icc_wtc_final&e=.m3u8
+http://sm-monirul.top/ultra_restream/play/icc_wtc_final.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/JS1AqZgBNnOkwJLWlwg-/posters/08617b27-2af1-4035-bcc3-d054ce42ca4b.png" group-title="TOFFEE",EPL channel 1
-https://ottbanglaplatform.com/tv/toffee/live.php?id=match-1&e=.m3u8
+http://sm-monirul.top/ultra_restream/play/index.m3u8.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/-C7MX5UBv9knK3AHdKOi/posters/b0f0bfe0-f1f3-48b3-83ce-203cd44cafe2.png" group-title="TOFFEE",Zee Bangla Cinema
-https://ottbanglaplatform.com/tv/toffee/live.php?id=zee_bangla_cinema&e=.m3u8
+http://sm-monirul.top/ultra_restream/play/zee_bangla_cinema.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",ID | V Radio
 http://202.147.199.100:8000/;stream.nsv
 #EXTINF:-1 group-title="LIVE | EVENT",USA_BEIN
