@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-06-11 14:17:49 WIB
+# UPDATED: 2026-06-11 18:51:24 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -126,8 +126,10 @@ http://23.237.104.106:8080/DAZN_5/index.m3u8
 http://23.237.104.106:8080/DAZN_6/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN1
 http://50.7.120.34:8080/DAZN1/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",VIP Premiere
-https://a3569457567-s70378.cdn.ngenix.net/vip_premiere/2/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NFL Network CA
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BMXKTN5RXYDNXT/6424/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBA TV Canada CA
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BMXKTN5RXYDNXT/6491/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
 https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN HD
