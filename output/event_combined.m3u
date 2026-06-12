@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-06-12 12:12:54 WIB
+# UPDATED: 2026-06-12 16:14:21 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -59,29 +59,27 @@ https://a3569457567-s70378.cdn.ngenix.net/vip_premiere/2/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Sky A
 http://akariko.netgenx.site/stream/jp/sky_a/stream-output.m3u8?mode=hls
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/MCLv35oBEef-9-uVH-D2/posters/0d1e571c-ebb2-4277-9814-760a4f1603a6.png" group-title="TOFFEE",ATN Bangla
-http://sm-monirul.top/ultra_restream/play/atn_bangla.m3u8
+https://sm-monirul.top/toffee/play/atn_bangla.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png" group-title="TOFFEE",Rajdhani TV
-http://sm-monirul.top/ultra_restream/play/rajdhani_tv.m3u8
+https://sm-monirul.top/toffee/play/rajdhani_tv.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/CXz4PJwBcqxnFHJBPwrG/posters/2f913e34-3a6c-45e6-9f1f-97bf129a2ff5.png" group-title="TOFFEE",Movie Bangla
-http://sm-monirul.top/ultra_restream/play/movie_bangla.m3u8
+https://sm-monirul.top/toffee/play/movie_bangla.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png" group-title="TOFFEE",Nexus TV
-http://sm-monirul.top/ultra_restream/play/nexus_tv.m3u8
+https://sm-monirul.top/toffee/play/nexus_tv.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/6Hz1PJwBcqxnFHJBhgkV/posters/845f1e3f-987a-47cc-a48d-ee12d8f4d419.png" group-title="TOFFEE",Desh TV
-http://sm-monirul.top/ultra_restream/play/desh_tv.m3u8
+https://sm-monirul.top/toffee/play/desh_tv.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",w_400,q_100/PnZefJcBcqxnFHJBoxca/posters/955ae898-8336-4936-8d78-c6b8866e35f7.png" group-title="TOFFEE",ICC Test Championship Highlights
-http://sm-monirul.top/ultra_restream/play/icc_wtc_final.m3u8
+https://sm-monirul.top/toffee/play/icc_wtc_final.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/JS1AqZgBNnOkwJLWlwg-/posters/08617b27-2af1-4035-bcc3-d054ce42ca4b.png" group-title="TOFFEE",EPL channel 1
-http://sm-monirul.top/ultra_restream/play/index.m3u8.m3u8
+https://sm-monirul.top/toffee/play/index.m3u8.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/-C7MX5UBv9knK3AHdKOi/posters/b0f0bfe0-f1f3-48b3-83ce-203cd44cafe2.png" group-title="TOFFEE",Zee Bangla Cinema
-http://sm-monirul.top/ultra_restream/play/zee_bangla_cinema.m3u8
+https://sm-monirul.top/toffee/play/zee_bangla_cinema.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Premier Football
 http://161.49.17.2:6610/001/2/ch00000090990000001127/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqqxWqB5I3LphK7WUAFquWrytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001293&contentid=ch00000000000000001293&videoid=ch00000090990000001127&recommendtype=0&userid=1446387897422&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=OY4RBOUL5WXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 group-title="LIVE | EVENT",Premier Sports
 http://136.239.173.10:6610/001/2/ch00000090990000001135/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoP1uzasPUQtxzHrrWIYilSytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001282&contentid=ch00000000000000001282&videoid=ch00000090990000001135&recommendtype=0&userid=1603895214902&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=ZGWMVRUB2AQXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 2
 http://161.49.17.2:6610/001/2/ch00000090990000001204/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Br3I6nJHzuTbw9BKFgOyZjfytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001464&contentid=ch00000000000000001464&videoid=ch00000090990000001204&recommendtype=0&userid=1844529598285&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=QG5AARDQQ8FXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
-#EXTINF:-1 group-title="LIVE | EVENT",ID | V Radio
-http://202.147.199.100:8000/;stream.nsv
 #EXTINF:-1 group-title="LIVE | EVENT",USA_BEIN
 http://23.237.104.106:8080/USA_BEIN/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",USA_ESPNU
@@ -130,6 +128,30 @@ http://50.7.120.34:8080/DAZN1/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BMXKTN5RXYDNXT/6424/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",NBA TV Canada CA
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BMXKTN5RXYDNXT/6491/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPNU
+http://185.246.209.113/ESPNU/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SkyArts
+http://185.246.209.113/SkyArts/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SkyDocumentaries
+http://185.246.209.113/SkyDocumentaries/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SkyCrime
+http://185.246.209.113/SkyCrime/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SkyAtlantic
+http://185.246.209.113/SkyAtlantic/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SkySportsPremierLeague
+http://185.246.209.113/SkySportsPremierLeague/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SkySportsCricket
+http://185.246.209.113/SkySportsCricket/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SkySportsGolf
+http://185.246.209.113/SkySportsGolf/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN
+http://193.239.186.231/ESPN/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN2
+http://193.239.186.231/ESPN2/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN3
+http://193.239.186.231/ESPN3/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN4
+http://193.239.186.231/ESPN4/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
 https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN HD
