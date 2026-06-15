@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-06-15 14:02:23 WIB
+# UPDATED: 2026-06-15 20:24:19 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -80,6 +80,18 @@ http://161.49.17.2:6610/001/2/ch00000090990000001127/manifest.mpd?AuthInfo=v87HD
 http://136.239.173.10:6610/001/2/ch00000090990000001135/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoP1uzasPUQtxzHrrWIYilSytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001282&contentid=ch00000000000000001282&videoid=ch00000090990000001135&recommendtype=0&userid=1603895214902&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=ZGWMVRUB2AQXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 group-title="LIVE | EVENT",Premier Sports 2
 http://161.49.17.2:6610/001/2/ch00000090990000001204/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Br3I6nJHzuTbw9BKFgOyZjfytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001464&contentid=ch00000000000000001464&videoid=ch00000090990000001204&recommendtype=0&userid=1844529598285&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=QG5AARDQQ8FXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:-1 group-title="LIVE | EVENT",Bein US
+http://23.237.104.106:8080/USA_BEIN/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn 2
+http://23.237.104.106:8080/DAZN_2/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn 3
+http://23.237.104.106:8080/DAZN_3/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn 4
+http://23.237.104.106:8080/DAZN_4/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn 5
+http://23.237.104.106:8080/DAZN_5/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn 6
+http://23.237.104.106:8080/DAZN_6/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",USA_BEIN
 http://23.237.104.106:8080/USA_BEIN/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",USA_ESPNU
