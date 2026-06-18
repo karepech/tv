@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-06-18 08:38:05 WIB
+# UPDATED: 2026-06-18 13:27:25 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -164,6 +164,14 @@ http://193.239.186.231/ESPN2/index.m3u8
 http://193.239.186.231/ESPN3/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",ESPN4
 http://193.239.186.231/ESPN4/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN
+http://170.82.202.31/ESPN/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN3
+http://170.82.202.31/ESPN3/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN4
+http://170.82.202.31/ESPN4/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",NBAHD
+http://185.246.209.113:80/NBAHD/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
 https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN HD
