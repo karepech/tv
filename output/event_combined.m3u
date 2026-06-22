@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-06-22 12:37:34 WIB
+# UPDATED: 2026-06-22 18:20:39 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -136,26 +136,118 @@ http://23.237.104.106:8080/DAZN_5/index.m3u8
 http://23.237.104.106:8080/DAZN_6/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN1
 http://50.7.120.34:8080/DAZN1/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Calcio
+https://1nyaler.streamhostingcdn.top/stream/1/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn Eleven 2
+https://1nyaler.streamhostingcdn.top/stream/3/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 2
+https://1nyaler.streamhostingcdn.top/stream/4/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn Eleven
+https://1nyaler.streamhostingcdn.top/stream/6/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn Eleven 1
+https://1nyaler.streamhostingcdn.top/stream/7/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn Eleven 2
+https://1nyaler.streamhostingcdn.top/stream/8/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Dazn Eleven 3
+https://1nyaler.streamhostingcdn.top/stream/9/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 4
+https://1nyaler.streamhostingcdn.top/stream/11/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports ar
+https://1nyaler.streamhostingcdn.top/stream/12/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports Max 8 fr
+https://1nyaler.streamhostingcdn.top/stream/13/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports Max 7 fr
+https://1nyaler.streamhostingcdn.top/stream/14/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports Max 6 fr
+https://1nyaler.streamhostingcdn.top/stream/15/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports Max 5 fr
+https://1nyaler.streamhostingcdn.top/stream/16/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports Max 4 fr
+https://1nyaler.streamhostingcdn.top/stream/17/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 3 tr
+https://1nyaler.streamhostingcdn.top/stream/18/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 3 fr
+https://1nyaler.streamhostingcdn.top/stream/19/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 2 tr
+https://1nyaler.streamhostingcdn.top/stream/20/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 2 fr
+https://1nyaler.streamhostingcdn.top/stream/21/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 1 tr
+https://1nyaler.streamhostingcdn.top/stream/22/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports tr 2
+https://1nyaler.streamhostingcdn.top/stream/20/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 2
+https://1nyaler.streamhostingcdn.top/stream/21/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 1
+https://1nyaler.streamhostingcdn.top/stream/22/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 1
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 5
+https://1nyaler.streamhostingcdn.top/stream/24/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",#EXTINF:-1 tvg-name="Fox Sports " group-title="Fox Sports
+https://1nyaler.streamhostingcdn.top/stream/25/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 1
+https://1nyaler.streamhostingcdn.top/stream/31/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",beIN Sports 1
+https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN Eleven Sports 1
+https://1nyaler.streamhostingcdn.top/stream/43/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN Eleven Sports 2
+https://1nyaler.streamhostingcdn.top/stream/44/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN Eleven Sports 3
+https://1nyaler.streamhostingcdn.top/stream/45/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",LaLiga
+https://1nyaler.streamhostingcdn.top/stream/59/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",PREMIERE
+https://1nyaler.streamhostingcdn.top/stream/69/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SkySports LaLiga
+https://1nyaler.streamhostingcdn.top/stream/74/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Football
+https://1nyaler.streamhostingcdn.top/stream/76/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports MainEvent
+https://1nyaler.streamhostingcdn.top/stream/77/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports+
+https://1nyaler.streamhostingcdn.top/stream/78/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN Eleven Sports 1
+https://1nyaler.streamhostingcdn.top/stream/91/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Süper DAZN Sports 1
+https://1nyaler.streamhostingcdn.top/stream/92/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",LIGUE1+
+https://1nyaler.streamhostingcdn.top/stream/93/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN Eleven Sports
+https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN Eleven Sports
+https://1nyaler.streamhostingcdn.top/stream/95/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN
+https://1nyaler.streamhostingcdn.top/stream/96/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN
+https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN
+https://1nyaler.streamhostingcdn.top/stream/98/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN
+https://1nyaler.streamhostingcdn.top/stream/99/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2
+https://1nyaler.streamhostingcdn.top/stream/101/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 3
+https://1nyaler.streamhostingcdn.top/stream/102/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN 2
+https://1nyaler.streamhostingcdn.top/stream/103/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",ESPN
+https://1nyaler.streamhostingcdn.top/stream/105/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Select
+https://1nyaler.streamhostingcdn.top/stream/126/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports
+https://1nyaler.streamhostingcdn.top/stream/127/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports
+https://1nyaler.streamhostingcdn.top/stream/128/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",DAZN Eleven Sports
+https://1nyaler.streamhostingcdn.top/stream/129/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Uno
+https://1nyaler.streamhostingcdn.top/stream/130/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",NFL Network CA
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BMXKTN5RXYDNXT/6424/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",NBA TV Canada CA
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BMXKTN5RXYDNXT/6491/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",ESPNU
-http://185.246.209.113/ESPNU/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SkyArts
-http://185.246.209.113/SkyArts/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SkyDocumentaries
-http://185.246.209.113/SkyDocumentaries/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SkyCrime
-http://185.246.209.113/SkyCrime/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SkyAtlantic
-http://185.246.209.113/SkyAtlantic/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SkySportsPremierLeague
-http://185.246.209.113/SkySportsPremierLeague/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SkySportsCricket
-http://185.246.209.113/SkySportsCricket/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SkySportsGolf
-http://185.246.209.113/SkySportsGolf/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",ESPN
 http://193.239.186.231/ESPN/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",ESPN2
@@ -164,14 +256,6 @@ http://193.239.186.231/ESPN2/index.m3u8
 http://193.239.186.231/ESPN3/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",ESPN4
 http://193.239.186.231/ESPN4/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN
-http://170.82.202.31/ESPN/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN3
-http://170.82.202.31/ESPN3/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",ESPN4
-http://170.82.202.31/ESPN4/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NBAHD
-http://185.246.209.113:80/NBAHD/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT XTRA
 https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN HD
