@@ -1,5 +1,5 @@
 #EXTM3U
-# UPDATED: 2026-06-25 11:38:14 WIB
+# UPDATED: 2026-06-25 15:03:52 WIB
 # MODE: SPORT EVENT ONLY (NO MOVIE)
 # SOURCE: IPTV + API-FOOTBALL
 #EXTINF:-1 group-title="LIVE | EVENT",SPOTV
@@ -56,6 +56,16 @@ https://amg00663-skynews-skynewsau-samsungau-r7n40.amagi.tv/playlist.m3u8
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_720_30/Live/channel(skynews)/05_mob.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",VIP Premiere
 https://a3569457567-s70378.cdn.ngenix.net/vip_premiere/2/index.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN 1
+http://54.37.19.157/bein1/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN 2
+http://54.37.19.157/bein2/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",BEIN 3
+http://54.37.19.157/bein3/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV
+http://54.37.19.157/spotv/playlist.m3u8
+#EXTINF:-1 group-title="LIVE | EVENT",SPOTV 2
+http://54.37.19.157/spotv2/playlist.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Sky A
 http://akariko.netgenx.site/stream/jp/sky_a/stream-output.m3u8?mode=hls
 #EXTINF:-1 group-title="LIVE | EVENT",q_75,f_webp/MCLv35oBEef-9-uVH-D2/posters/0d1e571c-ebb2-4277-9814-760a4f1603a6.png" group-title="TOFFEE",ATN Bangla
@@ -136,84 +146,6 @@ http://23.237.104.106:8080/DAZN_5/index.m3u8
 http://23.237.104.106:8080/DAZN_6/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",DAZN1
 http://50.7.120.34:8080/DAZN1/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 1 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42TJRcRMKNuKveviVRydYWPo/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 1 ˢᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42cN1BNYd_lrrvL0o_8vcz08/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 1 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42XXYCAvH_JBPVLTtl34qXnU/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 2 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42VTWOVPNZTYKCgjVJc0k3xk/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 2 ˢᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42a3vdda2mKdSkOuxs4MaFHg/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 2 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42aOcBZfxKCEKcgGD3wt_4s0/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 3 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42VQ9bVXvH_FSaOJsAA2SK8Y/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 3 ˢᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42bD9KVbNcgWonorKHD_aJU8/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 3 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42W_6Zj72m67Kr3S5atctJeA/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 4 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42ScY2V1D8UOLpPXOd0icutA/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 4 ˢᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42SYWMfVUWiiv8vHnR2uNQ-g/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 4 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42cUMDOz87G11XtoQI5Po43Y/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 5 ˢᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42ZE_IsK7lOUL5gYPNQMhQFY/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 5 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42VcOmnJBhKmLS8pFaCLVgkE/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 6 ˢᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42YbKyNtEpb7ZiX22MZfJfao/ts
-#EXTINF:-1 group-title="LIVE | EVENT",DAZN ELEVEN 6 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42S1Vu1bGXB9zXnpQdrDS8WA/ts
-#EXTINF:-1 group-title="LIVE | EVENT",FUEL TV ˢᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42QtASqcoBPyZ9haEOv5QBmU/ts
-#EXTINF:-1 group-title="LIVE | EVENT",SPORT TV NBA ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42TMqdtLKhiWzhHBNiDDKgps/ts
-#EXTINF:-1 group-title="LIVE | EVENT",SPORT TV NBA ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42ZFdzma6WuTp0WbmszfBfaI/ts
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT 1 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42RIC6H8c8Y6Uu1GCVPnFMWw/ts
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT 2 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42br1sQlWvJeURFBvJBjfyvM/ts
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT 3 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42S42L9XYo4NO1QXWNzYUi2Y/ts
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT MAX 4 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42f8x0JgJIbjUYOtm8AXpDU0/ts
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT MAX 5 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42QiXsGqlUvcMmn7sBsw3ZIY/ts
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT MAX 6 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42dRCrJByYoqZokE5JWpvDio/ts
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT MAX 7 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42Qw-vQbWnDWHBjMdxi417LU/ts
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT MAX 8 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42UZD-0jWZf44EU2MfbtIuTs/ts
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT MAX 9 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42eDxOoPMYGajExHGFKKAJgU/ts
-#EXTINF:-1 group-title="LIVE | EVENT",BEIN SPORT MAX 10 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42W5iNMZ3kH2dvq58wTu0JIo/ts
-#EXTINF:-1 group-title="LIVE | EVENT",CANAL+ PREMIER LEAGUE ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42b5uuYUs1CPrOI-MeHQmHw8/ts
-#EXTINF:-1 group-title="LIVE | EVENT",LIGUE1 PLUS 1 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42dmhZq9xVP1w77vJTHs6Qv8/ts
-#EXTINF:-1 group-title="LIVE | EVENT",LIGUE1 PLUS 2 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42RUu4ak8_0yk3yCyu4B0WjQ/ts
-#EXTINF:-1 group-title="LIVE | EVENT",LIGUE1 PLUS 3 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42X6178LpUw5wdhesJIPG3EM/ts
-#EXTINF:-1 group-title="LIVE | EVENT",LIGUE1 PLUS 4 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42eNIF8IsWBWLvr-udD6ATus/ts
-#EXTINF:-1 group-title="LIVE | EVENT",LIGUE1 PLUS 5 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42RYIJgItsVGmuPWjL8Mh8Vk/ts
-#EXTINF:-1 group-title="LIVE | EVENT",LIGUE1 PLUS 6 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42QTDMVm1knmFnqxebWJfrvg/ts
-#EXTINF:-1 group-title="LIVE | EVENT",LIGUE1 PLUS 7 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42R9C6xHq4HiPbO5qCCiZMYs/ts
-#EXTINF:-1 group-title="LIVE | EVENT",LIGUE1 PLUS 8 ᶠʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42TLngbiagtAG_OQEF8aBnuo/ts
-#EXTINF:-1 group-title="LIVE | EVENT",LIGUE1 PLUS 10 ʰᵈ
-http://iptvviva.online:80/play/N_c1VVdWXla-hKL2Dur42QsC9SICdjDpfjjG48Z_vmU/ts
 #EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Calcio
 https://1nyaler.streamhostingcdn.top/stream/1/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Dazn Eleven 2
@@ -322,12 +254,6 @@ https://1nyaler.streamhostingcdn.top/stream/128/index.m3u8
 https://1nyaler.streamhostingcdn.top/stream/129/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",Sky Sports Uno
 https://1nyaler.streamhostingcdn.top/stream/130/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NFL Network CA
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BMXKTN5RXYDNXT/6424/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",NBA TV Canada CA
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BMXKTN5RXYDNXT/6491/index.m3u8
-#EXTINF:-1 group-title="LIVE | EVENT",SKY MIX
-http://109.61.81.129:80/33/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",ESPN
 http://193.239.186.231/ESPN/index.m3u8
 #EXTINF:-1 group-title="LIVE | EVENT",ESPN2
